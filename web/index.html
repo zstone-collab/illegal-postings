@@ -36,6 +36,16 @@
     </div>
   </header>
 
+  <!-- Review queue modal (admin only, low-confidence AI classifications) -->
+  <div id="review-modal" class="hidden" onclick="closeReview(event)">
+    <div class="review-inner">
+      <button class="lb-close" onclick="closeReview()">✕</button>
+      <h2>Review queue</h2>
+      <p class="review-subtitle">Claude wasn't sure about these. Pick a category for each.</p>
+      <div id="review-list"></div>
+    </div>
+  </div>
+
   <main>
     <div id="map-view">
       <div id="map"></div>

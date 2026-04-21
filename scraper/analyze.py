@@ -12,6 +12,7 @@ Run after scrape.py.
 import base64
 import json
 import os
+import re
 import time
 from pathlib import Path
 from typing import Optional
@@ -146,6 +147,8 @@ def analyze_ticket(client: anthropic.Anthropic, ticket: dict) -> dict:
         skip = result.get("skip", True) or no_text or blocked
 
         theme = result.get("theme", "🚫 Skip")
+        # Strip parenthetical descriptions (model sometimes copies full bullet from prompt)
+        theme = re.sub(r"\s*\([^)]*\)\s*", "", theme).strip()
         if not skip and any(kw in lower_text for kw in POLITICAL_KEYWORDS):
             theme = "🗳️ Political"
 

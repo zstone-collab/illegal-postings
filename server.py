@@ -117,6 +117,42 @@ def skip_unanalyzed():
     return jsonify({"marked_skip": count})
 
 
+@app.route("/api/tickets/review-queue", methods=["GET"])
+@require_admin
+def review_queue():
+    """Tickets the AI wasn't confident about — confidence < 0.6, has image, has text."""
+    tickets = load_tickets()
+    queue = [
+        t for t in tickets
+        if t.get("analyzed")
+        and not t.get("skip")
+        and t.get("image_url")
+        and t.get("extracted_text")
+        and (t.get("confidence") or 0) < 0.6
+    ]
+    queue.sort(key=lambda t: t.get("confidence") or 0)
+    return jsonify(queue)
+
+
+@app.route("/api/tickets/<ticket_id>/categorize", methods=["POST"])
+@require_admin
+def categorize_ticket(ticket_id):
+    body = request.get_json(silent=True) or {}
+    theme = body.get("theme")
+    if not theme:
+        abort(400, "Provide a theme")
+    tickets = load_tickets()
+    for t in tickets:
+        if t["id"] == ticket_id:
+            t["theme"] = theme
+            t["skip"] = theme == "🚫 Skip"
+            t["confidence"] = 1.0
+            t["reviewed_by_human"] = True
+            save_tickets(tickets)
+            return jsonify({"id": ticket_id, "theme": theme})
+    abort(404)
+
+
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 3456))
     print(f"SF Pastebin running on http://localhost:{port}")

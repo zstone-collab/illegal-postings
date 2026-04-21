@@ -97,13 +97,82 @@ function setupAdminBar() {
   const bar = document.createElement("div");
   bar.id = "admin-bar";
   bar.innerHTML = `
-    <span>🔐 Admin mode</span>
+    <span>🔐 Admin</span>
+    <button onclick="openReview()">Review queue</button>
     <span id="admin-selected">0 selected</span>
-    <button id="admin-delete-btn" onclick="bulkDelete()" disabled>Delete selected</button>
+    <button id="admin-delete-btn" onclick="bulkDelete()" disabled>Delete</button>
     <button onclick="selectAll()">Select all</button>
     <button onclick="clearSelection()">Clear</button>
   `;
   document.querySelector("header").after(bar);
+}
+
+async function openReview() {
+  const modal = document.getElementById("review-modal");
+  const list = document.getElementById("review-list");
+  list.innerHTML = "<p class='review-empty'>Loading…</p>";
+  modal.classList.remove("hidden");
+  try {
+    const res = await fetch(`/api/tickets/review-queue?pw=${ADMIN_PW}`);
+    const items = await res.json();
+    if (!items.length) {
+      list.innerHTML = "<p class='review-empty'>✨ Nothing to review — Claude was confident about everything.</p>";
+      return;
+    }
+    list.innerHTML = items.map(renderReviewItem).join("");
+  } catch (e) {
+    list.innerHTML = `<p class='review-empty'>Error: ${e.message}</p>`;
+  }
+}
+
+function renderReviewItem(ticket) {
+  const themes = Object.keys(THEME_COLORS);
+  const buttons = themes.map(t =>
+    `<button class="review-cat-btn" data-theme="${t}" onclick="categorize('${ticket.id}', '${t.replace(/'/g, "\\'")}', this)">${t}</button>`
+  ).join("") +
+  `<button class="review-cat-btn review-skip" onclick="categorize('${ticket.id}', '🚫 Skip', this)">🚫 Skip</button>`;
+
+  return `
+    <div class="review-item" data-id="${ticket.id}">
+      <img src="${ticket.image_url}" alt="" loading="lazy" />
+      <div class="review-details">
+        <div class="review-meta">
+          <span>${ticket.address || "?"}</span>
+          <span class="review-confidence">AI guess: ${ticket.theme} · ${Math.round((ticket.confidence||0)*100)}% confident</span>
+        </div>
+        <blockquote class="review-text">"${ticket.extracted_text}"</blockquote>
+        <div class="review-categories">${buttons}</div>
+      </div>
+    </div>
+  `;
+}
+
+async function categorize(id, theme, btn) {
+  btn.disabled = true;
+  btn.textContent = "Saving…";
+  try {
+    const res = await fetch(`/api/tickets/${id}/categorize?pw=${ADMIN_PW}`, {
+      method: "POST",
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify({theme, pw: ADMIN_PW}),
+    });
+    if (!res.ok) throw new Error(await res.text());
+    const item = document.querySelector(`.review-item[data-id="${id}"]`);
+    if (item) item.classList.add("review-done");
+    // Update in-memory and rerender
+    const local = allTickets.find(t => t.id === id);
+    if (local) { local.theme = theme; local.skip = theme === "🚫 Skip"; }
+    rerenderCurrent();
+  } catch (e) {
+    btn.disabled = false;
+    btn.textContent = theme;
+    alert("Error: " + e.message);
+  }
+}
+
+function closeReview(e) {
+  if (e && e.target.id !== "review-modal" && !e.target.classList.contains("lb-close")) return;
+  document.getElementById("review-modal").classList.add("hidden");
 }
 
 function updateAdminBar() {
@@ -317,11 +386,12 @@ function renderGrid(tickets) {
       </div>` : "";
 
     const dateLabel = formatDate(ticket);
+    const cleanTheme = themeKey(ticket.theme) || ticket.theme || "";
     card.innerHTML = `
       ${imgHtml}
       <div class="card-body">
         <div class="card-meta">
-          <span class="card-theme">${ticket.theme || ""}</span>
+          <span class="card-theme">${cleanTheme}</span>
           ${dateLabel ? `<span class="card-date">${dateLabel}</span>` : ""}
         </div>
         <div class="card-addr">${ticket.address || "Unknown location"}</div>
