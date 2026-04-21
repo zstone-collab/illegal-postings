@@ -51,7 +51,12 @@ def save_tickets(tickets):
 
 @app.route("/")
 def index():
-    return send_from_directory(WEB_DIR, "index.html")
+    resp = send_from_directory(WEB_DIR, "index.html")
+    # Prevent the HTML from being cached so users always get the latest asset versions
+    resp.headers["Cache-Control"] = "no-cache, no-store, must-revalidate"
+    resp.headers["Pragma"] = "no-cache"
+    resp.headers["Expires"] = "0"
+    return resp
 
 
 @app.route("/<path:path>")
