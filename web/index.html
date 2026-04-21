@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Illegal Postings — SF</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-top">
+      <div class="branding">
+        <h1><em>Illegal</em> Postings</h1>
+        <p class="tagline">A living catalog of San Francisco's unauthorized walls — scraped from 311 complaints, read by AI.</p>
+      </div>
+      <div class="right-col">
+        <div class="stats" id="stats">Loading…</div>
+        <div class="view-toggle">
+          <button id="btn-map" class="view-btn active" onclick="setView('map')">Map</button>
+          <button id="btn-grid" class="view-btn" onclick="setView('grid')">Gallery</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="filters" id="filters">
+      <button class="filter-btn active" data-theme="all">All</button>
+    </div>
+  </header>
+
+  <main>
+    <div id="map-view">
+      <div id="map"></div>
+    </div>
+
+    <div id="grid-view" class="hidden">
+      <div class="grid-toolbar">
+        <div class="density-toggle">
+          <button class="density-btn active" data-density="large" onclick="setDensity('large')">Large</button>
+          <button class="density-btn" data-density="small" onclick="setDensity('small')">Small</button>
+        </div>
+      </div>
+      <div id="grid"></div>
+    </div>
+  </main>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="hidden" onclick="closeLightbox(event)">
+    <div class="lightbox-inner">
+      <button class="lb-close" onclick="closeLightbox()">✕</button>
+      <div class="lb-body">
+        <div class="lb-image-wrap">
+          <img id="lb-img" src="" alt="Posting" />
+          <div class="lb-zoom-hint">Click image to open full size</div>
+        </div>
+        <div class="lb-info">
+          <div class="lb-theme" id="lb-theme"></div>
+          <h2 id="lb-address"></h2>
+          <div class="lb-text-box" id="lb-text-wrap">
+            <div class="lb-text-label">Text on the posting</div>
+            <blockquote id="lb-text"></blockquote>
+          </div>
+          <div class="lb-meta">
+            <span id="lb-status"></span>
+            <a id="lb-link" href="#" target="_blank" rel="noopener">View 311 report →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js?v=3"></script>
+</body>
+</html>
