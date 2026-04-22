@@ -249,15 +249,35 @@ function rerenderCurrent() {
 // ── Filters ───────────────────────────────────────────────
 function buildFilters() {
   const container = document.getElementById("filters");
-  const themes = [...new Set(allTickets.map(t => themeKey(t.theme)))].sort();
-  themes.forEach(theme => {
+  // Keep the existing "All" button, remove everything after it
+  const allBtn = container.querySelector('[data-theme="all"]');
+  container.innerHTML = "";
+  container.appendChild(allBtn);
+
+  // Count tickets per theme; only show categories with at least 1 posting
+  const counts = {};
+  allTickets.forEach(t => {
+    const k = themeKey(t.theme);
+    if (!k || k === "🚫 Skip") return;
+    counts[k] = (counts[k] || 0) + 1;
+  });
+
+  // Sort by count descending, then alphabetical
+  const themes = Object.entries(counts)
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+
+  themes.forEach(([theme, count]) => {
     const btn = document.createElement("button");
     btn.className = "filter-btn";
     btn.dataset.theme = theme;
-    btn.textContent = theme;
+    btn.innerHTML = `${theme} <span class="filter-count">${count}</span>`;
     btn.onclick = () => setFilter(theme);
     container.appendChild(btn);
   });
+
+  // Wire the "All" button (it wasn't before)
+  allBtn.onclick = () => setFilter("all");
+  allBtn.innerHTML = `All <span class="filter-count">${allTickets.length}</span>`;
 }
 
 function getFiltered() {
