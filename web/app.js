@@ -130,10 +130,11 @@ async function openReview() {
 
 function renderReviewItem(ticket) {
   const themes = Object.keys(THEME_COLORS);
-  const buttons = themes.map(t =>
+  const catButtons = themes.map(t =>
     `<button class="review-cat-btn" data-theme="${t}" onclick="categorize('${ticket.id}', '${t.replace(/'/g, "\\'")}', this)">${t}</button>`
-  ).join("") +
-  `<button class="review-cat-btn review-skip" onclick="categorize('${ticket.id}', '🚫 Skip', this)">🚫 Skip</button>`;
+  ).join("");
+  const skipBtn = `<button class="review-cat-btn review-skip" onclick="categorize('${ticket.id}', '🚫 Skip', this)" title="Hide but keep in data">🚫 Skip</button>`;
+  const deleteBtn = `<button class="review-cat-btn review-delete" onclick="deleteFromReview('${ticket.id}', this)" title="Permanently remove from dataset">🗑 Delete</button>`;
 
   return `
     <div class="review-item" data-id="${ticket.id}">
@@ -144,10 +145,27 @@ function renderReviewItem(ticket) {
           <span class="review-confidence">AI guess: ${ticket.theme} · ${Math.round((ticket.confidence||0)*100)}% confident</span>
         </div>
         <blockquote class="review-text">"${ticket.extracted_text}"</blockquote>
-        <div class="review-categories">${buttons}</div>
+        <div class="review-categories">${catButtons}${skipBtn}${deleteBtn}</div>
       </div>
     </div>
   `;
+}
+
+async function deleteFromReview(id, btn) {
+  btn.disabled = true;
+  btn.textContent = "Deleting…";
+  try {
+    const res = await fetch(`/api/tickets/${id}?pw=${ADMIN_PW}`, { method: "DELETE" });
+    if (!res.ok) throw new Error(await res.text());
+    const item = document.querySelector(`.review-item[data-id="${id}"]`);
+    if (item) item.classList.add("review-done");
+    allTickets = allTickets.filter(t => t.id !== id);
+    rerenderCurrent();
+  } catch (e) {
+    btn.disabled = false;
+    btn.textContent = "🗑 Delete";
+    alert("Error: " + e.message);
+  }
 }
 
 async function categorize(id, theme, btn) {

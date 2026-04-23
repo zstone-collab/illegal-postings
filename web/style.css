@@ -582,6 +582,8 @@ main { flex: 1; overflow: hidden; display: flex; }
 .review-cat-btn:hover { background: var(--ink); color: var(--bg); border-color: var(--ink); }
 .review-cat-btn.review-skip { border-color: var(--muted); color: var(--muted); }
 .review-cat-btn.review-skip:hover { background: var(--muted); color: var(--bg); }
+.review-cat-btn.review-delete { border-color: var(--accent); color: var(--accent); font-weight: 600; }
+.review-cat-btn.review-delete:hover { background: var(--accent); color: #fff; }
 
 /* ── Utilities ── */
 .hidden { display: none !important; }
