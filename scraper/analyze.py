@@ -34,24 +34,29 @@ POLITICAL_KEYWORDS = [
 
 THEMES = """
 Available themes (pick the single best fit):
-- 🗳️ Political (activism, social justice, environment, protest)
-- 🎨 Art & Culture (murals, poetry, creative expression)
-- 🎵 Events (shows, concerts, parties, gatherings)
-- 🚀 Startups (apps, tech companies, hustle culture)
-- 🔧 Services (flyers for moving, plumbers, tutors, tarot readers, handymen, etc.)
-- 💊 Drugs (dispensaries, delivery services, dealers, drug-related flyers, harm reduction, etc.)
+- 🗳️ Political (activism, social justice, environment, protest, elections)
+- 🎨 Art & Culture (murals, poetry, art shows, creative expression)
+- 🎵 Events (shows, concerts, parties, gatherings, performances)
+- 🚀 Startups (apps, tech companies, hustle culture, SaaS flyers)
+- 🔧 Services (moving, plumbers, tutors, tarot readers, handymen, classes, workshops)
+- 💊 Drugs (dispensaries, delivery services, drug-related, harm reduction)
 - 💕 Dating (personals, missed connections, hookup flyers, escort ads, matchmaking)
 - 🐾 Lost & Found (missing pets, lost items)
-- 👁️ Weird & Unexplained (conspiracy, cults, very odd, comedy, satire)
-- 🚫 Skip (BORING/INSTITUTIONAL or NO TEXT — set skip=true for ANY of:
-    • NO READABLE TEXT in the image at all — must have at least some words/letters visible
+- 👁️ Weird & Unexplained (conspiracy, cults, very odd, comedy, satire, inexplicable)
+- ❓ Unclear (YOU CAN SEE a flyer/poster/sticker/wheatpaste, BUT text is too blurry/small/partial/obscured to classify. Use this instead of Skip when there's clearly human-made ephemera.)
+- 🚫 Skip (ONLY for these — never for unclear flyers:
     • Street signs, stop signs, speed limit signs, parking signs, utility markers
-    • Permanent business signage (storefront signs, hotel signs, restaurant awnings)
-    • HOUSE SIGNS / real estate: For-Sale, For-Rent, Open House, realtor yard signs, address plaques
-    • House numbers, building plaques, historical markers, dedication plaques
-    • Blank walls, unreadable photos, empty scenes, generic graffiti tags with no message
+    • Permanent business signage (storefronts, hotel signs, restaurant awnings, ATM signs)
+    • HOUSE / real estate: For-Sale/For-Rent/Open-House yard signs, address plaques, house numbers
+    • Building plaques, historical markers, dedication plaques
+    • Completely blank walls or utility boxes with NOTHING on them
     • Official city/government signs (including the SF city seal)
-    • Any permanent fixed signage that isn't a flyer, poster, sticker, or piece of ephemera stuck onto something)
+    • Pure graffiti tags (no message or posting, just a signature)
+    • Reports where the photo is of an empty surface — no flyer/poster visible at all)
+
+IMPORTANT: If you can see a piece of paper, sticker, wheatpaste, flyer, or poster affixed to ANYTHING
+(lamp post, tree, utility box, wall, bus stop), but can't read the text clearly, set theme to "❓ Unclear",
+skip to false, and put any fragments of text you CAN see in extracted_text (even single words or partial phrases).
 """
 
 SYSTEM_PROMPT = """You are a witty urban archivist cataloging the unauthorized postings and flyers of San Francisco.
@@ -103,34 +108,49 @@ def analyze_ticket(client: anthropic.Anthropic, ticket: dict) -> dict:
         return {**ticket, "analyzed": True, "skip": True, "theme": "🚫 Skip",
                 "extracted_text": "", "commentary": "", "confidence": 0}
 
-    print(f"  Fetching image for {ticket['id']}...")
-    result = fetch_image_b64(ticket["image_url"])
-    if not result:
-        return {**ticket, "analyzed": True, "skip": True, "theme": "🚫 Skip",
-                "extracted_text": "", "commentary": "", "confidence": 0}
-    img_b64, mime_type = result
-
-    print(f"  Analyzing with Claude ({mime_type})...")
+    print(f"  Analyzing {ticket['id']} via URL source...")
     try:
+        # Cost-optimized config:
+        #   - Haiku 4.5: ~3x cheaper than Sonnet for vision OCR/classification
+        #   - URL image source: Anthropic fetches directly, no local download
+        #   - cache_control on system + text prompt: if the prefix ever hits the
+        #     cache minimum (4096 tokens on Haiku), repeated calls pay ~0.1x
+        #   - Text prompt BEFORE image in content array: keeps stable prefix first
         response = client.messages.create(
-            model="claude-opus-4-7",
+            model="claude-haiku-4-5",
             max_tokens=400,
-            system=SYSTEM_PROMPT,
+            system=[{
+                "type": "text",
+                "text": SYSTEM_PROMPT,
+                "cache_control": {"type": "ephemeral"},
+            }],
             messages=[{
                 "role": "user",
                 "content": [
                     {
+                        "type": "text",
+                        "text": ANALYSIS_PROMPT,
+                        "cache_control": {"type": "ephemeral"},
+                    },
+                    {
                         "type": "image",
                         "source": {
-                            "type": "base64",
-                            "media_type": mime_type,
-                            "data": img_b64,
+                            "type": "url",
+                            "url": ticket["image_url"],
                         },
                     },
-                    {"type": "text", "text": ANALYSIS_PROMPT},
                 ],
             }],
         )
+
+        # Log cache usage for observability
+        u = response.usage
+        cache_info = ""
+        if u.cache_read_input_tokens:
+            cache_info = f" (cached: {u.cache_read_input_tokens}t)"
+        elif u.cache_creation_input_tokens:
+            cache_info = f" (wrote cache: {u.cache_creation_input_tokens}t)"
+        print(f"    ✓ {u.input_tokens}in/{u.output_tokens}out{cache_info}")
 
         raw = response.content[0].text.strip()
         # Strip markdown code fences if present
@@ -142,12 +162,12 @@ def analyze_ticket(client: anthropic.Anthropic, ticket: dict) -> dict:
 
         extracted = (result.get("extracted_text") or "").strip()
         lower_text = extracted.lower()
-        no_text = len(extracted) == 0
         blocked = any(phrase in lower_text for phrase in TEXT_BLOCKLIST)
-        skip = result.get("skip", True) or no_text or blocked
+        # No longer auto-skip empty text — trust the model's classification (it will use
+        # "❓ Unclear" when there's a visible flyer with bad OCR)
+        skip = result.get("skip", True) or blocked
 
         theme = result.get("theme", "🚫 Skip")
-        # Strip parenthetical descriptions (model sometimes copies full bullet from prompt)
         theme = re.sub(r"\s*\([^)]*\)\s*", "", theme).strip()
         if not skip and any(kw in lower_text for kw in POLITICAL_KEYWORDS):
             theme = "🗳️ Political"

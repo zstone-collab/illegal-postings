@@ -10,6 +10,7 @@ const THEME_COLORS = {
   "💕 Dating":              "#e84393",
   "🐾 Lost & Found":        "#f39c12",
   "👁️ Weird & Unexplained": "#ff6fd8",
+  "❓ Unclear":              "#95a5a6",
 };
 
 const THEME_EMOJI = {
@@ -22,6 +23,7 @@ const THEME_EMOJI = {
   "💕 Dating":              "💕",
   "🐾 Lost & Found":        "🐾",
   "👁️ Weird & Unexplained": "👁️",
+  "❓ Unclear":              "❓",
 };
 
 function formatDate(ticket) {
@@ -50,6 +52,7 @@ function themeKey(themeStr) {
   if (lower.includes("dating") || lower.includes("personal") || lower.includes("missed connection") || lower.includes("escort")) return "💕 Dating";
   if (lower.includes("lost") || lower.includes("found") || lower.includes("pet") || lower.includes("missing")) return "🐾 Lost & Found";
   if (lower.includes("weird") || lower.includes("unexplained") || lower.includes("conspiracy")) return "👁️ Weird & Unexplained";
+  if (lower.includes("unclear") || lower.includes("mysterious")) return "❓ Unclear";
   return null;
 }
 
