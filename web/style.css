@@ -57,6 +57,13 @@ header {
   margin-top: 6px;
   line-height: 1.45;
 }
+.data-range {
+  font-size: 0.7rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin-top: 6px;
+}
 
 .right-col {
   display: flex;
