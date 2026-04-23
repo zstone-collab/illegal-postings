@@ -23,8 +23,8 @@ LIST_URL = (
     "&order%5Bby%5D=chronological&order%5Bdirection%5D=descending"
 )
 DATA_FILE = Path(__file__).parent.parent / "data" / "tickets.json"
-MAX_PAGES = 80                                        # hard cap
-STOP_BEFORE = datetime(2026, 1, 1, tzinfo=timezone.utc)  # don't scrape older than this
+MAX_PAGES = 200                                       # hard cap
+STOP_BEFORE = datetime(2025, 9, 1, tzinfo=timezone.utc)  # don't scrape older than this
 HEADERS = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"}
 
 
