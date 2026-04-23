@@ -125,18 +125,51 @@ def skip_unanalyzed():
 @app.route("/api/tickets/review-queue", methods=["GET"])
 @require_admin
 def review_queue():
-    """Tickets the AI wasn't confident about — confidence < 0.6, has image, has text."""
+    """Tickets that need review: low confidence OR themed ❓ Unclear.
+    Filter with ?only=unclear to get only Unclear items.
+    """
+    only = request.args.get("only")
     tickets = load_tickets()
-    queue = [
-        t for t in tickets
-        if t.get("analyzed")
-        and not t.get("skip")
-        and t.get("image_url")
-        and t.get("extracted_text")
-        and (t.get("confidence") or 0) < 0.6
-    ]
-    queue.sort(key=lambda t: t.get("confidence") or 0)
+
+    def needs_review(t):
+        if not (t.get("analyzed") and not t.get("skip") and t.get("image_url")):
+            return False
+        if t.get("reviewed_by_human"):
+            return False
+        theme = t.get("theme") or ""
+        is_unclear = theme.startswith("❓")
+        if only == "unclear":
+            return is_unclear
+        low_conf = (t.get("confidence") or 0) < 0.6
+        return is_unclear or low_conf
+
+    queue = [t for t in tickets if needs_review(t)]
+    # Unclear items first, then by confidence ascending
+    queue.sort(key=lambda t: (
+        0 if (t.get("theme") or "").startswith("❓") else 1,
+        t.get("confidence") or 0,
+    ))
     return jsonify(queue)
+
+
+@app.route("/api/tickets/bulk-skip-by-theme", methods=["POST"])
+@require_admin
+def bulk_skip_by_theme():
+    """Mark every ticket matching a theme prefix (e.g. '❓') as skip.
+    Body: {"theme_prefix": "❓"}  -> skips all Unclear items.
+    """
+    body = request.get_json(silent=True) or {}
+    prefix = body.get("theme_prefix")
+    if not prefix:
+        abort(400, "Provide theme_prefix")
+    tickets = load_tickets()
+    count = 0
+    for t in tickets:
+        if (t.get("theme") or "").startswith(prefix) and not t.get("skip"):
+            t["skip"] = True
+            count += 1
+    save_tickets(tickets)
+    return jsonify({"skipped": count, "theme_prefix": prefix})
 
 
 @app.route("/api/tickets/<ticket_id>/categorize", methods=["POST"])
