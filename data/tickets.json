@@ -11128,23 +11128,6 @@
     "confidence": 1.0
   },
   {
-    "id": "101003171845",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003171845",
-    "address": "Intersection Sunset Blvd, Rivera St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1766693593/san-francisco/production/nc2s2cynsynvobm5yuah.jpg",
-    "status": "CLOSED",
-    "date": "17w ago",
-    "date_iso": "2025-12-24T20:07:38Z",
-    "lat": 37.7459516074511,
-    "lng": -122.494705758311,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial text visible on white flyer affixed to tree trunk; content too distant and at angle to read clearly. Some red text visible at top, appears to include phone number format but illegible.",
-    "commentary": "A mystery flyer doing its best impression of a tree ornament\u2014nature's own form of guerrilla marketing, though we can't quite make out the pitch from street level.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003169118",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003169118",
     "address": "1507 Vallejo St",
