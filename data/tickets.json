@@ -8805,10 +8805,11 @@
     "lng": -122.40665417,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\uddf3\ufe0f Political",
     "extracted_text": "VENEZUELA [partial text visible on sticker/flyer, but too small/distant to read completely]",
     "commentary": "There's definitely a posting on that maroon pole, but the resolution and distance make it impossible to read the full message\u2014all we've got is a tantalizing glimpse of what looks like Venezuela-related content.",
-    "confidence": 0.25
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003324326",
