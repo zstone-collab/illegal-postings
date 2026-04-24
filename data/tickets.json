@@ -13657,23 +13657,6 @@
     "confidence": 1.0
   },
   {
-    "id": "101003054107",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003054107",
-    "address": "3577 19 Th Ave",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1764396277/san-francisco/production/pxmvwxfcsufdycupk4ih.jpg",
-    "status": "CLOSED",
-    "date": "6d ago",
-    "date_iso": "2026-04-16T12:46:05Z",
-    "lat": 37.72386547,
-    "lng": -122.47534957,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial text visible on stickers/labels but illegible due to image angle, weathering, and resolution; appears to be multiple layered stickers on utility pole",
-    "commentary": "A beautiful palimpsest of pole poetry\u2014someone's carefully curated shrine to urban ephemera, though the actual messages have weathered into abstract mystery.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003054085",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003054085",
     "address": "3533 19 Th Ave",
