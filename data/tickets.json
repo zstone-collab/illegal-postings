@@ -17642,10 +17642,11 @@
     "lng": -122.4310114,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "Somebody Open Until [partial/unclear text visible on pink/pastel colored flyer]",
     "commentary": "There's definitely a pastel-pink flyer here with some readable fragments, but the angle and lighting make most of the text illegible\u2014classic SF utility pole poster positioning though.",
-    "confidence": 0.25
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002956569",
