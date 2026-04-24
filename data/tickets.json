@@ -19621,23 +19621,6 @@
     "confidence": 0.65
   },
   {
-    "id": "101002825473",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002825473",
-    "address": "2699 25 Th St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1760987960/san-francisco/production/fti4kdayufogohbpt3dz.jpg",
-    "status": "CLOSED",
-    "date": "26w ago",
-    "date_iso": "2025-10-23T19:12:26Z",
-    "lat": 37.75171159,
-    "lng": -122.40505826,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Text on flyer is too small/blurry to read clearly from this distance and angle",
-    "commentary": "A modest white flyer clinging to a utility pole like it's trying not to get noticed\u2014classic SF guerrilla posting strategy, though the zoom betrays us here.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002825377",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002825377",
     "address": "3096 17 Th St",
