@@ -14715,23 +14715,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101002996530",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002996530",
-    "address": "3104 25 Th St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763422048/san-francisco/production/we3gbcikjldz96ef7e0b.jpg",
-    "status": "CLOSED",
-    "date": "22w ago",
-    "date_iso": "2025-11-18T16:22:00Z",
-    "lat": 37.75115346,
-    "lng": -122.41195577,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "NO [partial text visible but mostly illegible due to distance and image quality]",
-    "commentary": "There's definitely a flyer up there on that utility pole, but it's too far away and blurry to read anything beyond what looks like 'NO' in red\u2014could be protest art, could be a lost dog, could be someone's manifesto about parking.",
-    "confidence": 0.15
-  },
-  {
     "id": "101002996519",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002996519",
     "address": "3090 Harrison St",
