@@ -22295,23 +22295,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101002735348",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002735348",
-    "address": "1506 Vallejo St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1759710247/san-francisco/production/zakotncsuybpznrtxvd1.jpg",
-    "status": "CLOSED",
-    "date": "28w ago",
-    "date_iso": "2025-10-08T21:14:31Z",
-    "lat": 37.79696743,
-    "lng": -122.42212262,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\udc41\ufe0f Weird & Unexplained",
-    "extracted_text": "RISING PHOENIX\nENTHEOGENIC TEMPLE\u2122\nFOLLOW THE SIGNS TO\nFIND YOUR AWAKENING\nOpen 7 Days a Week\n10am - 8pm\nMembers Only 21+\nScen to Join\nwww.risingphoenixet.com",
-    "commentary": "A sandwich board hawking \"entheogenic\" spiritual awakening with the subtlety of a QR code\u2014SF's perpetual mashup of genuine mysticism and wellness capitalism has spawned its newest temple.",
-    "confidence": 0.85
-  },
-  {
     "id": "101002735225",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002735225",
     "address": "1512 Haight St",
