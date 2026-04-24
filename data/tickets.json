@@ -12250,10 +12250,11 @@
     "lng": -122.40799394,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\ude80 Startups",
     "extracted_text": "Text is too small/blurry to read clearly from this distance and angle. Blue and white posting visible on utility pole.",
     "commentary": "Classic SF pole posting\u2014wrapped tight enough to survive the elements but illegible enough to maintain mystery; the 311 caller probably couldn't read it either.",
-    "confidence": 0.2
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003103193",
