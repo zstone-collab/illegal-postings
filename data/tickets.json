@@ -15970,23 +15970,6 @@
     "confidence": 0.85
   },
   {
-    "id": "101002949288",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002949288",
-    "address": "2197 Fillmore St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1762723621/san-francisco/production/gnwwb7rkkcsbnbihtgio.jpg",
-    "status": "CLOSED",
-    "date": "22w ago",
-    "date_iso": "2025-11-21T20:00:23Z",
-    "lat": 37.7897571,
-    "lng": -122.43414972,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\ude80 Startups",
-    "extracted_text": "MODERN CITIZEN\n2505 SACRAMENTO ST.",
-    "commentary": "A slick sidewalk sign for what appears to be a fashion/lifestyle brand\u2014because nothing says \"modern citizen\" like appropriating urban street real estate with professional signage that definitely required a permit (it didn't).",
-    "confidence": 0.95
-  },
-  {
     "id": "101002948644",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002948644",
     "address": "1 7 Th St",
