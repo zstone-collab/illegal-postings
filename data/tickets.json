@@ -20500,10 +20500,11 @@
     "lng": -122.412500809808,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfa8 Art & Culture",
     "extracted_text": "Text appears to be in a non-Latin script (possibly Hindi or another Indic script). Partial visible text shows repeated characters but is too blurry/small to accurately transcribe. An illustration of what appears to be a penguin or bird is visible on the sticker.",
     "commentary": "A mysterious multilingual sticker has claimed this utility box\u2014the script is crisp but indecipherable in this angle/resolution, leaving us to admire the international vibes.",
-    "confidence": 0.25
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002857388",
