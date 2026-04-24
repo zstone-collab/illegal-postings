@@ -13527,10 +13527,11 @@
     "lng": -122.44465545,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\uddf3\ufe0f Political",
     "extracted_text": "Text too blurry/small to read reliably; appears to be a small rectangular sticker or label on utility pipe",
     "commentary": "A mystery sticker clinging to a downspout like it's desperately trying to tell us something important\u2014too bad the photo quality suggests it's guarding its secrets.",
-    "confidence": 0.2
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003091647",
