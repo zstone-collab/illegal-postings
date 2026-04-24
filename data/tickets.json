@@ -22533,23 +22533,6 @@
     "confidence": 0.65
   },
   {
-    "id": "101002772386",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002772386",
-    "address": "Intersection California St, Presidio Ave",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1760912270/san-francisco/production/kwkwcbtqctuvzhcydeg8.jpg",
-    "status": "CLOSED",
-    "date": "27w ago",
-    "date_iso": "2025-10-18T21:15:05Z",
-    "lat": 37.7872617024695,
-    "lng": -122.446792795684,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "California (partial street sign visible)",
-    "commentary": "There are some posters/postings visible on the building in the background, but they're too distant and blurry to read any actual content\u2014we can make out there's something there, but the dashcam angle and distance render it illegible.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002772358",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002772358",
     "address": "Intersection Baker St, Washington St",
