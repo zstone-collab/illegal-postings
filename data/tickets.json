@@ -12068,23 +12068,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003116490",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003116490",
-    "address": "1268 York St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1765329248/san-francisco/production/a6ygzosa5uibyjjfnfdd.jpg",
-    "status": "OPEN",
-    "date": "19w ago",
-    "date_iso": "2025-12-10T01:14:13Z",
-    "lat": 37.75183361,
-    "lng": -122.40818739,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial text visible on flyer attached to tree, but too blurry and obscured by foliage to read clearly",
-    "commentary": "There's definitely a posted flyer clinging to that tree like it's trying to survive another San Francisco winter, but the photo quality and leaf coverage make it unreadable\u2014classic SF posting placement though.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003116397",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003116397",
     "address": "665 Linden St",
