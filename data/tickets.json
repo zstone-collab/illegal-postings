@@ -10321,23 +10321,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003248356",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003248356",
-    "address": "901 Fillmore St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1767499719/san-francisco/production/onf6blcyibcnwkbvmg6z.jpg",
-    "status": "CLOSED",
-    "date": "15w ago",
-    "date_iso": "2026-01-08T23:32:14Z",
-    "lat": 37.77779493,
-    "lng": -122.43169875,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "QR code visible on white sticker/label affixed to utility pipe; text too pixelated/obscured to read",
-    "commentary": "A mysterious QR code in the wild\u2014either someone's genius guerrilla marketing or an elaborate prank waiting to rick-roll the curious.",
-    "confidence": 0.3
-  },
-  {
     "id": "101003248347",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003248347",
     "address": "708 Hayes St",
