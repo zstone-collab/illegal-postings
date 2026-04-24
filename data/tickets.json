@@ -14255,23 +14255,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003016670",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003016670",
-    "address": "510 Bush St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763744123/san-francisco/production/sjsqpeg0yar2zx0duzk4.jpg",
-    "status": "CLOSED",
-    "date": "21w ago",
-    "date_iso": "2025-11-23T15:46:11Z",
-    "lat": 37.79064517,
-    "lng": -122.40577796,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Text on yellow/white sticker is too blurry to read legibly; appears to have some kind of face or portrait with red/pink coloring",
-    "commentary": "A mystery sticker with what looks like a stylized face\u2014the image quality makes it impossible to determine if this is art, a lost pet, a missed connection, or something weirder entirely.",
-    "confidence": 0.15
-  },
-  {
     "id": "101003016648",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003016648",
     "address": "437 Grant Ave",
