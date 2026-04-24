@@ -14625,23 +14625,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101002996461",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002996461",
-    "address": "3286 Cesar Chavez St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763421710/san-francisco/production/gy2qpuxq130deqbxygf8.jpg",
-    "status": "CLOSED",
-    "date": "18w ago",
-    "date_iso": "2025-12-14T22:57:11Z",
-    "lat": 37.74833997,
-    "lng": -122.4156232,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "NW NICAR HE-29",
-    "commentary": "A mysterious utility label that reads like either a very boring infrastructure code or the world's least convincing secret agent callsign.",
-    "confidence": 0.6
-  },
-  {
     "id": "101002996458",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002996458",
     "address": "3286 Cesar Chavez St",
