@@ -25602,23 +25602,6 @@
     "confidence": 1.0
   },
   {
-    "id": "101002574695",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002574695",
-    "address": "3532 California St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1757349251/san-francisco/production/rvkq2zhe27deoehucpkr.jpg",
-    "status": "CLOSED",
-    "date": "30w ago",
-    "date_iso": "2025-09-22T17:09:16Z",
-    "lat": 37.78664792,
-    "lng": -122.45242205,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Protect Our Neighborhoods / Real Mexican Tamales or Carts / WARNING / GRAFFITI / JUSTICE",
-    "commentary": "There's definitely a placard affixed to this utility pole, but the text is too weathered and at too oblique an angle to read with confidence\u2014looks like it might be a neighborhood notice or warning about something, but the actual message remains gloriously mysterious.",
-    "confidence": 0.35
-  },
-  {
     "id": "101002573299",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002573299",
     "address": "1497 Yosemite Ave",
