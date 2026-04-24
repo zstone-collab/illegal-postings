@@ -22242,23 +22242,6 @@
     "confidence": 0.65
   },
   {
-    "id": "101002772553",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002772553",
-    "address": "300 9 Th St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1770803288/san-francisco/production/iaogs3wdjmyeerfgcq7l.jpg",
-    "status": "CLOSED",
-    "date": "27w ago",
-    "date_iso": "2025-10-12T15:20:06Z",
-    "lat": 37.7737178,
-    "lng": -122.4116434,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Orange/white rectangular posting visible on utility box or pole, text illegible due to focus and distance",
-    "commentary": "This one's too blurry to read\u2014could be anything from a lost cat to a tech startup pitch, but the orange coloring suggests either construction-related or someone really wanted to stand out.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002772544",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002772544",
     "address": "1192 Folsom St",
