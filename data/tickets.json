@@ -11264,23 +11264,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003158560",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003158560",
-    "address": "Intersection 22 Nd St, Dolores St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1765948291/san-francisco/production/bzynwvz9pjq4wz9wkrpb.jpg",
-    "status": "CLOSED",
-    "date": "18w ago",
-    "date_iso": "2025-12-18T16:58:35Z",
-    "lat": 37.75503749,
-    "lng": -122.42547208,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial text visible on utility pole flyers but too blurry/obscured to read clearly from this distance/angle",
-    "commentary": "Classic SF utility pole real estate\u2014there's clearly a stack of something affixed to that pole, but the photo quality and distance make it impossible to decipher whether we're looking at concert tickets, protest manifestos, or someone's lost cat.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003158504",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003158504",
     "address": "99 Lyon St",
