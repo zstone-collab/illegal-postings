@@ -4742,23 +4742,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003601175",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003601175",
-    "address": "2599 23 Rd St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1772551535/san-francisco/production/fvxrfnf9xig8jndecmqo.jpg",
-    "status": "CLOSED",
-    "date": "7w ago",
-    "date_iso": "2026-03-04T19:24:17Z",
-    "lat": 37.75424557,
-    "lng": -122.4052963,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "OAKLAC[?] (partial text visible on wraparound flyer, remainder too blurry/obscured to read with confidence)",
-    "commentary": "A colorful wraparound pole poster doing its best impression of legitimate street furniture, but the text is too weathered and angled to decode what this is actually advertising.",
-    "confidence": 0.25
-  },
-  {
     "id": "101003600430",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003600430",
     "address": "1426 Polk St",
