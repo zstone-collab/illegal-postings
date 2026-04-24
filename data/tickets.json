@@ -8677,23 +8677,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003284958",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003284958",
-    "address": "1304 Hayes St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1768003428/san-francisco/production/zdtbl4gugw4ntevvybat.jpg",
-    "status": "CLOSED",
-    "date": "13w ago",
-    "date_iso": "2026-01-21T16:01:59Z",
-    "lat": 37.775075,
-    "lng": -122.43795,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\udd27 Services",
-    "extracted_text": "BURGER PERFECTION 2025 BEAN BAG CAFE HALF POUND ORGANIC GROUND CHUCK FORMED IN-HOUSE, COOKED ON AN OPEN FIRE BEAN BAG CAFE",
-    "commentary": "A sidewalk A-frame for Bean Bag Cafe's burger operation\u2014nothing illegal about hustling gourmet ground chuck to the masses, though the \"formed in-house\" claim deserves an independent audit.",
-    "confidence": 0.95
-  },
-  {
     "id": "101003284231",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003284231",
     "address": "115 Judah St",
