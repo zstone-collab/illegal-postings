@@ -16384,10 +16384,11 @@
     "lng": -122.41614807,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "Partial text visible on light blue flyer on yellow pole - appears to say something with 'TALLER' and possibly other words but too small/distant to read with certainty",
     "commentary": "There's definitely a posting on that yellow pole, but the image quality and distance make it impossible to decipher what this taller is actually hawking\u2014could be a repair shop, could be an existential crisis.",
-    "confidence": 0.2
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002956718",
