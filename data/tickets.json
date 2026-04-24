@@ -16477,10 +16477,11 @@
     "lng": -122.464172021866,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfa8 Art & Culture",
     "extracted_text": "CFTA (or similar text at top of pink/yellow gradient flyer), partial pricing/menu items visible but unreadable",
     "commentary": "A colorful gradient flyer wrapped around a lamp post with what looks like pricing or menu information, but the resolution and angle make the specifics impossible to parse\u2014could be food delivery, a service, or pure mystery.",
-    "confidence": 0.25
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002989335",
