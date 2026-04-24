@@ -27859,10 +27859,11 @@
     "lng": -122.44693369284,
     "analyzed": true,
     "skip": false,
-    "theme": "\ud83d\udc41\ufe0f Weird & Unexplained",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "PROPER THINGS [partial text visible on black flyer]",
     "commentary": "A delightfully chaotic palimpsest of SF street art: we've got a creepy googly-eyed character, cryptic event flyers, and someone's attempt to make a statement on that traffic light\u2014it's giving organized chaos meets artistic rebellion.",
-    "confidence": 0.4
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002601274",
