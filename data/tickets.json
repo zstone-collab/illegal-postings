@@ -21984,23 +21984,6 @@
     "confidence": 0.65
   },
   {
-    "id": "101002767334",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002767334",
-    "address": "600 Laguna St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1770803666/san-francisco/production/fwbyvkfut7dr0boksrt7.jpg",
-    "status": "CLOSED",
-    "date": "28w ago",
-    "date_iso": "2025-10-10T20:41:38Z",
-    "lat": 37.77648711,
-    "lng": -122.42619792,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "2666411",
-    "commentary": "A mysterious yellow strip of numbers on a utility pole\u2014either a phone number for something delightfully sketchy or SF's most minimalist art installation.",
-    "confidence": 0.6
-  },
-  {
     "id": "101002767321",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002767321",
     "address": "704 Buchanan St",
