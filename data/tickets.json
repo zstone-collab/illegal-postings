@@ -2371,23 +2371,6 @@
     "confidence": 0.65
   },
   {
-    "id": "101003818962",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003818962",
-    "address": "2708 24 Th St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1775504284/san-francisco/production/gi3lgzgk5hmos1qblu4q.jpg",
-    "status": "OPEN",
-    "date": "2w ago",
-    "date_iso": "2026-04-06T19:38:05Z",
-    "lat": 37.75305666,
-    "lng": -122.40663406,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "SALE",
-    "commentary": "There's a small rainbow-colored sticker with 'SALE' visible on the pole, but it's too distant and small to read any additional context\u2014could be anything from a pride-themed shop promo to a cryptic street art declaration.",
-    "confidence": 0.3
-  },
-  {
     "id": "101003818876",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003818876",
     "address": "2797 25 Th St",
