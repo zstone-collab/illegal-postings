@@ -18598,23 +18598,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101002852426",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002852426",
-    "address": "886 Mission St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1761331303/san-francisco/production/sdyh8vm7fpvqv3xfbq9h.jpg",
-    "status": "CLOSED",
-    "date": "26w ago",
-    "date_iso": "2025-10-25T01:02:58Z",
-    "lat": 37.78309587,
-    "lng": -122.4063178,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\ude80 Startups",
-    "extracted_text": "WAM",
-    "commentary": "A single bright yellow sticker screaming 'WAM' on a utility box\u2014either a startup acronym desperate for brand recognition or a very condensed cry for help; either way, it's aggressively legible.",
-    "confidence": 0.85
-  },
-  {
     "id": "101002850155",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002850155",
     "address": "1590 Steiner St",
