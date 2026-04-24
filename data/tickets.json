@@ -22844,23 +22844,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101002781475",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002781475",
-    "address": "1400 Utah St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1760375476/san-francisco/production/zm7rocm0mqdduybf9e73.jpg",
-    "status": "CLOSED",
-    "date": "27w ago",
-    "date_iso": "2025-10-15T17:27:44Z",
-    "lat": 37.75166546,
-    "lng": -122.40525573,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Yellow strip with text at top (illegible), blue/white rectangular posting in center with text too blurry to read clearly, yellow safety strips above and below",
-    "commentary": "Classic utility pole real estate with a mystery blue-and-yellow posting that's just blurry enough to be infuriating\u2014could be anything from a lost pet to a startup pivot.",
-    "confidence": 0.25
-  },
-  {
     "id": "101002781113",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002781113",
     "address": "1200 Kansas St",
