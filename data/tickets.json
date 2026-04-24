@@ -8759,23 +8759,6 @@
     "confidence": 0.65
   },
   {
-    "id": "101003324899",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003324899",
-    "address": "336 Noe St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1768578151/san-francisco/production/dma9qsuqw699cuq7tsgm.jpg",
-    "status": "CLOSED",
-    "date": "4w ago",
-    "date_iso": "2026-03-24T22:30:21Z",
-    "lat": 37.76343063,
-    "lng": -122.43318281,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partially visible stickers/small posters on white pillar - text too small/blurry to read clearly",
-    "commentary": "Someone's using this utility pillar as prime real estate for micro-postings; the resolution suggests either very tiny stickers or a camera that gave up, much like most of us on Market Street.",
-    "confidence": 0.25
-  },
-  {
     "id": "101003324389",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003324389",
     "address": "1066 Potrero Ave",
