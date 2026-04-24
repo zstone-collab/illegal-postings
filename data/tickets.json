@@ -25321,23 +25321,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101002726861",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002726861",
-    "address": "Intersection Kearny St, Sutter St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1770803632/san-francisco/production/sibjtqi6zljrdxe137we.jpg",
-    "status": "CLOSED",
-    "date": "28w ago",
-    "date_iso": "2025-10-10T17:52:24Z",
-    "lat": 37.7898293093397,
-    "lng": -122.403841454762,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "La Sirena (partial text visible, rest illegible due to image quality and angle)",
-    "commentary": "A sidewalk A-frame sign that's too blurry and distant to confidently read\u2014could be a restaurant, bar, or business promotion, but we're basically playing visual telephone here.",
-    "confidence": 0.25
-  },
-  {
     "id": "101002726216",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002726216",
     "address": "Intersection Polk St, Jackson St",
