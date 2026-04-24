@@ -12564,23 +12564,6 @@
     "confidence": 0.65
   },
   {
-    "id": "101003097006",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003097006",
-    "address": "1296 Hayes St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1765059422/san-francisco/production/yxyw2xwajfbikulukkex.jpg",
-    "status": "CLOSED",
-    "date": "20w ago",
-    "date_iso": "2025-12-05T16:49:37Z",
-    "lat": 37.77509483,
-    "lng": -122.43765013,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "READ (partial text visible on bag on right person)",
-    "commentary": "Multiple flyers are affixed to the utility pole, but the image quality and angle make the text largely illegible\u2014though there's clearly some poster action happening here.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003097001",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003097001",
     "address": "1296 Hayes St",
