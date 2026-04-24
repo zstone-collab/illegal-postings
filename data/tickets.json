@@ -2373,23 +2373,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003825581",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003825581",
-    "address": "2948 24 Th St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1775589332/san-francisco/production/xqlrk6o9piyjmdcbl07p.jpg",
-    "status": "OPEN",
-    "date": "2w ago",
-    "date_iso": "2026-04-07T19:15:33Z",
-    "lat": 37.75280403,
-    "lng": -122.41087329,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "km [partial text visible on left side]; various event/venue posters visible but text too blurry/obscured by metal grating to read clearly",
-    "commentary": "A collage of colorful flyers plastered behind a protective metal grate\u2014SF's way of saying 'we want your culture, just not on our window,' creating a frustrating scavenger hunt for actual content.",
-    "confidence": 0.25
-  },
-  {
     "id": "101003825384",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003825384",
     "address": "2826 24 Th St",
