@@ -20785,23 +20785,6 @@
     "reviewed_by_human": true
   },
   {
-    "id": "101002856114",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002856114",
-    "address": "Intersection Divisadero St, Washington St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1761363209/san-francisco/production/qp6gwrmjqmpvuz1taezc.jpg",
-    "status": "CLOSED",
-    "date": "24w ago",
-    "date_iso": "2025-11-06T18:48:27Z",
-    "lat": 37.7907554075542,
-    "lng": -122.440984379887,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial text visible but too blurry/small to read clearly from this distance and angle",
-    "commentary": "A flyer clings to the pole like it's auditioning for a role in a street furniture indie film\u2014can't quite make out the message, but the car photobomb suggests this neighborhood has opinions about parking.",
-    "confidence": 0.15
-  },
-  {
     "id": "101002856116",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002856116",
     "address": "Intersection California St, Divisadero St",
