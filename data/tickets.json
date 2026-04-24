@@ -6745,23 +6745,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003446179",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003446179",
-    "address": "2595 Mission St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1770314115/san-francisco/production/zts3ldj6x6suw5ncifst.jpg",
-    "status": "CLOSED",
-    "date": "11w ago",
-    "date_iso": "2026-02-05T21:56:09Z",
-    "lat": 37.75554609,
-    "lng": -122.41869577,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Se Renta Cuarto... 2 Personas... entre Pizco Usach... cerca al Banco Belgica... [phone numbers visible but partially obscured]",
-    "commentary": "A weathered Spanish-language rental listing for a room\u2014classic utility pole papering that's been through the San Francisco elements but still clinging to hope that someone needs that spare bedroom.",
-    "confidence": 0.45
-  },
-  {
     "id": "101003446023",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003446023",
     "address": "179 3 Rd St",
