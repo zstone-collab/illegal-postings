@@ -7888,23 +7888,6 @@
     "confidence": 0.65
   },
   {
-    "id": "101003387959",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003387959",
-    "address": "1149 Potrero Ave",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1769494077/san-francisco/production/eroszezpgwlavumusmh1.jpg",
-    "status": "CLOSED",
-    "date": "12w ago",
-    "date_iso": "2026-01-27T20:35:55Z",
-    "lat": 37.75348928,
-    "lng": -122.40618244,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "La Pradera [partial header visible] al Correo en Medell\u00edn-Cal [partial text] Medell\u00edn-Cal [repeated] [body text is too blurry/small to read reliably]",
-    "commentary": "A weathered flyer in Spanish clinging to a pole like it's desperately trying to escape SF\u2014the text is too faded and distant to make out the full message, but it's definitely trying to tell us something important about Medell\u00edn.",
-    "confidence": 0.25
-  },
-  {
     "id": "101003387812",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003387812",
     "address": "2861 24 Th St",
