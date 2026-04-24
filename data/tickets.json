@@ -5127,10 +5127,11 @@
     "lng": -122.40731332,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\udc41\ufe0f Weird & Unexplained",
     "extracted_text": "WELCOME WELCOME WELCOME THE DAY / THE DAY THE DAY / [multiple overlapping posters with portraits and text, but most text is too small/obscured to read clearly]",
     "commentary": "Classic Mission District energy: a palimpsest of political/cultural posters so densely layered they've achieved abstract expressionism\u2014if you squint hard enough, it's basically postmodern art.",
-    "confidence": 0.3
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003591267",
