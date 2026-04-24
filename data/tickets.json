@@ -21078,23 +21078,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101002794547",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002794547",
-    "address": "Intersection Valencia St, 17 Th St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1760550274/san-francisco/production/cbffhh9zzy5aufchphlq.jpg",
-    "status": "CLOSED",
-    "date": "26w ago",
-    "date_iso": "2025-10-26T05:00:06Z",
-    "lat": 37.76323149,
-    "lng": -122.42174156,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "ONOF ERAE TS BGS FORB OUWN KTLLEF",
-    "commentary": "This utility pole is a palimpsest of SF street culture\u2014layers upon layers of stickers and wheat-pastes have created an illegible collage that's simultaneously a work of art and a complete mess.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002794434",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002794434",
     "address": "520 Valencia St",
