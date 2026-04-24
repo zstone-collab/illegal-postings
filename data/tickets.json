@@ -6271,10 +6271,11 @@
     "lng": -122.40520343,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfa8 Art & Culture",
     "extracted_text": "Events",
     "commentary": "A teal-colored flyer with 'Events' visible at the top is affixed to the utility pole, but the rest of the text is too small/blurry to read from this distance\u2014could be anything from a concert series to a community board announcement.",
-    "confidence": 0.3
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003524445",
