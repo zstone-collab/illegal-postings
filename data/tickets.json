@@ -19240,10 +19240,11 @@
     "lng": -122.437989844714,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "Partial pink/red text visible on utility box - text too small/obscured to read clearly",
     "commentary": "There's definitely some guerrilla postings on this signal box, but the resolution and angle make it impossible to decipher what they're advertising\u2014could be anything from a lost cat to a speakeasy.",
-    "confidence": 0.2
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002840925",
