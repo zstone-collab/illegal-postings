@@ -10451,23 +10451,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003201794",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003201794",
-    "address": "201 Myrtle St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1766624516/san-francisco/production/vaxtvb2gswftembofgq1.jpg",
-    "status": "CLOSED",
-    "date": "17w ago",
-    "date_iso": "2025-12-26T18:38:46Z",
-    "lat": 37.78511572,
-    "lng": -122.42147975,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\ude80 Startups",
-    "extracted_text": "DOOPENCINEMO IMAX NOW OPEN",
-    "commentary": "A-frame sign for what appears to be a cinema/theater experience (with QR code for the tech-savvy moviegoer), artfully balanced on a fire hydrant like it's the world's most optimistic piece of street furniture.",
-    "confidence": 0.65
-  },
-  {
     "id": "101003201651",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003201651",
     "address": "529 Pierce St",
