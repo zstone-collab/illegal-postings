@@ -990,10 +990,11 @@
     "analyzed": true,
     "date_iso": "2026-04-09T20:10:13Z",
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "VISUAL-BOOKS.COM / LIBRERIA / COOPERATIVA / ART BOOKS CULTURA / STRIKE / GOTH SKAB",
     "commentary": "A pole wrapped in mysterious literary activism\u2014we can make out bookstore/library vibes and what looks like event flyers, but the text is too weathered and layered to fully decode this analog palimpsest.",
-    "confidence": 0.45
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003839760",
