@@ -9442,10 +9442,11 @@
     "lng": -122.42100363,
     "analyzed": true,
     "skip": false,
-    "theme": "\ud83d\udc41\ufe0f Weird & Unexplained",
+    "theme": "\ud83d\uddf3\ufe0f Political",
     "extracted_text": "FVSK (handwritten tag), partial text visible on stickers including what appears to be postal service branding, graffiti tags",
     "commentary": "A beautiful palimpsest of SF street culture on this poor red utility box\u2014it's got stickers, tags, and what looks like a blue figure at the top that may or may not be intentional art, making this the visual equivalent of a conversation between strangers on BART.",
-    "confidence": 0.45
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003314545",
