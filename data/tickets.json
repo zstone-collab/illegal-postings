@@ -12158,10 +12158,11 @@
     "lng": -122.426452332025,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\uddf3\ufe0f Political",
     "extracted_text": "MORE MIND (partial text visible on upper flyer), yellow poster/sticker visible on pole",
     "commentary": "Too many layers of urban palimpsest happening here\u2014there's clearly posting activity on this utility pole, but the resolution and angle make it impossible to read what's actually being advertised or proclaimed.",
-    "confidence": 0.3
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003097018",
