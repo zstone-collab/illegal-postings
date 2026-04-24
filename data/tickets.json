@@ -23113,23 +23113,6 @@
     "confidence": 0.75
   },
   {
-    "id": "101002767319",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002767319",
-    "address": "Intersection Buchanan St, Hayes St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1761247129/san-francisco/production/ibh2jogrtcydksxra7er.jpg",
-    "status": "CLOSED",
-    "date": "26w ago",
-    "date_iso": "2025-10-22T18:29:14Z",
-    "lat": 37.7762537865934,
-    "lng": -122.427913794346,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "",
-    "commentary": "There's definitely a small sticker or posting on that utility pole, but the image quality and distance make it completely illegible\u2014SF 311 might want to get their photographer a tripod and some binoculars.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002767300",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002767300",
     "address": "507 Buchanan St",
