@@ -1978,23 +1978,6 @@
     "confidence": 1.0
   },
   {
-    "id": "101003831932",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003831932",
-    "address": "3839 Mission St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1775672944/san-francisco/production/xnhzgpkzllsku4zidz6w.jpg",
-    "status": "OPEN",
-    "date": "2w ago",
-    "date_iso": "2026-04-08T18:29:06Z",
-    "lat": 37.73554126,
-    "lng": -122.42454022,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\udd27 Services",
-    "extracted_text": "ENCUENT A\u00c9RLI NICAR 02-06 20-11 MAR 419-8 419-2",
-    "commentary": "A half-peeled sticker for what appears to be a Latin American restaurant or service, now mostly illegible\u2014a perfect metaphor for gentrification's effect on SF's Mission District.",
-    "confidence": 0.3
-  },
-  {
     "id": "101003831913",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003831913",
     "address": "3824 Mission St",
