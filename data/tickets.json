@@ -22218,10 +22218,11 @@
     "lng": -122.42377906,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\uddf3\ufe0f Political",
     "extracted_text": "Project Artaud (partial, mostly obscured by pole)",
     "commentary": "There's definitely a flyer on that utility pole, but the glare and pole placement make it nearly impossible to read\u2014classic SF street furniture photobomb.",
-    "confidence": 0.2
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002820629",
