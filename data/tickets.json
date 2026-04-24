@@ -18378,10 +18378,11 @@
     "lng": -122.445345107431,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\udc95 Dating",
     "extracted_text": "Partial text visible on pole, appears to include some words but too obscured by ivy and angle to read clearly. Text fragments appear on nearby storefront signage but main posting on pole is illegible.",
     "commentary": "Mother Nature's doing the work for us here\u2014this ivy is aggressively reclaiming the urban canvas faster than any 311 crew could paper over it.",
-    "confidence": 0.25
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002927543",
