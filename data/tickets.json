@@ -20976,23 +20976,6 @@
     "confidence": 0.7
   },
   {
-    "id": "101002805435",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002805435",
-    "address": "1202 Hampshire St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1760663413/san-francisco/production/mn0tmj3x9hnw3bbutt3y.jpg",
-    "status": "CLOSED",
-    "date": "23w ago",
-    "date_iso": "2025-11-11T07:00:58Z",
-    "lat": 37.75274624,
-    "lng": -122.40741257,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partially visible stickers/postings on utility pole; text too small/obscured to read clearly",
-    "commentary": "There are definitely some stickers affixed to this pole, but the resolution and angle make it impossible to decipher what they're advertising\u2014could be anything from a lost cat to a rave to a plumbing service.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002802371",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002802371",
     "address": "3400 17 Th St",
