@@ -10138,23 +10138,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003248284",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003248284",
-    "address": "Intersection Hayes St, Scott St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1767498810/san-francisco/production/qxwooybldhkrn8pvwdas.jpg",
-    "status": "CLOSED",
-    "date": "15w ago",
-    "date_iso": "2026-01-09T23:45:35Z",
-    "lat": 37.7752057984711,
-    "lng": -122.436128936277,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Red and yellow text/design visible on white flyer; white paint/wheatpaste marks above and below; text too blurry to read reliably",
-    "commentary": "This pole has seen some street art action\u2014looks like someone's flyer got partially painted over, leaving just ghostly rectangles of hope.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003248279",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003248279",
     "address": "Intersection Hayes St, Steiner St",
