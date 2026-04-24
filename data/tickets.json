@@ -12902,10 +12902,11 @@
     "lng": -122.40929212,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\udd27 Services",
     "extracted_text": "VISIT... MISSION... (partial text visible but largely illegible due to angle and distance)",
     "commentary": "A pole-mounted flyer with what appears to be colorful imagery and text, but the resolution and angle make it impossible to read the full message\u2014classic SF guerrilla posting placement though.",
-    "confidence": 0.2
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003087805",
