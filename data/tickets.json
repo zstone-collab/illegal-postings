@@ -19721,23 +19721,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101002820672",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002820672",
-    "address": "Intersection 16 Th St, Rhode Island St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763835510/san-francisco/production/okqkrriscevmbgrtvpza.jpg",
-    "status": "CLOSED",
-    "date": "22w ago",
-    "date_iso": "2025-11-21T17:52:39Z",
-    "lat": 37.7660746203886,
-    "lng": -122.402684865075,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "HOPE (top sticker, partially visible); Agn\u00e8s Brouger (visible on middle sticker); some text fragments on lower posters but too weathered/obscured to read clearly",
-    "commentary": "A classic SF utility pole palimpsest\u2014multiple layers of stickers and wheat paste in various states of decay, creating an accidental archaeological record of street culture.",
-    "confidence": 0.35
-  },
-  {
     "id": "101002820663",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002820663",
     "address": "1950 17 Th St",
