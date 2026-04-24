@@ -9750,23 +9750,6 @@
     "confidence": 1.0
   },
   {
-    "id": "101003248337",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003248337",
-    "address": "Intersection Gough St, Hayes St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1767499473/san-francisco/production/u8tzyxff5qh5c5dx72gx.jpg",
-    "status": "CLOSED",
-    "date": "8w ago",
-    "date_iso": "2026-02-25T19:51:10Z",
-    "lat": 37.7768835090015,
-    "lng": -122.42297812288,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "PREVENT [something] SERVICE [partial text visible on right flyer]; blue flyer on left pole with text too small to read clearly",
-    "commentary": "Multiple postings on utility poles with at least one pest control/service warning visible, but most text is too blurry/distant to extract with confidence.",
-    "confidence": 0.3
-  },
-  {
     "id": "101003248328",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003248328",
     "address": "395 Hayes St",
