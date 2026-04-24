@@ -19057,7 +19057,8 @@
     "theme": "\ud83c\udfb5 Events",
     "extracted_text": "HALLOW FRIDAY OCT BISS BAOB featuring mureutian \u00b7 sah ibe fu \u00b7 jesse ro \u00b7 nit 2243 MISSIO",
     "commentary": "A Halloween Friday event flyer wrapped around a utility pole\u2014looks like a Mission District warehouse party or club night, though the text is partially obscured and possibly misspelled (intentionally or otherwise).",
-    "confidence": 0.55
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002839749",
