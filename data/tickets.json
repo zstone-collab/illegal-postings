@@ -13249,23 +13249,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003068968",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003068968",
-    "address": "1034 Potrero Ave",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1764691679/san-francisco/production/vrgkhihag20gwdjsguoi.jpg",
-    "status": "CLOSED",
-    "date": "20w ago",
-    "date_iso": "2025-12-02T16:53:11Z",
-    "lat": 37.75555401,
-    "lng": -122.40673564,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partially visible newspaper or printed flyer wrapped around pole; text too small/blurry to read clearly",
-    "commentary": "Someone's newspaper clipping dreams were too big for the pole's circumference\u2014a valiant effort at street-level journalism that's sadly illegible from any reasonable distance.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003068850",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003068850",
     "address": "1058 Potrero Ave",
