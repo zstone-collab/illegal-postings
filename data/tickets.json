@@ -24807,23 +24807,6 @@
     "confidence": 0.85
   },
   {
-    "id": "101002588032",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002588032",
-    "address": "2500 Mission St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1757523296/san-francisco/production/gyuizspsjqe7e28jw0lo.jpg",
-    "status": "CLOSED",
-    "date": "32w ago",
-    "date_iso": "2025-09-10T17:20:46Z",
-    "lat": 37.75690234,
-    "lng": -122.41901016,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\udc41\ufe0f Weird & Unexplained",
-    "extracted_text": "AIGO (visible on sticker/band near top)",
-    "commentary": "A utility bollard wrapped in sticker collage art\u2014this is pure SF street culture, where even the city's infrastructure becomes a canvas for tag layering and artistic expression.",
-    "confidence": 0.35
-  },
-  {
     "id": "101002587816",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002587816",
     "address": "3300 23 Rd St",
