@@ -18540,23 +18540,6 @@
     "confidence": 1.0
   },
   {
-    "id": "101002857931",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002857931",
-    "address": "2914 16 Th St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1761415831/san-francisco/production/x1kdk9pythkmmvifhrny.jpg",
-    "status": "CLOSED",
-    "date": "24w ago",
-    "date_iso": "2025-11-04T19:26:06Z",
-    "lat": 37.76524188,
-    "lng": -122.41788088,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "STUD POO POO BOMB (partially visible on upper box); partial text visible on middle sticker including what appears to be a face/portrait and fragments like \"STREE\" and \"ENT\"",
-    "commentary": "Weathered stickers layered on a utility pole\u2014the top one's 'STUD POO POO BOMB' declaration is either chaotic street art or someone's very committed bathroom humor, while the middle portraits are too faded to fully decipher.",
-    "confidence": 0.35
-  },
-  {
     "id": "101002857912",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002857912",
     "address": "Intersection 20 Th St, Harrison St",
