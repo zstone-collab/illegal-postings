@@ -12374,7 +12374,8 @@
     "theme": "\ud83d\udc3e Lost & Found",
     "extracted_text": "MISSING PET (visible multiple times on flyers). Poppy House (partially visible at top). BACON & EGG (partially visible). Additional text too small/obscured to read clearly.",
     "commentary": "A utility pole absolutely plastered with overlapping lost pet and event flyers\u2014this is peak SF street-level communication, though the sheer volume suggests some of these Fidos have been missing for a while.",
-    "confidence": 0.45
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003138069",
