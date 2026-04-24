@@ -24412,24 +24412,6 @@
     "confidence": 0.65
   },
   {
-    "id": "101002617794",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002617794",
-    "address": "2154 15 Th St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1760721488/san-francisco/production/tfxjwsjd3lyllgellmek.jpg",
-    "status": "CLOSED",
-    "date": "27w ago",
-    "date_iso": "2025-10-16T17:09:47Z",
-    "lat": 37.76602646,
-    "lng": -122.4322154,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\ude80 Startups",
-    "extracted_text": "offir new cheer[...]",
-    "commentary": "A crumpled olive-green pouch stapled to a pole with partial text visible\u2014looks like it could be promoting something 'new' but the sun-faded messaging and awkward mounting make it genuinely unreadable.",
-    "confidence": 1.0,
-    "reviewed_by_human": true
-  },
-  {
     "id": "101002617773",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002617773",
     "address": "198 Noe St",
