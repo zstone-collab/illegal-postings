@@ -16248,23 +16248,6 @@
     "confidence": 1.0
   },
   {
-    "id": "101002952850",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002952850",
-    "address": "1249 Clement St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1762793617/san-francisco/production/driyofrxbkfqxtgeujj2.jpg",
-    "status": "CLOSED",
-    "date": "22w ago",
-    "date_iso": "2025-11-21T06:00:09Z",
-    "lat": 37.78250049,
-    "lng": -122.47230855,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial text visible but too blurry/small to read clearly; appears to be small white stickers/flyers on wooden post with yellow reflective bands",
-    "commentary": "Multiple mystery stickers on a weathered post\u2014could be anything from lost pets to underground art collectives, but the resolution is doing its best to keep their secrets.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002952828",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002952828",
     "address": "591 Park Presidio Blvd",
@@ -16331,23 +16314,6 @@
     "extracted_text": "MISSING / HAVE YOU SEEN THIS CAT? / BATMAN",
     "commentary": "A genuinely heartfelt missing cat poster\u2014though naming a black cat \"Batman\" suggests this owner has either excellent taste or is really committed to the bit.",
     "confidence": 0.95
-  },
-  {
-    "id": "101002951019",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002951019",
-    "address": "701 39 Th Ave",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1762747271/san-francisco/production/la3hwiufbjqav8zhlvbf.jpg",
-    "status": "CLOSED",
-    "date": "23w ago",
-    "date_iso": "2025-11-13T21:46:02Z",
-    "lat": 37.77555867,
-    "lng": -122.49951982,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "illegible handwriting on pink paper",
-    "commentary": "A mysterious pink sticky note with chicken-scratch handwriting sandwiched between yellow safety stripes on a utility pole\u2014either the world's tiniest protest or someone's very determined reminder to themselves.",
-    "confidence": 0.2
   },
   {
     "id": "101002951004",
