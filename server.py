@@ -15,6 +15,8 @@ Endpoints:
 
 import json
 import os
+import shutil
+import subprocess
 from functools import wraps
 from pathlib import Path
 
@@ -189,6 +191,82 @@ def categorize_ticket(ticket_id):
             save_tickets(tickets)
             return jsonify({"id": ticket_id, "theme": theme})
     abort(404)
+
+
+@app.route("/api/admin-probe", methods=["GET"])
+@require_admin
+def admin_probe():
+    """Tests whether this environment can support git auto-commit persistence.
+    Runs only read-only / dry-run git operations (no commits, no pushes).
+    """
+    repo_dir = Path(__file__).parent
+    out = {
+        "repo_dir": str(repo_dir),
+        "git_binary": shutil.which("git"),
+        "git_dir_present": (repo_dir / ".git").is_dir(),
+        "github_token_set": bool(os.environ.get("GITHUB_TOKEN")),
+        "ticket_file_writable": os.access(str(DATA_FILE), os.W_OK),
+    }
+
+    def run(cmd):
+        try:
+            r = subprocess.run(
+                cmd, cwd=str(repo_dir), capture_output=True, text=True, timeout=15
+            )
+            return {
+                "ok": r.returncode == 0,
+                "returncode": r.returncode,
+                "stdout": (r.stdout or "").strip()[:500],
+                "stderr": (r.stderr or "").strip()[:500],
+            }
+        except FileNotFoundError as e:
+            return {"ok": False, "error": f"binary not found: {e}"}
+        except subprocess.TimeoutExpired:
+            return {"ok": False, "error": "timeout"}
+        except Exception as e:
+            return {"ok": False, "error": str(e)}
+
+    if not out["git_binary"]:
+        out["verdict"] = "FAIL — git CLI not installed on this Render instance"
+        return jsonify(out)
+
+    if not out["git_dir_present"]:
+        out["verdict"] = "FAIL — .git directory not preserved in deploy"
+        return jsonify(out)
+
+    # Read-only probes
+    out["git_version"] = run(["git", "--version"])
+    out["git_status"] = run(["git", "status", "--porcelain"])
+    out["git_log_head"] = run(["git", "log", "-1", "--oneline"])
+    out["git_remote"] = run(["git", "remote", "-v"])
+
+    # Dry-run push to test auth (only if token set). --dry-run doesn't actually push.
+    token = os.environ.get("GITHUB_TOKEN")
+    if token:
+        remote_url = f"https://x-access-token:{token}@github.com/zstone-collab/illegal-postings.git"
+        out["git_push_dry_run"] = run(
+            ["git", "push", "--dry-run", remote_url, "HEAD:main"]
+        )
+    else:
+        out["git_push_dry_run"] = {"skipped": "set GITHUB_TOKEN env var to test auth"}
+
+    # Overall verdict
+    needed = [
+        out["git_version"].get("ok"),
+        out["git_status"].get("ok"),
+        out["git_log_head"].get("ok"),
+    ]
+    if all(needed):
+        if token and out["git_push_dry_run"].get("ok"):
+            out["verdict"] = "PASS — git available, repo healthy, token works. Auto-commit will work."
+        elif not token:
+            out["verdict"] = "PASS-PENDING-TOKEN — git works. Set GITHUB_TOKEN and re-probe to verify auth."
+        else:
+            out["verdict"] = "FAIL — git works but push auth broken. Check token permissions."
+    else:
+        out["verdict"] = "FAIL — basic git commands not working in this environment"
+
+    return jsonify(out)
 
 
 if __name__ == "__main__":
