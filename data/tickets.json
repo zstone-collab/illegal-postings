@@ -5229,10 +5229,11 @@
     "lng": -122.44725594,
     "analyzed": true,
     "skip": false,
-    "theme": "\ud83d\uddf3\ufe0f Political",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "DESIGNATE\n\nFORTH SHERRY\nPARK\nPRESIDENT\nMOUNTAIN GATE\nVILLAGE SITE\nWORK ONLY ON\nMON-FRI\nALL & PRE\n\n[Additional smaller text partially visible but not fully legible]",
     "commentary": "A purple protest sign demanding some kind of zoning or development designation for Fort Sherry Park\u2014looks like NIMBY politics meets neighborhood activism in the heart of Pacific Heights.",
-    "confidence": 0.45
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003587537",
