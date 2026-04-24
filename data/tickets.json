@@ -5030,23 +5030,6 @@
     "confidence": 0.25
   },
   {
-    "id": "101003600573",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003600573",
-    "address": "89 Badger St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1772519135/san-francisco/production/pkovycvh4fknn1i46gn4.jpg",
-    "status": "CLOSED",
-    "date": "7w ago",
-    "date_iso": "2026-03-05T20:20:38Z",
-    "lat": 37.73052972,
-    "lng": -122.43387256,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial characters visible on building near door, too obscured by ivy and distance to read clearly",
-    "commentary": "Either this building is so aggressively verdant it's staging a hostile takeover, or the ivy is just really committed to hiding the evidence\u2014either way, any postings here are now officially part of the architectural ecosystem.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003600430",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003600430",
     "address": "1426 Polk St",
