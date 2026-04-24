@@ -5549,23 +5549,6 @@
     "reviewed_by_human": true
   },
   {
-    "id": "101003539931",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003539931",
-    "address": "1595 Pacific Ave",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1771717050/san-francisco/production/xvqkfh9npx7128bhbfnq.jpg",
-    "status": "CLOSED",
-    "date": "7w ago",
-    "date_iso": "2026-03-03T00:22:14Z",
-    "lat": 37.79497206,
-    "lng": -122.42136736,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\ude80 Startups",
-    "extracted_text": "stuff by LUXE\nCURATED VINTAGE COLLECTIVE\nFURNITURE, ART, DECOR & MORE\n1545 PACIFIC AVE",
-    "commentary": "A sidewalk A-frame for a vintage furniture shop\u2014aggressively optimistic about SF's ability to absorb yet another curated collectible experience at premium prices.",
-    "confidence": 0.95
-  },
-  {
     "id": "101003539785",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003539785",
     "address": "158 Jefferson St",
