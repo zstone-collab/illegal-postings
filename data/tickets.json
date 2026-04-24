@@ -26443,23 +26443,6 @@
     "confidence": 0.65
   },
   {
-    "id": "101002581140",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002581140",
-    "address": "2400 Jackson St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1759007860/san-francisco/production/wbflqr2cdycmwaquor0j.jpg",
-    "status": "CLOSED",
-    "date": "30w ago",
-    "date_iso": "2025-09-26T20:21:11Z",
-    "lat": 37.79251959,
-    "lng": -122.43461803,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Small white rectangular flyer/sticker visible on utility box, text too small/blurry to read clearly from this angle and distance",
-    "commentary": "There's definitely a posting on that utility box, but the photo's angle and distance have rendered it unreadable\u2014classic SF 311 documentation at its finest.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002578737",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002578737",
     "address": "1331 Polk St",
