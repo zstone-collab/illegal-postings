@@ -17646,23 +17646,6 @@
     "reviewed_by_human": true
   },
   {
-    "id": "101002906084",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002906084",
-    "address": "2303 Market St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1762116748/san-francisco/production/itzhumflgr02gjpe139q.jpg",
-    "status": "CLOSED",
-    "date": "6w ago",
-    "date_iso": "2026-03-09T18:07:39Z",
-    "lat": 37.76407092,
-    "lng": -122.43310088,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partially visible white papers/flyers on utility box; text too blurry and obscured to read clearly",
-    "commentary": "This photo is so out of focus it's like someone sneezed while taking it\u2014I can see there are definitely postings here, but they're playing hard to get with the lens.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002906083",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002906083",
     "address": "330 Noe St",
