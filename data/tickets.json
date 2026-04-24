@@ -10149,10 +10149,11 @@
     "lng": -122.432829714451,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\uddf3\ufe0f Political",
     "extracted_text": "Partial sticker visible with orange/yellow coloring and some text/imagery, mostly obscured or too small to read clearly",
     "commentary": "This brick wall's gotten a visit from what looks like a determined sticker artist, but the image quality and angle leave us guessing whether this is harm reduction, a lost pet, or just someone's tag collection.",
-    "confidence": 0.2
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003248277",
