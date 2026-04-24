@@ -55,27 +55,22 @@ _last_commit = {"ok": None, "ts": None, "reason": None, "error": None}
 
 
 def mark_dirty(reason: str):
-    """Record a pending edit and kick off a background commit immediately."""
+    """Record edit + commit synchronously in the request thread.
+
+    Background threads were getting starved on Render free tier — never ran.
+    Synchronous commit adds ~1-2s per admin action but gives absolute certainty
+    that the edit is in git before the HTTP response returns.
+    """
     global _dirty, _dirty_at, _last_reason
     with _dirty_lock:
         if not _dirty:
             _dirty_at = time.time()
         _dirty = True
         _last_reason = reason
-    # Fire and forget — new thread per edit. Mutex inside _commit_if_dirty serializes.
-    t = threading.Thread(target=_commit_if_dirty, daemon=True)
-    t.start()
 
-
-def _commit_if_dirty():
-    """Acquire the commit mutex (non-blocking). If locked, bail — the current
-    committer will see the dirty flag and handle it. Otherwise, drain pending
-    edits by looping until _dirty is False after a commit attempt."""
-    if not _commit_mutex.acquire(blocking=False):
-        return  # someone else is committing; our edit will be seen
-
-    try:
-        # Drain loop: commit, then check if MORE edits arrived while we were committing
+    # Serialize concurrent admin requests so we don't race on git ops
+    with _commit_mutex:
+        # Drain loop: grab latest reason, commit, then check if MORE edits arrived
         while True:
             with _dirty_lock:
                 if not _dirty:
@@ -83,9 +78,6 @@ def _commit_if_dirty():
                 reason = _last_reason
                 _dirty = False
             _do_git_commit(reason)
-            # After commit, check if more edits came in while we were pushing
-    finally:
-        _commit_mutex.release()
 
 
 def _do_git_commit(reason: str):
