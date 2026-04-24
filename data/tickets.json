@@ -22635,23 +22635,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101002772265",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002772265",
-    "address": "300 Saint Josephs Ave",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763072287/san-francisco/production/wnbcph3jzelmc4pnppk9.jpg",
-    "status": "CLOSED",
-    "date": "23w ago",
-    "date_iso": "2025-11-12T22:06:00Z",
-    "lat": 37.78229901,
-    "lng": -122.44167242,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partially visible white flyer/poster on palm tree trunk; text too small and obscured to read clearly from this distance and angle",
-    "commentary": "There's definitely a posting here on the palm tree, but the resolution and angle make it impossible to decipher what this arboreal declaration is advocating for\u2014could be anything from lost cat to revolutionary manifesto.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002772262",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002772262",
     "address": "Intersection Baker St, Grove St",
