@@ -14408,23 +14408,6 @@
     "confidence": 0.65
   },
   {
-    "id": "101003014341",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003014341",
-    "address": "1715 Pine St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763684862/san-francisco/production/ow2ugxxdgjp2dqc1uyg8.jpg",
-    "status": "CLOSED",
-    "date": "20w ago",
-    "date_iso": "2025-12-02T18:57:26Z",
-    "lat": 37.78911465,
-    "lng": -122.42403989,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "",
-    "commentary": "This photo is too blurry and the angle too awkward to make out any text on what appears to be a posted flyer on a corrugated metal wall\u2014could be anything from a missing pet to a tech startup pitch.",
-    "confidence": 0.15
-  },
-  {
     "id": "101003011424",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003011424",
     "address": "506 14 Th St",
