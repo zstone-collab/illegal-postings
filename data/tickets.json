@@ -12443,23 +12443,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003097117",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003097117",
-    "address": "Intersection Grove St, Octavia St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1765060056/san-francisco/production/wror9cwcezqzyfypkg7o.jpg",
-    "status": "CLOSED",
-    "date": "18w ago",
-    "date_iso": "2025-12-17T06:00:06Z",
-    "lat": 37.7776018936099,
-    "lng": -122.424808799855,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partially visible stickers and postings on utility pole; text too blurry/obscured to read clearly",
-    "commentary": "A classic SF utility pole palimpsest\u2014stickers stacked like geological layers of someone's plea for attention, though the potato-quality photo makes it impossible to tell if it's a lost cat, a warehouse rave, or someone's manifesto.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003097119",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003097119",
     "address": "434 Grove St",
