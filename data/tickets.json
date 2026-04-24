@@ -19522,24 +19522,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101002820526",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002820526",
-    "address": "3298 17 Th St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1768697422/san-francisco/production/gbpd9adsgccqpcm5tvat.jpg",
-    "status": "CLOSED",
-    "date": "26w ago",
-    "date_iso": "2025-10-19T21:39:14Z",
-    "lat": 37.76352065,
-    "lng": -122.41938313,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\ude80 Startups",
-    "extracted_text": "secrets [partial text visible on background sign]; sticker on pole with illustration and text that is too blurry/small to read clearly",
-    "commentary": "There's definitely a sticker affixed to that utility pole, but the resolution won't let us determine if it's promoting a lost cat, a underground music venue, or someone's conspiracy theory\u2014which honestly tracks for SF.",
-    "confidence": 1.0,
-    "reviewed_by_human": true
-  },
-  {
     "id": "101002820519",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002820519",
     "address": "3298 17 Th St",
