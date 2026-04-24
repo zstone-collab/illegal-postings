@@ -17781,10 +17781,11 @@
     "lng": -122.44544539,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfa8 Art & Culture",
     "extracted_text": "ConnectasCoachedLoungeGold",
     "commentary": "There's definitely a poster affixed to that utility box, but the resolution and angle make it nearly impossible to read the full text\u2014we can barely make out what looks like 'Connectas' and 'Coached Lounge Gold,' which could be anything from a wellness service to a very optimistic gym membership.",
-    "confidence": 0.25
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002953085",
