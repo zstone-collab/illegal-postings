@@ -24028,10 +24028,11 @@
     "lng": -122.43537005,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "POLS (partial text visible on sticker/flyer on traffic signal pole)",
     "commentary": "There are definitely some stickers affixed to this traffic signal pole, but the text is too small and obscured by the angle and lighting to confidently read what they're advertising\u2014classic SF lamp-post real estate for the mysterious.",
-    "confidence": 0.25
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002681509",
