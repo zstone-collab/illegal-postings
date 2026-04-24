@@ -5924,23 +5924,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003495845",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003495845",
-    "address": "2249 Mission St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1771010454/san-francisco/production/ojaniuagcetthsxyurz3.jpg",
-    "status": "CLOSED",
-    "date": "9w ago",
-    "date_iso": "2026-02-15T16:58:45Z",
-    "lat": 37.76101406,
-    "lng": -122.4192445,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\udc41\ufe0f Weird & Unexplained",
-    "extracted_text": "Various sticker tags and numbers including: 2236, partial text fragments, artist signatures and stickers layered on utility pole",
-    "commentary": "A true palimpsest of Mission District street culture\u2014this pole is basically a living r\u00e9sum\u00e9 of SF's sticker art scene, with enough layered tags to warrant its own archaeological dig.",
-    "confidence": 0.4
-  },
-  {
     "id": "101003495675",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003495675",
     "address": "2440 Mission St",
