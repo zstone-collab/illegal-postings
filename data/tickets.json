@@ -13504,23 +13504,6 @@
     "confidence": 1.0
   },
   {
-    "id": "101003060389",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003060389",
-    "address": "3488 17 Th St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1764546988/san-francisco/production/o8uxezm3cpaf80mwqxfq.jpg",
-    "status": "CLOSED",
-    "date": "20w ago",
-    "date_iso": "2025-12-01T00:08:56Z",
-    "lat": 37.76328528,
-    "lng": -122.42358639,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial text visible on utility pole but too blurry/obscured to read clearly",
-    "commentary": "There's definitely something posted on that cream-colored utility pole, but the photo's angle and focus are about as helpful as a map written in fog\u2014we can see human intervention happened here, but what message it carries remains a mystery.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003060378",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003060378",
     "address": "3398 17 Th St",
