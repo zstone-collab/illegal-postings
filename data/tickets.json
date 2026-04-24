@@ -1390,10 +1390,11 @@
     "analyzed": true,
     "date_iso": "2026-04-08T22:21:44Z",
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "SLAMMIN (partial text visible on sticker)",
     "commentary": "There's definitely a sticker on that pole, but the sun's doing its best impression of a censor bar\u2014can barely make out what this is promoting beyond what looks like 'SLAMMIN' branding.",
-    "confidence": 0.25
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003833415",
