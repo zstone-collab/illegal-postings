@@ -20147,10 +20147,11 @@
     "lng": -122.42082915,
     "analyzed": true,
     "skip": false,
-    "theme": "\ud83c\udfb5 Events",
+    "theme": "\ud83d\udc95 Dating",
     "extracted_text": "Secret Angeles Party [partial text visible] Party.com [QR code present]",
     "commentary": "A mystery LA party flyer that's aged about as well as the pole it's on\u2014mostly illegible now, but the QR code is still thirsty for clicks.",
-    "confidence": 0.45
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002863501",
