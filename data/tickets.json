@@ -23195,10 +23195,11 @@
     "lng": -122.42726059,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "Partial text visible on sticker/poster on utility pole - appears to contain some messaging but text is too small and blurry to read clearly from this angle and distance",
     "commentary": "",
-    "confidence": 0.2
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002767298",
