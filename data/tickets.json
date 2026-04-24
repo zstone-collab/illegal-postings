@@ -4384,23 +4384,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003635063",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003635063",
-    "address": "196 14 Th Ave",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1773009208/san-francisco/production/vlxynjytykecm4pyj86t.jpg",
-    "status": "CLOSED",
-    "date": "6w ago",
-    "date_iso": "2026-03-14T19:52:13Z",
-    "lat": 37.78455071,
-    "lng": -122.47305956,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Yellow rectangular flyer with black text - content too small/blurry to read clearly from this distance",
-    "commentary": "A bright yellow flyer doing its best impression of a visibility champion on that utility pole, but the photo distance and resolution have conspired to keep its message a mystery.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003635047",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003635047",
     "address": "1210 Funston Ave",
