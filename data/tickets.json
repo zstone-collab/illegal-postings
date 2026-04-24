@@ -17567,23 +17567,6 @@
     "confidence": 0.85
   },
   {
-    "id": "101002893001",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002893001",
-    "address": "2501 23 Rd St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1761921519/san-francisco/production/rgzsvbphp534bozn5mfb.jpg",
-    "status": "CLOSED",
-    "date": "24w ago",
-    "date_iso": "2025-11-03T18:35:45Z",
-    "lat": 37.75432324,
-    "lng": -122.40460161,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partially visible text/imagery on white cylindrical sticker wrapping utility pole - content too blurry/obscured to read clearly",
-    "commentary": "There's definitely a wrapped cylindrical poster on this pole, but the resolution and angle make the actual message unreadable\u2014could be art, could be an ad, could be someone's very blurry manifesto.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002890722",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002890722",
     "address": "424 Cole St",
@@ -17840,23 +17823,6 @@
     "commentary": "A vintage-looking house cleaning service flyer that's been stapled to the utility pole with the kind of optimistic permanence of someone who definitely didn't get a permit\u2014respecting the 1990s aesthetic while committing 2020s violations.",
     "confidence": 1.0,
     "reviewed_by_human": true
-  },
-  {
-    "id": "101002881257",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002881257",
-    "address": "Intersection Clayton St, Page St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1761757645/san-francisco/production/eooeczwzwjznbzdwe4hs.jpg",
-    "status": "CLOSED",
-    "date": "25w ago",
-    "date_iso": "2025-10-29T21:38:06Z",
-    "lat": 37.7707310000262,
-    "lng": -122.448768035044,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "",
-    "commentary": "Someone's clearly committed to decorating this utility pole with stickers and yellow tape, but the resolution is too potato to read any actual text\u2014just vibes and mystery.",
-    "confidence": 0.2
   },
   {
     "id": "101002881243",
