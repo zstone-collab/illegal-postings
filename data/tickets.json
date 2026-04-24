@@ -5283,10 +5283,11 @@
     "lng": -122.43803814,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\udd27 Services",
     "extracted_text": "Partial text visible on small white/blue flyer affixed to utility pole; content illegible due to distance and image resolution",
     "commentary": "There's definitely a flyer here on the pole, but it's too far/blurry to read\u2014classic SF move of posting something you can barely make out from street level.",
-    "confidence": 0.2
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003568066",
