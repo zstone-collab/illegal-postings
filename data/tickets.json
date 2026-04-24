@@ -8702,23 +8702,6 @@
     "confidence": 0.65
   },
   {
-    "id": "101003360563",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003360563",
-    "address": "Intersection Carl St, Willard St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1769811474/san-francisco/production/awzsy3sfcnn6pngmjgnu.jpg",
-    "status": "CLOSED",
-    "date": "12w ago",
-    "date_iso": "2026-01-29T22:06:20Z",
-    "lat": 37.7652328089453,
-    "lng": -122.454404137411,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partially visible sticker/posting on utility pole - text illegible due to distance and angle",
-    "commentary": "There's definitely a small sticker or poster on that pole in the middle distance, but it's too far away and obscured by the pole's positioning to read anything meaningful\u2014classic SF street furniture mystery meat.",
-    "confidence": 0.3
-  },
-  {
     "id": "101003360528",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003360528",
     "address": "161 Glenview Dr",
