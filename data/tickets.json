@@ -11466,24 +11466,6 @@
     "reviewed_by_human": true
   },
   {
-    "id": "101003103172",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003103172",
-    "address": "1201 Alabama St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1765173341/san-francisco/production/choprtxazwljxcoiwfyc.jpg",
-    "status": "CLOSED",
-    "date": "19w ago",
-    "date_iso": "2025-12-13T17:14:54Z",
-    "lat": 37.75263331,
-    "lng": -122.41086859,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\udd27 Services",
-    "extracted_text": "MISSION [partial text visible on poster with images of people in blue shirts]",
-    "commentary": "Classic Mission District pole-posting\u2014text is too wrapped/angled to read fully, but this looks like a community or event flyer doing its thing in the sun.",
-    "confidence": 1.0,
-    "reviewed_by_human": true
-  },
-  {
     "id": "101003103130",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003103130",
     "address": "2979 24 Th St",
