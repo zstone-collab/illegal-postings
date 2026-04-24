@@ -22166,10 +22166,11 @@
     "lng": -122.43327641,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "Multiple stickers and postings visible on utility pole; individual text illegible due to distance, angle, and image resolution",
     "commentary": "A classic SF utility pole palimpsest\u2014this thing's basically a 3D collage of competing messages, but we'd need CSI-level zoom to actually read any of it.",
-    "confidence": 0.2
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002773188",
