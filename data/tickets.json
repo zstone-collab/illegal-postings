@@ -9630,23 +9630,6 @@
     "confidence": 0.75
   },
   {
-    "id": "101003257370",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003257370",
-    "address": "Intersection Jackson St, Steiner St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1767656071/san-francisco/production/mftxq4xpv2yieme6vzgv.jpg",
-    "status": "CLOSED",
-    "date": "14w ago",
-    "date_iso": "2026-01-13T16:19:01Z",
-    "lat": 37.7922626804344,
-    "lng": -122.436203643054,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial text visible on white/cream colored flyer affixed to bollard, appears to include some imagery and text but too blurry/distant to read with confidence",
-    "commentary": "A soggy flyer clinging to a bollard like it's holding on for dear life\u2014SF street furniture's favorite canvas for messages nobody can quite make out from street level.",
-    "confidence": 0.25
-  },
-  {
     "id": "101003256520",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003256520",
     "address": "1058 Potrero Ave",
