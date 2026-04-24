@@ -535,10 +535,11 @@
     "analyzed": true,
     "date_iso": "2026-04-15T20:56:34Z",
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\ude80 Startups",
     "extracted_text": "DIMM [partial text visible on white flyer with pink/magenta lettering and QR code]",
     "commentary": "A mysterious white flyer with hot pink typography and QR code wrapped around a utility pole outside a barber shop\u2014classic SF move of letting strangers scan your secrets.",
-    "confidence": 0.35
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003875938",
@@ -877,10 +878,11 @@
     "analyzed": true,
     "date_iso": "2026-04-10T23:08:52Z",
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\uddf3\ufe0f Political",
     "extracted_text": "Bay Cleaner 415-964-6500 baycleaner.org (partial); ART HOUSE (visible sign); Help Dispose (partial text visible on lower flyer); Various event/services flyers stacked on pole (multiple overlapping postings, text too small/obscured to read clearly)",
     "commentary": "Classic SF lamp post palimpsest\u2014a chaotic archaeology of services, shows, and civic appeals layered like urban sediment; half the text is obscured or too weathered to decipher.",
-    "confidence": 0.35
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003848000",
@@ -1045,24 +1047,6 @@
     "confidence": 0.0
   },
   {
-    "id": "101003839812",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003839812",
-    "address": "1600 Haight St",
-    "lat": 37.76985141,
-    "lng": -122.44889056,
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1775765617/san-francisco/production/iy2l3am3ww9r1xiwbxne.jpg",
-    "description": "",
-    "status": "OPEN",
-    "date": "2w ago",
-    "analyzed": true,
-    "date_iso": "2026-04-09T20:13:38Z",
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Ask more from GDU, Ask Ariba",
-    "commentary": "A blurry rebel yelling at what appears to be utility boxes\u2014GDU and Ariba seem to be the targets of some demand, but the overall message is frustratingly out of focus.",
-    "confidence": 0.35
-  },
-  {
     "id": "101003839807",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003839807",
     "address": "589 Clayton St",
@@ -1165,10 +1149,11 @@
     "analyzed": true,
     "date_iso": "2026-04-09T20:07:34Z",
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "Partially visible text includes: 'BUSS' (or similar), what appears to be event/show information in black and red sections, QR codes visible, some pink/red colored flyers with text too small/obscured to read clearly, flower decoration on top",
     "commentary": "This pole is a beautiful palimpsest of SF street culture\u2014a vibrant mashup of event listings, stickers, and that crowning magenta flower that suggests either genuine optimism or delicious irony about urban beautification.",
-    "confidence": 0.35
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003839733",
@@ -1297,24 +1282,6 @@
     "confidence": 0.2
   },
   {
-    "id": "101003839638",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003839638",
-    "address": "1399 Haight St",
-    "lat": 37.77019047,
-    "lng": -122.44500898,
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1775764747/san-francisco/production/ofkczvh4v1lynyweov8m.jpg",
-    "description": "Case is a Duplicate. Request is a duplicate and has been previously reported as 1003810453.",
-    "status": "CLOSED",
-    "date": "2w ago",
-    "analyzed": true,
-    "date_iso": "2026-04-09T21:06:39Z",
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Ask more from. Ask Attio. [partial text visible on right panel, additional text on pole is too blurry to read clearly]",
-    "commentary": "There's definitely some kind of guerrilla marketing or art installation happening here with multiple postings on the pole and bus shelter, but the text is too pixelated/obscured to fully decode\u2014looks like it might be startup-related based on 'Ask Attio' but we'd need a clearer shot.",
-    "confidence": 0.35
-  },
-  {
     "id": "101003839628",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003839628",
     "address": "1364 Haight St",
@@ -1435,10 +1402,11 @@
     "analyzed": true,
     "date_iso": "2026-04-09T19:52:30Z",
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\uddf3\ufe0f Political",
     "extracted_text": "DISTRICT 5 LISTENING SESSION [partial text visible but largely illegible due to distance and angle] @505sns.org/revo [QR code visible]",
     "commentary": "A earnest civic engagement flyer has been plastered to a utility pole\u2014someone's trying to get the District 5 crowd energized about something, though the irony of posting it next to a truck and two cars in a parking lot is peak San Francisco.",
-    "confidence": 0.35
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003839554",
@@ -1489,10 +1457,11 @@
     "analyzed": true,
     "date_iso": "2026-04-09T19:48:45Z",
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfa8 Art & Culture",
     "extracted_text": "VIVA EL [BARRIO/CARNIVAL?] 2025 [partial text visible] Bar\u00f3n [address/contact info partially visible but not fully legible]",
     "commentary": "A vibrant orange wrap advertising what looks like a cultural celebration or carnival event, though the exact text is frustratingly obscured by angle and wear\u2014classic SF utility pole real estate claiming.",
-    "confidence": 0.35
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003839502",
@@ -2276,23 +2245,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003832105",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003832105",
-    "address": "4427 Mission St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1775673941/san-francisco/production/uef55algioedrpu35xmn.jpg",
-    "status": "OPEN",
-    "date": "2w ago",
-    "date_iso": "2026-04-08T18:45:41Z",
-    "lat": 37.72724389,
-    "lng": -122.43273768,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "SANTA MARIA 30MIN NICARAGUA 415-...",
-    "commentary": "Partial signage visible on a storefront pole, but text is too fragmented and obscured to determine if this is a service offering, restaurant sign, or something else entirely.",
-    "confidence": 0.35
-  },
-  {
     "id": "101003832093",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003832093",
     "address": "2 Avalon Ave",
@@ -3069,10 +3021,11 @@
     "lng": -122.40632392,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\udd27 Services",
     "extracted_text": "BIENVENIDOS",
     "commentary": "There's definitely a posting on that maroon pole, but the angle and distance make it tough to read the full message\u2014we can make out 'BIENVENIDOS' and what looks like a map or informational graphic, but the rest remains delightfully mysterious.",
-    "confidence": 0.35
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003802504",
@@ -3260,23 +3213,6 @@
     "extracted_text": "",
     "commentary": "",
     "confidence": 0.95
-  },
-  {
-    "id": "101003789574",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003789574",
-    "address": "3638 Taraval St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1775074470/san-francisco/production/lcdrxi9xkciopyk0jvzj.jpg",
-    "status": "OPEN",
-    "date": "3w ago",
-    "date_iso": "2026-04-01T20:14:34Z",
-    "lat": 37.74182018,
-    "lng": -122.50522725,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "DIAR MELO (partial/unclear text on orange sticker), PG&E (at bottom of utility box)",
-    "commentary": "Someone's lovingly decorated a PG&E utility box with what appears to be a sticker campaign\u2014the orange graphic is too weathered and partially obscured to fully decode, but the dedication to street-level brand placement is noted.",
-    "confidence": 0.35
   },
   {
     "id": "101003788564",
@@ -4844,23 +4780,6 @@
     "confidence": 0.75
   },
   {
-    "id": "101003647853",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003647853",
-    "address": "2000 Stockton St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1773175268/san-francisco/production/mp4dpxjvdwectbq9slly.jpg",
-    "status": "CLOSED",
-    "date": "6w ago",
-    "date_iso": "2026-03-11T22:32:11Z",
-    "lat": 37.80427459,
-    "lng": -122.40989296,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "CASTRO STREET EVENT [partial text visible on white flyer, remaining text too small/blurry to read clearly] SUNDAY [and additional text not legible]",
-    "commentary": "There's definitely a modest white flyer announcing some Castro Street event on a utility pole, but the text is too distant and small to fully decipher\u2014looks like it could be a community gathering or show.",
-    "confidence": 0.35
-  },
-  {
     "id": "101003647801",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003647801",
     "address": "294 Francisco St",
@@ -5320,23 +5239,6 @@
     "confidence": 0.75
   },
   {
-    "id": "101003604794",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003604794",
-    "address": "3074 16 Th St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1772572962/san-francisco/production/ppygxch6gk2qqt024xkn.jpg",
-    "status": "CLOSED",
-    "date": "7w ago",
-    "date_iso": "2026-03-07T20:08:20Z",
-    "lat": 37.76499418,
-    "lng": -122.42148167,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Project Artaud, EHSF, [partially visible/unclear text on stickers]",
-    "commentary": "A utility pole palimpsest of SF street culture\u2014there's clearly intentional posting happening here, but the sticker text is fragmented enough that we're in the artistic collage zone rather than a clear message.",
-    "confidence": 0.45
-  },
-  {
     "id": "101003604424",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003604424",
     "address": "2350 Market St",
@@ -5688,10 +5590,11 @@
     "lng": -122.45318655,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\udd27 Services",
     "extracted_text": "Mountain Cleanup [partial text visible] QR code [flower/plant imagery]",
     "commentary": "A partially obscured flyer for what appears to be an environmental cleanup initiative\u2014the flower imagery and QR code suggest legitimate activism, but the weathered state and angle make full text extraction impossible.",
-    "confidence": 0.35
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003582047",
@@ -6436,10 +6339,11 @@
     "lng": -122.413755514212,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "goldenphoenix.com godfrey horoscope",
     "commentary": "A mysterious sticker with astrology vibes and a website that's almost legible\u2014someone's really committed to getting their horoscope readings out to the masses, one blurry utility box at a time.",
-    "confidence": 0.45
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003539931",
@@ -7224,23 +7128,6 @@
     "confidence": 0.65
   },
   {
-    "id": "101003473116",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003473116",
-    "address": "1129 Union St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1770688768/san-francisco/production/hi6h2d8cjfu7iodekjch.jpg",
-    "status": "CLOSED",
-    "date": "10w ago",
-    "date_iso": "2026-02-12T17:03:01Z",
-    "lat": 37.79927095,
-    "lng": -122.41797676,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "CHURCHILL (partial, top sticker) SERVICES (partial, bottom sticker)",
-    "commentary": "Two weathered stickers clinging to this utility pole like barnacles on a ship\u2014the peeling paint and twilight angle make the full text elusive, but 'Services' suggests someone's hawking something.",
-    "confidence": 0.35
-  },
-  {
     "id": "101003472114",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003472114",
     "address": "517 Church St",
@@ -7405,10 +7292,11 @@
     "lng": -122.386811745867,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "SBNONLINE (yellow sticker); Purple poster with text too blurry to read clearly; Dark poster below with 'COMING TO BID' visible and what appears to be a schedule or event listing",
     "commentary": "This utility pole has become a minor gallery of layered flyers\u2014we can make out event/promotional posters and a yellow online directory sticker, but the text is too weathered and distant to confidently decode the actual messaging.",
-    "confidence": 0.35
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003463875",
@@ -9467,10 +9355,11 @@
     "lng": -122.422199137264,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "ORKHATS [partial/blurry text visible] - appears to be event/show flyer with QR code, red and pink coloring, some green text elements, additional smaller white flyer below",
     "commentary": "Classic lamp post palimpsest: multiple layers of desire fighting for eyeballs, though the top flyer's text is too weathered/angled to read with confidence.",
-    "confidence": 0.35
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003334167",
@@ -9586,10 +9475,11 @@
     "lng": -122.42081335,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\uddf3\ufe0f Political",
     "extracted_text": "Sunda City, MATE, JAN 0, FOLSOM, risk",
     "commentary": "A utility pole palimpsest of SF street culture\u2014layers of torn flyers create an archaeological record of events past, though the specific messaging is mostly obscured by weathering and overlap.",
-    "confidence": 0.35
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003327074",
@@ -11378,23 +11268,6 @@
     "confidence": 0.65
   },
   {
-    "id": "101003240064",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003240064",
-    "address": "1400 Haight St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1767377434/san-francisco/production/pko9nfg6ncbej8edd7gh.jpg",
-    "status": "CLOSED",
-    "date": "13w ago",
-    "date_iso": "2026-01-23T17:25:31Z",
-    "lat": 37.77024476,
-    "lng": -122.44540088,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "ESTEEUST, Tarot",
-    "commentary": "Low-res photo makes it hard to read, but those chalkboard signs are definitely advertising someone's tarot services\u2014SF's eternal fusion of spirituality and street hustle.",
-    "confidence": 0.35
-  },
-  {
     "id": "101003240033",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003240033",
     "address": "55 Laguna St",
@@ -12160,23 +12033,6 @@
     "confidence": 1.0
   },
   {
-    "id": "101003188783",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003188783",
-    "address": "204 King St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1766437962/san-francisco/production/rtwkz9iiwklywkojkg3x.jpg",
-    "status": "CLOSED",
-    "date": "16w ago",
-    "date_iso": "2025-12-29T14:13:52Z",
-    "lat": 37.77813856,
-    "lng": -122.39213511,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Help Us End Homelessness (partial text visible on white paper posting)",
-    "commentary": "There's definitely a flyer here with a social justice message, but the text is too weathered and partially obscured to read with confidence\u2014looks like it's been battling the elements longer than most Mission District tech startups last.",
-    "confidence": 0.35
-  },
-  {
     "id": "101003188225",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003188225",
     "address": "2322 Lombard St",
@@ -12562,10 +12418,11 @@
     "lng": -122.41728529,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\uddf3\ufe0f Political",
     "extracted_text": "Short-term Rentals in Project Artaud [partial text visible but largely illegible due to image quality and angle]",
     "commentary": "A scrappy little flyer about Project Artaud rentals\u2014SF's legendary live/work artist space fighting the good fight against displacement, one stapled poster at a time.",
-    "confidence": 0.35
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003156663",
@@ -12634,23 +12491,6 @@
     "extracted_text": "LILY'S CLEANERS\n10 MINUTE PARKING ONLY",
     "commentary": "A dry cleaner claiming to have mastered the impossible: 10-minute turnaround in a city where finding a parking spot takes longer than actually dropping off your clothes.",
     "confidence": 0.95
-  },
-  {
-    "id": "101003150930",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003150930",
-    "address": "3083 16 Th St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1765842001/san-francisco/production/iqutzfnie0dnlf6duf1k.jpg",
-    "status": "CLOSED",
-    "date": "17w ago",
-    "date_iso": "2025-12-26T06:00:05Z",
-    "lat": 37.76485756,
-    "lng": -122.42136765,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "KID PRO 7TH OCEA ANE MULLET PARKING",
-    "commentary": "A utility pole wrapped in an absolute palimpsest of stickers and wheat-paste chaos\u2014this is SF street art in its purest form, though the individual messages are too fragmented and layered to parse into coherent meaning.",
-    "confidence": 0.35
   },
   {
     "id": "101003150897",
@@ -12789,23 +12629,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003138374",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003138374",
-    "address": "1173 Masonic Ave",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1765651349/san-francisco/production/kewgppralxfsn5ajgvky.jpg",
-    "status": "CLOSED",
-    "date": "19w ago",
-    "date_iso": "2025-12-13T18:49:26Z",
-    "lat": 37.77049532,
-    "lng": -122.4455083,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "TELL THE M[ayor?]\nMORE M[?\n[Several lines of small text that are too blurry to read reliably]\n[Additional text at bottom is illegible in this image quality]",
-    "commentary": "A passionate screed directed at City Hall, though the photo's angle and resolution have conspired to keep us from the full righteous sermon\u2014SF's urban equivalent of squinting at a ransom note.",
-    "confidence": 0.35
-  },
-  {
     "id": "101003138258",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003138258",
     "address": "1173 Masonic Ave",
@@ -12873,23 +12696,6 @@
     "extracted_text": "",
     "commentary": "Someone's deployed a cheeky stenciled leaf on the sidewalk\u2014either a pro-cannabis statement or just really enthusiastic about botany; either way, it's the kind of ephemeral street art that makes SF's concrete a little less boring.",
     "confidence": 0.85
-  },
-  {
-    "id": "101003138180",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003138180",
-    "address": "Intersection Bryant St, Harriet St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1765649316/san-francisco/production/ux6s7aefp9ph9tmljyur.jpg",
-    "status": "CLOSED",
-    "date": "17w ago",
-    "date_iso": "2025-12-21T20:03:15Z",
-    "lat": 37.7756028177423,
-    "lng": -122.403076380709,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "PHOTO ENFORCED, ECH, GYU",
-    "commentary": "A mysterious triptych of urban signage: a legit traffic camera warning, what appears to be a partially visible sticker (ECH?), and a tiny tag (GYU)\u2014the real 311 violation is probably that middle piece, which is aggressively cryptic.",
-    "confidence": 0.4
   },
   {
     "id": "101003138168",
@@ -13039,10 +12845,11 @@
     "lng": -122.43304721,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "FLEX, WITTY BABIES, NOEL (street sign), partial text on various flyers/stickers on poles - multiple postings visible but text largely illegible due to distance and angle",
     "commentary": "Classic SF pole-bombing on NOE Street\u2014this utility post is a palimpsest of neighborhood culture with layers of stickers and flyers, though most are too distant/small to parse clearly.",
-    "confidence": 0.35
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003138074",
@@ -13720,10 +13527,11 @@
     "lng": -122.41086859,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\udd27 Services",
     "extracted_text": "MISSION [partial text visible on poster with images of people in blue shirts]",
     "commentary": "Classic Mission District pole-posting\u2014text is too wrapped/angled to read fully, but this looks like a community or event flyer doing its thing in the sun.",
-    "confidence": 0.35
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003103130",
@@ -14179,10 +13987,11 @@
     "lng": -122.440735050349,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\udc95 Dating",
     "extracted_text": "CONDOLENCES (partially visible on left side); small illustrated sticker with two bird-like figures on lower right; additional small postings and stickers visible but text illegible",
     "commentary": "A tree trunk covered in an assortment of flyers and stickers\u2014some heartfelt, some mysterious\u2014creating an accidental memorial wall that the city really wishes would stop existing.",
-    "confidence": 0.35
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003096991",
@@ -14451,10 +14260,11 @@
     "lng": -122.41162967,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\udd27 Services",
     "extracted_text": "FLOR (partial text visible on white posting/sign affixed to pole; additional text too blurry/distant to read clearly)",
     "commentary": "There's definitely a posted flyer on this utility pole with what looks like event or business info, but the resolution and distance make it impossible to read the full message\u2014classic SF street-level mystery.",
-    "confidence": 0.35
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003087863",
@@ -14540,23 +14350,6 @@
     "extracted_text": "",
     "commentary": "",
     "confidence": 0.95
-  },
-  {
-    "id": "101003084556",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003084556",
-    "address": "1219 Potrero Ave",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1764879246/san-francisco/production/vn71ulkwk5r0w8bqfjd7.jpg",
-    "status": "CLOSED",
-    "date": "19w ago",
-    "date_iso": "2025-12-10T21:32:23Z",
-    "lat": 37.752764,
-    "lng": -122.40613181,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "ACCESSIBLE MESSAGE ONLY",
-    "commentary": "A white flyer is affixed to the utility box, but the text is too blurry/distant to read clearly\u2014only the accessibility button signage below is legible.",
-    "confidence": 0.3
   },
   {
     "id": "101003083774",
@@ -14710,23 +14503,6 @@
     "extracted_text": "REMOVE THE REGIME",
     "commentary": "A classic protest flyer with that direct, no-nonsense energy SF's been rocking since the '60s\u2014someone's clearly got thoughts about the current administration and a utility pole to share them with.",
     "confidence": 0.75
-  },
-  {
-    "id": "101003083542",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003083542",
-    "address": "581 Clayton St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1764872857/san-francisco/production/c76ugyv2fhhlfunxmutg.jpg",
-    "status": "CLOSED",
-    "date": "19w ago",
-    "date_iso": "2025-12-09T22:53:38Z",
-    "lat": 37.76997819,
-    "lng": -122.44868545,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "DRA",
-    "commentary": "Partial text visible on what appears to be a weathered utility box or storefront\u2014just enough to frustrate, not enough to classify.",
-    "confidence": 0.3
   },
   {
     "id": "101003083187",
@@ -15205,23 +14981,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003060472",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003060472",
-    "address": "2997 16 Th St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1764547601/san-francisco/production/cevozx23oobex8s1g9uh.jpg",
-    "status": "CLOSED",
-    "date": "20w ago",
-    "date_iso": "2025-12-01T00:19:11Z",
-    "lat": 37.76497951,
-    "lng": -122.41948656,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "BEST ORE SITO",
-    "commentary": "Blurry yellow sticker with text that's almost legible but not quite\u2014could be a service, product, or someone's artistic experiment in illegibility.",
-    "confidence": 0.35
-  },
-  {
     "id": "101003060458",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003060458",
     "address": "595 South Van Ness Ave",
@@ -15254,23 +15013,6 @@
     "extracted_text": "",
     "commentary": "",
     "confidence": 1.0
-  },
-  {
-    "id": "101003060407",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003060407",
-    "address": "3236 17 Th St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1764547053/san-francisco/production/qf5loc4m8hdsmfjqlwvp.jpg",
-    "status": "CLOSED",
-    "date": "20w ago",
-    "date_iso": "2025-12-01T00:11:34Z",
-    "lat": 37.76361505,
-    "lng": -122.41812763,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partially visible sticker/small poster with red and blue coloring, text illegible due to distance and angle",
-    "commentary": "There's definitely something posted here\u2014looks like a small sticker or mini-poster in red/blue on that concrete pillar\u2014but the resolution and distance make it impossible to read what it's actually promoting.",
-    "confidence": 0.3
   },
   {
     "id": "101003060389",
@@ -15715,23 +15457,6 @@
     "confidence": 0.2
   },
   {
-    "id": "101003038374",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003038374",
-    "address": "992 Guerrero St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1764095130/san-francisco/production/cfo4mqgzta4wm9oy6gf8.jpg",
-    "status": "CLOSED",
-    "date": "18w ago",
-    "date_iso": "2025-12-18T18:50:11Z",
-    "lat": 37.75529864,
-    "lng": -122.42330546,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Kuleto's Ristorante, Wine Bar, Since 1969",
-    "commentary": "",
-    "confidence": 0.3
-  },
-  {
     "id": "101003038372",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003038372",
     "address": "992 Guerrero St",
@@ -15743,10 +15468,11 @@
     "lng": -122.42330546,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "NO SMOKING, SAN FRANCISCO OFFICE OF SMALL BUSINESS (partial text visible on white flyer), MERIDIAN LEGION DAY (partial text visible on blue flyer), various other posters stacked on utility box",
     "commentary": "A classic SF utility box covered in a archaeological layer of flyers\u2014this is basically the street's version of tree rings, documenting months of posting activity with mixed legibility.",
-    "confidence": 0.35
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003038309",
@@ -16497,23 +16223,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003016886",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003016886",
-    "address": "2596 Bush St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763745408/san-francisco/production/ecrelrc1vo2xhsqly1aj.jpg",
-    "status": "CLOSED",
-    "date": "21w ago",
-    "date_iso": "2025-11-26T16:30:39Z",
-    "lat": 37.78628209,
-    "lng": -122.4399132,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial text visible on sticker - appears to show a skull or face design with some lettering, text too small/blurry to read completely",
-    "commentary": "A sticker on a pole with attitude\u2014looks like street art meets band merch, but the resolution is doing its best to keep the message a mystery.",
-    "confidence": 0.3
-  },
-  {
     "id": "101003016869",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003016869",
     "address": "2205 Bush St",
@@ -16852,23 +16561,6 @@
     "extracted_text": "$25 half ounce, new look more love, Spark DISPENSARY, open 11am - 9pm, 50% $25 $10",
     "commentary": "A cannabis dispensary's A-frame sandwich board doing heavy lifting with the pixelated makeover pitch\u2014nothing says \"medical\" like \"new look more love\" in hot pink.",
     "confidence": 0.75
-  },
-  {
-    "id": "101003011389",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003011389",
-    "address": "550 Valencia St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763663128/san-francisco/production/sgmrfv95qwou1sviguvy.jpg",
-    "status": "CLOSED",
-    "date": "22w ago",
-    "date_iso": "2025-11-22T18:20:49Z",
-    "lat": 37.76407321,
-    "lng": -122.42185241,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "MIKE BEE VINYL [partial text visible] [partially obscured/weathered text] ALSO [text too faded/obscured to read clearly]",
-    "commentary": "A heavily weathered vinyl record shop flyer clinging to life on a utility pole like a desperate vinyl revival\u2014text too faded and wrapped to fully decipher, but the desperation is clear.",
-    "confidence": 0.35
   },
   {
     "id": "101003011376",
@@ -17296,23 +16988,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101002996485",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002996485",
-    "address": "3212 Cesar Chavez St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763421837/san-francisco/production/cupxxtg8tmkobmozd01z.jpg",
-    "status": "CLOSED",
-    "date": "6d ago",
-    "date_iso": "2026-04-16T12:46:05Z",
-    "lat": 37.74836531,
-    "lng": -122.41430062,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "QR code visible, partial text/markings illegible",
-    "commentary": "A mystery QR code sticker on a utility pole\u2014could be anything from an underground art collective's rabbit hole to someone's elaborate prank; we're all one scan away from finding out.",
-    "confidence": 0.3
-  },
-  {
     "id": "101002996486",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002996486",
     "address": "3200 Cesar Chavez St",
@@ -17430,23 +17105,6 @@
     "extracted_text": "",
     "commentary": "",
     "confidence": 0.95
-  },
-  {
-    "id": "101002996445",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002996445",
-    "address": "3432 Cesar Chavez St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763421667/san-francisco/production/zmtz7nnehylyqiofmq8q.jpg",
-    "status": "CLOSED",
-    "date": "22w ago",
-    "date_iso": "2025-11-19T21:55:14Z",
-    "lat": 37.74827001,
-    "lng": -122.41880927,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "",
-    "commentary": "There's definitely a white paper or sticker affixed to that pole, but the photo is too blurry and at too steep an angle to read any actual text\u2014just vibes of mysterious street communication.",
-    "confidence": 0.3
   },
   {
     "id": "101002996348",
@@ -17664,10 +17322,11 @@
     "lng": -122.46081638,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\uddf3\ufe0f Political",
     "extracted_text": "ING / DOM LUIGI",
     "commentary": "A tiny sticker on a utility pole with fragmented text\u2014likely part of a larger tag or message that's been weathered or partially obscured, impossible to determine the full intent.",
-    "confidence": 0.3
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002989358",
@@ -18350,23 +18009,6 @@
     "confidence": 0.6
   },
   {
-    "id": "101002975951",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002975951",
-    "address": "923 Mcallister St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763078171/san-francisco/production/k7nzltuf9qnasl0yy85m.jpg",
-    "status": "CLOSED",
-    "date": "23w ago",
-    "date_iso": "2025-11-14T17:35:43Z",
-    "lat": 37.77916256,
-    "lng": -122.42725313,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Small circular stickers with what appears to be a plant or leaf design, text illegible",
-    "commentary": "Minimalist sticker campaign featuring tiny circles of mystery\u2014either a guerrilla gardening movement or someone's very optimistic attempt at guerrilla advertising.",
-    "confidence": 0.3
-  },
-  {
     "id": "101002975945",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002975945",
     "address": "549 Octavia St",
@@ -18497,10 +18139,11 @@
     "lng": -122.426263287452,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\udd27 Services",
     "extracted_text": "Google Cloud, partial text visible on white paper flyer, yellow measurement/utility markers with graffiti tags",
     "commentary": "A weathered white flyer sandwiched between yellow utility markers and layers of graffiti tags\u2014this pole is basically a palimpsest of SF's competing jurisdictions (Google, city infrastructure, and whoever 'FUCK' is).",
-    "confidence": 0.35
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002975896",
@@ -18657,23 +18300,6 @@
     "confidence": 0.2
   },
   {
-    "id": "101002975812",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002975812",
-    "address": "Intersection Pierce St, Waller St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763077225/san-francisco/production/ydzfs3zeudzyq0bjvlwd.jpg",
-    "status": "CLOSED",
-    "date": "22w ago",
-    "date_iso": "2025-11-17T21:24:08Z",
-    "lat": 37.7707552988245,
-    "lng": -122.43354732663,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Blue logo/symbol visible on white paper wrap",
-    "commentary": "Someone wrapped a utility pole like a gift\u2014or possibly a very optimistic attempt at street art that got intercepted by aggressive landscaping.",
-    "confidence": 0.3
-  },
-  {
     "id": "101002975803",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002975803",
     "address": "17 Scott St",
@@ -18723,23 +18349,6 @@
     "extracted_text": "",
     "commentary": "",
     "confidence": 0.95
-  },
-  {
-    "id": "101002975776",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002975776",
-    "address": "Intersection Divisadero St, Duboce Ave",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763076868/san-francisco/production/atbywwstoqkgx7r86nhg.jpg",
-    "status": "CLOSED",
-    "date": "22w ago",
-    "date_iso": "2025-11-19T18:26:02Z",
-    "lat": 37.7690009089474,
-    "lng": -122.436588345166,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "ABYZAI (partial/unclear text visible on sticker)",
-    "commentary": "A mysterious blue-and-white sticker clinging to a utility pole like it's the only thing keeping that pole from giving up on life\u2014text is too weathered/angled to fully decipher, but it's definitely someone's mark.",
-    "confidence": 0.3
   },
   {
     "id": "101002974563",
@@ -19014,23 +18623,6 @@
     "confidence": 0.75
   },
   {
-    "id": "101002956824",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002956824",
-    "address": "111 14 Th St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1762816886/san-francisco/production/cr6vhuxranwguvcetzqb.jpg",
-    "status": "CLOSED",
-    "date": "21w ago",
-    "date_iso": "2025-11-25T18:54:15Z",
-    "lat": 37.76846339,
-    "lng": -122.41592689,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "F",
-    "commentary": "A mysterious blue sticker with what looks like an 'F' peeks out from behind a utility pole wrapped in neon yellow and cyan tape\u2014either street art infrastructure or someone's very committed grading system for public utilities.",
-    "confidence": 0.3
-  },
-  {
     "id": "101002956817",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002956817",
     "address": "98 14 Th St",
@@ -19235,23 +18827,6 @@
     "confidence": 0.2
   },
   {
-    "id": "101002956594",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002956594",
-    "address": "308 Sanchez St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1762815449/san-francisco/production/nqx8heq9gy8xoyrxw8ea.jpg",
-    "status": "CLOSED",
-    "date": "23w ago",
-    "date_iso": "2025-11-10T23:10:06Z",
-    "lat": 37.76414262,
-    "lng": -122.43102055,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "HELLO (on yellow tape), BOYER (on yellow tape), white paper with handwritten text (illegible), photograph of person above",
-    "commentary": "A mysterious collage of taped messages and a portrait\u2014the handwritten note is too blurry to decipher, but the yellow tape declarations of 'HELLO' and 'BOYER' suggest either a missed connection, a tag, or someone's attempt at temporary public poetry.",
-    "confidence": 0.4
-  },
-  {
     "id": "101002956575",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002956575",
     "address": "2199 Market St",
@@ -19303,23 +18878,6 @@
     "confidence": 0.2
   },
   {
-    "id": "101002956568",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002956568",
-    "address": "179 Sanchez St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1762815268/san-francisco/production/y7jgw9fbwoatolx8190y.jpg",
-    "status": "CLOSED",
-    "date": "21w ago",
-    "date_iso": "2025-11-25T23:18:24Z",
-    "lat": 37.76611252,
-    "lng": -122.43094511,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "FR (visible in triangle on right side of image)",
-    "commentary": "A minimalist pink heart sticker on a utility box\u2014either a declaration of love for infrastructure or someone's very gentle form of rebellion against the concrete jungle.",
-    "confidence": 0.3
-  },
-  {
     "id": "101002956562",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002956562",
     "address": "Intersection Henry St, Sanchez St",
@@ -19331,10 +18889,11 @@
     "lng": -122.431114446146,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\uddf3\ufe0f Political",
     "extracted_text": "life (partial text visible on sticker)",
     "commentary": "A cheerful red-and-white floral sticker with what looks like 'life' printed on it\u2014either a motivational mantra or a Life Saver advertisement, hard to say with that much optimism wrapped around a utility pole.",
-    "confidence": 0.3
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002955900",
@@ -19365,10 +18924,11 @@
     "lng": -122.413002774074,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfa8 Art & Culture",
     "extracted_text": "VITAL STATISTICS (partially visible on upper flyer); lower flyer text too small/obscured to read clearly",
     "commentary": "Classic SF utility pole hosting a modest stack of flyers\u2014looks like community bulletin board meets street art real estate, but the resolution doesn't do the text justice.",
-    "confidence": 0.3
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002955083",
@@ -19450,10 +19010,11 @@
     "lng": -122.445345107431,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "GRANDMA'S (partial text visible on top flyer); some additional pink/colorful flyers visible but text is too blurry/obscured to read clearly",
     "commentary": "A chaotic utility box shrine featuring what appears to be food-related or grandma-themed postings\u2014SF's version of a pop-up gallery, minus the gallery part.",
-    "confidence": 0.3
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002952933",
@@ -19573,23 +19134,6 @@
     "extracted_text": "MISSING / HAVE YOU SEEN THIS CAT? / BATMAN",
     "commentary": "A genuinely heartfelt missing cat poster\u2014though naming a black cat \"Batman\" suggests this owner has either excellent taste or is really committed to the bit.",
     "confidence": 0.95
-  },
-  {
-    "id": "101002951055",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002951055",
-    "address": "Intersection 41 St Ave, Lincoln Way",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1762747528/san-francisco/production/dgifkjcphjkiox50wk5h.jpg",
-    "status": "CLOSED",
-    "date": "23w ago",
-    "date_iso": "2025-11-10T04:28:56Z",
-    "lat": 37.7644060633529,
-    "lng": -122.500830442099,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "",
-    "commentary": "There appear to be white strips of paper or tape affixed to the utility pole, but the text is too small/distant to read clearly in this photo.",
-    "confidence": 0.3
   },
   {
     "id": "101002951019",
@@ -20215,10 +19759,11 @@
     "lng": -122.40486093,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\udc8a Drugs",
     "extracted_text": "Partial text visible on black A-frame sign but too blurry/angled to read clearly; appears to have orange/yellow text at top and some additional text below",
     "commentary": "A-frame sandwich board leaning against a tree trying to hustle pedestrians\u2014classic SF sidewalk real estate battle, though the specific pitch remains illegible from this angle.",
-    "confidence": 0.3
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002923993",
@@ -20391,23 +19936,6 @@
     "confidence": 0.2
   },
   {
-    "id": "101002913733",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002913733",
-    "address": "1800 Folsom St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1762214041/san-francisco/production/bgs8mtrmcp2qhkl57zdl.jpg",
-    "status": "CLOSED",
-    "date": "23w ago",
-    "date_iso": "2025-11-10T20:37:08Z",
-    "lat": 37.76789937,
-    "lng": -122.41571385,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Small white rectangular posting visible on utility pole, text too blurry/small to read with confidence",
-    "commentary": "There's definitely a flyer here on that green utility pole, but it's too distant and small to make out what it's advertising\u2014could be anything from a lost cat to a tech startup.",
-    "confidence": 0.3
-  },
-  {
     "id": "101002913523",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002913523",
     "address": "2000 Harrison St",
@@ -20470,10 +19998,11 @@
     "lng": -122.422043889583,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "Long Undies [partial/unclear text visible on posters]",
     "commentary": "Multiple hand-drawn/photocopied posters with illustrations are wheat-pasted to the wooden posts, but the text is too blurry and partially obscured to reliably read\u2014looks like it could be art, events, or services, but can't quite make out the full message.",
-    "confidence": 0.3
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002913357",
@@ -20595,23 +20124,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101002913043",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002913043",
-    "address": "Intersection 17 Th St, Castro St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1762209166/san-francisco/production/hcrgzukmb2rs7nsv3z2m.jpg",
-    "status": "CLOSED",
-    "date": "9w ago",
-    "date_iso": "2026-02-21T18:45:01Z",
-    "lat": 37.7626708067676,
-    "lng": -122.435188059501,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Small sticker/image visible on utility box, appears to show a face or portrait, text illegible",
-    "commentary": "A mysterious sticker adorns this traffic signal box\u2014too small and blurry to decipher, but someone's definitely left their mark on SF's infrastructure.",
-    "confidence": 0.3
-  },
-  {
     "id": "101002912962",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002912962",
     "address": "2398 Market St",
@@ -20695,23 +20207,6 @@
     "extracted_text": "Partially visible newspaper/document clipping on utility pole; text too small and distant to read clearly",
     "commentary": "A mysterious flyer on a pole in what looks like a residential neighborhood\u2014could be anything from a lost cat to a conspiracy theory, but the photo's distance and angle render it unreadable.",
     "confidence": 0.2
-  },
-  {
-    "id": "101002911731",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002911731",
-    "address": "2465 22 Nd St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1762200675/san-francisco/production/tuupvzarjbik3febar7y.jpg",
-    "status": "CLOSED",
-    "date": "24w ago",
-    "date_iso": "2025-11-05T22:04:37Z",
-    "lat": 37.75684785,
-    "lng": -122.40555648,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "PUSH BUTTON FOR PEDESTRIAN CROSSING [partial text, mostly illegible on yellow label]",
-    "commentary": "A yellow safety label on a utility pole that's so weathered and distance-obscured it reads like street art by accident\u2014nothing says SF rebellion like fighting city infrastructure with entropy.",
-    "confidence": 0.3
   },
   {
     "id": "101002911618",
@@ -20912,10 +20407,11 @@
     "lng": -122.42139732,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "RIDE, ESCAPE, WHAT",
     "commentary": "A weathered totem pole of stickers and wheatpaste celebrating the holy trinity of SF street culture: riding, escaping, and existential confusion\u2014text is too pixelated to fully decode the mission.",
-    "confidence": 0.35
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002906125",
@@ -20929,10 +20425,11 @@
     "lng": -122.42710222,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\ude80 Startups",
     "extracted_text": "People You [partial text visible on bright green wrapped flyer/posting]",
     "commentary": "A mysteriously wrapped neon-green proclamation about \"People You\"\u2014either the world's vaguest dating app ad or the start of a manifesto that got cut off by someone's window blinds.",
-    "confidence": 0.3
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002906084",
@@ -21014,10 +20511,11 @@
     "lng": -122.43309183,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "la Modlber",
     "commentary": "This alleyway is absolutely plastered with colorful flyers\u2014a chaotic collage of event posters, anime/manga imagery, and general street clutter that's too blurry to fully decipher, though 'la Modlber' suggests some kind of venue or collective.",
-    "confidence": 0.3
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002906049",
@@ -21269,10 +20767,11 @@
     "lng": -122.41366781,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "FACE [partial text visible] OF THE [partial text visible] ORAL SURGERY-DENTAL IMPLANTS [partial text visible] [partial text on lower portion - mostly illegible/faded]",
     "commentary": "A weathered dental services flyer clinging to life on a utility pole, slowly bleached by San Francisco's relentless sun into abstract art\u2014nature's way of saying 'root canal' sounds better than reading this.",
-    "confidence": 0.35
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002886443",
@@ -21647,23 +21146,6 @@
     "extracted_text": "",
     "commentary": "",
     "confidence": 0.95
-  },
-  {
-    "id": "101002876769",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002876769",
-    "address": "Intersection Howard St, New Montgomery St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1761685015/san-francisco/production/z7nbxjufo0nbixp5myqd.jpg",
-    "status": "CLOSED",
-    "date": "25w ago",
-    "date_iso": "2025-10-29T15:09:53Z",
-    "lat": 37.7862096045339,
-    "lng": -122.39897706315,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "HARPERS SALOON (partial, on red vertical signage); small white flyer visible on pole (text illegible)",
-    "commentary": "There's definitely a small white posting on that construction pole, but it's too blurry to read\u2014classic SF move to wheat-paste during active construction when nobody's paying attention.",
-    "confidence": 0.3
   },
   {
     "id": "101002876688",
@@ -22204,10 +21686,11 @@
     "lng": -122.42571569,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "Celebration 20 years Anivers with collens, US, O'DAN",
     "commentary": "There's definitely a cluster of postings on that lamp pole, but the text is too fragmented and obscured by the trees and angle to make out the full message\u2014could be anything from a venue anniversary to a lost pet announcement.",
-    "confidence": 0.3
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002860616",
@@ -22361,40 +21844,6 @@
     "extracted_text": "GRILL BEAM\nPETER ANGELO\nOCT 17",
     "commentary": "A concert poster for what appears to be a show featuring Peter Angelo at a venue called Grill Beam\u2014classic SF dive bar energy meets underground music promotion, now slowly composting on a weathered wooden door.",
     "confidence": 0.75
-  },
-  {
-    "id": "101002858136",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002858136",
-    "address": "3405 16 Th St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1761417929/san-francisco/production/ruq3s5i0hhl4ww37gyhw.jpg",
-    "status": "CLOSED",
-    "date": "25w ago",
-    "date_iso": "2025-10-29T18:29:30Z",
-    "lat": 37.76440218,
-    "lng": -122.42903907,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "QR code visible with small accompanying text/image, too small to read clearly",
-    "commentary": "A sticker with a QR code and what looks like a cute character\u2014classic modern guerrilla marketing meets street art, though we can't quite make out the pitch from this distance.",
-    "confidence": 0.3
-  },
-  {
-    "id": "101002858102",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002858102",
-    "address": "3167 16 Th St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1761417622/san-francisco/production/nyiwz7iqwlzie1kel4wd.jpg",
-    "status": "OPEN",
-    "date": "26w ago",
-    "date_iso": "2025-10-25T18:39:48Z",
-    "lat": 37.7647696,
-    "lng": -122.42342018,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "STREET CLEAN [partial text visible at top]",
-    "commentary": "A sign so weathered and obscured by leaves it looks like nature itself is staging a protest against street cleaning\u2014or maybe just demonstrating superior camouflage techniques.",
-    "confidence": 0.3
   },
   {
     "id": "101002858098",
@@ -22697,27 +22146,11 @@
     "lng": -122.44029522,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\udd27 Services",
     "extracted_text": "Your dog wants a fix. Your want a friend. [partial text visible but blurry] Roses Ornament Soul [partial] Will Cut [partial text] [orange flower illustration visible]",
     "commentary": "A chaotic utility pole collage mixing what appears to be dog-related messaging, some kind of service offering, and a botanical illustration\u2014the text is too blurry to fully parse, but the aesthetic screams 'mid-2000s Craigslist energy.'",
-    "confidence": 0.3
-  },
-  {
-    "id": "101002856117",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002856117",
-    "address": "Intersection California St, Divisadero St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1761363214/san-francisco/production/mjldvy2wkuq3iv4nsik8.jpg",
-    "status": "CLOSED",
-    "date": "23w ago",
-    "date_iso": "2025-11-13T19:38:03Z",
-    "lat": 37.7880671611059,
-    "lng": -122.440440262149,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "MAY",
-    "commentary": "Someone's mid-posting here\u2014we can barely make out 'MAY' before they got camera-shy or the lighting said no.",
-    "confidence": 0.3
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002856114",
@@ -23043,23 +22476,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101002854074",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002854074",
-    "address": "Intersection 16 Th St, Market St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1761342100/san-francisco/production/c4ghh3s0trlgyeczlznc.jpg",
-    "status": "CLOSED",
-    "date": "20w ago",
-    "date_iso": "2025-12-01T22:58:16Z",
-    "lat": 37.7641956986082,
-    "lng": -122.433074510661,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Small sticker/posting visible on traffic signal box, appears to contain an image (possibly a face or logo in orange/yellow tones) but text is too small and blurry to read clearly",
-    "commentary": "A mystery sticker adorning SF's traffic infrastructure\u2014too pixelated to decode, but someone clearly felt this signal deserved a personalized touch.",
-    "confidence": 0.3
-  },
-  {
     "id": "101002853123",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002853123",
     "address": "321 Bosworth St",
@@ -23156,10 +22572,11 @@
     "lng": -122.441520392204,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\uddf3\ufe0f Political",
     "extracted_text": "NO PARKING (partial, on small sign on tree). Other text on tree is too blurry/obscured to read clearly.",
     "commentary": "There's definitely some postings on that tree\u2014looks like at least a parking sign and some other flyers\u2014but the resolution and tree foliage make it impossible to read the actual messaging; also spotted some colorful graffiti/art on the utility box nearby.",
-    "confidence": 0.3
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002845751",
@@ -23689,23 +23106,6 @@
     "confidence": 0.2
   },
   {
-    "id": "101002825402",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002825402",
-    "address": "1400 Utah St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1760987627/san-francisco/production/cuurovdyibb0587rrfjs.jpg",
-    "status": "CLOSED",
-    "date": "26w ago",
-    "date_iso": "2025-10-23T19:11:53Z",
-    "lat": 37.75166997,
-    "lng": -122.40527619,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial text visible on flyers but too small/blurry to read clearly. Yellow permit or notice markers visible on pole.",
-    "commentary": "Someone's definitely been posting notices about bike-share regulations or parking rules on this utility pole\u2014the yellow markers suggest official city business, but the flyers are too fuzzy to confirm whether this is legitimate city signage or guerrilla activism in disguise.",
-    "confidence": 0.3
-  },
-  {
     "id": "101002825377",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002825377",
     "address": "3096 17 Th St",
@@ -24210,10 +23610,11 @@
     "lng": -122.41938313,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\ude80 Startups",
     "extracted_text": "secrets [partial text visible on background sign]; sticker on pole with illustration and text that is too blurry/small to read clearly",
     "commentary": "There's definitely a sticker affixed to that utility pole, but the resolution won't let us determine if it's promoting a lost cat, a underground music venue, or someone's conspiracy theory\u2014which honestly tracks for SF.",
-    "confidence": 0.3
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002820519",
@@ -24352,23 +23753,6 @@
     "confidence": 0.85
   },
   {
-    "id": "101002805713",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002805713",
-    "address": "1833 Fillmore St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1760666572/san-francisco/production/wo2zds6pq2rcnen2kkja.jpg",
-    "status": "CLOSED",
-    "date": "24w ago",
-    "date_iso": "2025-11-04T17:31:08Z",
-    "lat": 37.786505,
-    "lng": -122.43346333,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "QR code visible",
-    "commentary": "A mysterious QR code sticker on a pole\u2014the digital equivalent of a dead drop, promising either enlightenment or malware depending on your optimism level.",
-    "confidence": 0.3
-  },
-  {
     "id": "101002805589",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002805589",
     "address": "2400 23 Rd St",
@@ -24384,23 +23768,6 @@
     "extracted_text": "POTRERO HILL R&B FESTIVAL 2025 LIVE MUSIC OCT 18TH 10AM-11PM 18TH STREET HEY! NO KINGS! SATURDAY OCT 18",
     "commentary": "Two competing neighborhood events on the same day, same pole\u2014a beautiful collision of grassroots SF culture where R&B vibes meet what appears to be a punk/anti-authority gathering.",
     "confidence": 0.85
-  },
-  {
-    "id": "101002805491",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002805491",
-    "address": "2603 Bryant St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1760663903/san-francisco/production/snrupe82vwywsyv2mqys.jpg",
-    "status": "CLOSED",
-    "date": "24w ago",
-    "date_iso": "2025-11-03T23:04:10Z",
-    "lat": 37.7527351,
-    "lng": -122.40903463,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Blue and white sticker visible on utility pole, text too small/blurry to read clearly",
-    "commentary": "There's definitely a sticker on that pole, but the resolution is too grainy to make out what it's advertising\u2014could be anything from a lost cat to a political statement to someone's SoundCloud.",
-    "confidence": 0.3
   },
   {
     "id": "101002805457",
@@ -24981,23 +24348,6 @@
     "confidence": 0
   },
   {
-    "id": "101002783624",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002783624",
-    "address": "1542 Haight St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1770744988/san-francisco/production/pmr1mhgrh0kjw1q6gsud.jpg",
-    "status": "CLOSED",
-    "date": "26w ago",
-    "date_iso": "2025-10-19T20:17:00Z",
-    "lat": 37.77001626,
-    "lng": -122.44772484,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "STOP (partial text visible on sticker/sign)",
-    "commentary": "Red banner and stickers affixed to storefront, but image quality and angle make the bulk of the text illegible\u2014looks like it could be activism or an event, but we're just seeing fragments here.",
-    "confidence": 0.3
-  },
-  {
     "id": "101002783591",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002783591",
     "address": "506 14 Th St",
@@ -25355,23 +24705,6 @@
     "confidence": 0.2
   },
   {
-    "id": "101002779186",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002779186",
-    "address": "2377 Market St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1770803103/san-francisco/production/tit1y4d3snmhdnvgc9e9.jpg",
-    "status": "CLOSED",
-    "date": "27w ago",
-    "date_iso": "2025-10-13T02:26:27Z",
-    "lat": 37.76290456,
-    "lng": -122.43458085,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "",
-    "commentary": "There's definitely a sticker or small poster affixed to this lamp post (that colorful yellow/red/black rectangle is visible), but the resolution and angle make it impossible to read any actual text.",
-    "confidence": 0.3
-  },
-  {
     "id": "101002779184",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002779184",
     "address": "2301 Market St",
@@ -25383,10 +24716,11 @@
     "lng": -122.43333435,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "giddy, NIGH",
     "commentary": "A small sticker collage featuring what looks like 'giddy' and 'NIGH' signage on a pole\u2014too weathered and distant to fully decipher, but definitely someone's vibe check on this corner.",
-    "confidence": 0.4
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002779182",
@@ -25706,10 +25040,11 @@
     "lng": -122.43308761,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\uddf3\ufe0f Political",
     "extracted_text": "Partial text visible on small sticker/flyer affixed to tree trunk - appears to include a QR code and some red/green colored text, but content is too small and distant to read clearly",
     "commentary": "Classic SF move: slap a sticker with a QR code on a tree and hope someone's curious enough to scan it in the middle of their day.",
-    "confidence": 0.3
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002773195",
@@ -25757,10 +25092,11 @@
     "lng": -122.43340566,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "Partial posters visible on utility box - text too small/blurry to read clearly from distance",
     "commentary": "Classic SF corner poster cluster at 300 Noe\u2014looks like event flyers layered over each other, but resolution doesn't let us decode the actual content; could be anything from drag shows to protest announcements.",
-    "confidence": 0.3
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002773180",
@@ -26239,23 +25575,6 @@
     "confidence": 0.0
   },
   {
-    "id": "101002772298",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002772298",
-    "address": "1526 Broderick St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1764717918/san-francisco/production/skjbdisv6ilo23zdhzwa.jpg",
-    "status": "CLOSED",
-    "date": "20w ago",
-    "date_iso": "2025-12-01T22:58:16Z",
-    "lat": 37.78455822,
-    "lng": -122.44128125,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "STREET CLEANING [partial text at top, appears to say something about a day/restriction]",
-    "commentary": "This is just a partially visible street cleaning sign\u2014likely an official parking restriction notice, not an illegal posting worth archiving.",
-    "confidence": 0.3
-  },
-  {
     "id": "101002772296",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002772296",
     "address": "Intersection Broderick St, Bush St",
@@ -26373,23 +25692,6 @@
     "extracted_text": "TRUMP PROTEIN 2024",
     "commentary": "A protein powder brand name? A gym-bro political statement? Either way, someone's getting their gains and their candidate mixed up on this poor traffic signal.",
     "confidence": 0.95
-  },
-  {
-    "id": "101002772244",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002772244",
-    "address": "Intersection Baker St, Page St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1761196639/san-francisco/production/aeos2mm9npgenjxek7iv.jpg",
-    "status": "CLOSED",
-    "date": "26w ago",
-    "date_iso": "2025-10-22T05:00:08Z",
-    "lat": 37.7717791655005,
-    "lng": -122.440546280759,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Small white/light colored sticker or posting visible on tree trunk, text too blurry to read clearly. Three yellow reflective markers or tape strips below it.",
-    "commentary": "Tree-posted mystery artifact with three golden markers like some kind of arboreal treasure map\u2014either artistic, infrastructural, or someone's very committed geocaching game.",
-    "confidence": 0.3
   },
   {
     "id": "101002772233",
@@ -26879,10 +26181,11 @@
     "lng": -122.427451822202,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\udc95 Dating",
     "extracted_text": "Online Rare Sucre",
     "commentary": "A mysterious little flyer held down by yellow tape\u2014could be a speakeasy, a dessert pop-up, or someone's very niche passion project; the 'Rare Sucre' suggests either premium candy or a deeply committed sugar enthusiast.",
-    "confidence": 0.4
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002767303",
@@ -26913,10 +26216,11 @@
     "lng": -122.42726059,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\udc95 Dating",
     "extracted_text": "QR code visible, small illustration of two figures, text too small/blurry to read clearly",
     "commentary": "A mysterious sticker with cute hand-drawn characters and a QR code\u2014the street art equivalent of 'click here,' except you have to stand on a sidewalk with your phone like a tourist to find out what this is about.",
-    "confidence": 0.3
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002767299",
@@ -27083,10 +26387,11 @@
     "lng": -122.40741558,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "Text on sticker is too small/blurry to read clearly from this distance",
     "commentary": "Someone's really committed to the guerrilla marketing game, slapping what looks like a colorful sticker on a rain-soaked trash can\u2014peak SF hustle right here.",
-    "confidence": 0.3
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002760388",
@@ -27393,23 +26698,6 @@
     "extracted_text": "",
     "commentary": "",
     "confidence": 0.95
-  },
-  {
-    "id": "101002739114",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002739114",
-    "address": "2231 22 Nd St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1759773478/san-francisco/production/ykriwutpcsvvqwdltfzl.jpg",
-    "status": "CLOSED",
-    "date": "22w ago",
-    "date_iso": "2025-11-18T18:08:06Z",
-    "lat": 37.75689928,
-    "lng": -122.40341004,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "SWIM",
-    "commentary": "A lonely white paper flyer reading 'SWIM' has been taped to a chain-link fence, creating either the most cryptic PSA ever or someone's very literal cry for help during a landlocked heat wave.",
-    "confidence": 0.4
   },
   {
     "id": "101002738946",
@@ -28721,23 +28009,6 @@
     "confidence": 0.6
   },
   {
-    "id": "101002677333",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002677333",
-    "address": "998 Marin St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1764717909/san-francisco/production/ou52ecbyummun2co6us5.jpg",
-    "status": "CLOSED",
-    "date": "20w ago",
-    "date_iso": "2025-12-01T22:58:16Z",
-    "lat": 37.74915639,
-    "lng": -122.38629764,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "OLA",
-    "commentary": "There's clearly some kind of posting/sticker on that utility box, but the resolution and angle make it impossible to read the full message\u2014we can just make out 'OLA' and what looks like a minimalist logo, so it could be anything from a rideshare promo to underground art.",
-    "confidence": 0.3
-  },
-  {
     "id": "101002676049",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002676049",
     "address": "1501 Grove St",
@@ -28789,23 +28060,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101002675147",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002675147",
-    "address": "3100 Market St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1760579390/san-francisco/production/v5swlfn5nssxkmanp7ek.jpg",
-    "status": "CLOSED",
-    "date": "27w ago",
-    "date_iso": "2025-10-15T00:36:39Z",
-    "lat": 37.76054381,
-    "lng": -122.44358476,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "10/17/2025 17:53:05 (timestamp in upper left corner); some faint markings/scribbles visible on the kraft paper but illegible",
-    "commentary": "A mysterious kraft paper posting wrapped around a utility pole like an edible sleeve\u2014the real message remains as obscured as the pole itself, making this either brilliant minimalist art or someone's failed attempt at communication.",
-    "confidence": 0.3
-  },
-  {
     "id": "101002674835",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002674835",
     "address": "2494 Mission St",
@@ -28820,23 +28074,6 @@
     "theme": "\ud83c\udfa8 Art & Culture",
     "extracted_text": "ATCO (partial/unclear text on stickers)",
     "commentary": "A street pole absolutely wallpapered in stickers and tags\u2014this is peak SF guerrilla art, where utility infrastructure becomes a canvas for competing aesthetic visions and artist signatures.",
-    "confidence": 0.4
-  },
-  {
-    "id": "101002674765",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002674765",
-    "address": "421 20 Th Ave",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1758825824/san-francisco/production/gjgcvvdjxtb8rljlpggv.jpg",
-    "status": "CLOSED",
-    "date": "30w ago",
-    "date_iso": "2025-09-25T20:15:17Z",
-    "lat": 37.77992351,
-    "lng": -122.47948375,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "NO PARKING (partial text visible on multiple small signs/stickers)",
-    "commentary": "A collection of heavily weathered parking violation stickers that have aged into a beautiful patina\u2014this fence is essentially a archaeological layer cake of SF's parking enforcement history.",
     "confidence": 0.4
   },
   {
@@ -29225,10 +28462,11 @@
     "lng": -122.40438033,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "Super Natural",
     "commentary": "A mysteriously vibrant red utility box has been repurposed as a street-level advertising canvas\u2014the 'Super Natural' branding is visible but the full message is obscured by angle and glare, leaving us wondering if this is wellness juice, organic snacks, or something more existentially perplexing.",
-    "confidence": 0.35
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002659284",
@@ -29367,23 +28605,6 @@
     "confidence": 0.92
   },
   {
-    "id": "101002652769",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002652769",
-    "address": "3371 19 Th Ave",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1758499921/san-francisco/production/zzmr22548eaieterilot.jpg",
-    "status": "CLOSED",
-    "date": "20w ago",
-    "date_iso": "2025-12-01T22:58:16Z",
-    "lat": 37.72728456,
-    "lng": -122.47515815,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "DUME 2HO [partial/unclear], partial text visible on pole",
-    "commentary": "Multiple stickers on a utility pole with text too degraded and fragmented to confidently read\u2014classic SF street palimpsest.",
-    "confidence": 0.3
-  },
-  {
     "id": "101002651954",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002651954",
     "address": "1296 Sutter St",
@@ -29395,10 +28616,11 @@
     "lng": -122.42160937,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "ABSOLUTELY [partial/unclear text visible on multiple stickers/posters on pole]",
     "commentary": "A pole absolutely wallpapered in the SF street poster tradition\u2014this is where sticker campaigns go to achieve immortality, one overlapping layer at a time.",
-    "confidence": 0.3
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002651294",
@@ -29497,10 +28719,11 @@
     "lng": -122.4071886,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\udd27 Services",
     "extracted_text": "Text on flyer is not legible in this image due to distance and resolution",
     "commentary": "There's definitely a white flyer wheat-pasted to this utility pole, but the actual content is too small/blurry to read from this angle\u2014classic SF posting strategy of maximum visibility, minimum readability.",
-    "confidence": 0.3
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002644902",
@@ -29531,10 +28754,11 @@
     "lng": -122.42627308,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\udc95 Dating",
     "extracted_text": "Stop taking advantage of homeless folk [partial text visible on upper white flyer]; FRANCISCO [partial text visible on yellow flyer below]",
     "commentary": "Two flyers stacked on a utility pole with competing messages\u2014one appears to call out exploitation of unhoused folks, the other is too obscured to fully decode, but this is peak SF streetside discourse.",
-    "confidence": 0.35
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002643373",
@@ -30075,10 +29299,11 @@
     "lng": -122.42844879,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\udc95 Dating",
     "extracted_text": "SUNDAY [partial/unclear] Find Someone and Do something anything with",
     "commentary": "There's definitely a pastel gradient sticker here with some kind of motivational/social messaging, but the text is too weathered and partially obscured to fully decode\u2014though the vibe reads like either a dating app ad or a very millennial 'seize the day' type posting.",
-    "confidence": 0.35
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002607482",
@@ -30149,23 +29374,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101002606626",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002606626",
-    "address": "Intersection Divisadero St, Washington St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1758993545/san-francisco/production/jidov4ggqjumyi8u2jpk.jpg",
-    "status": "CLOSED",
-    "date": "30w ago",
-    "date_iso": "2025-09-26T17:05:26Z",
-    "lat": 37.7907554075542,
-    "lng": -122.440984379887,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Towed extends red zon Serious",
-    "commentary": "Partially visible parking sign warning about towing in red zones\u2014the text is too fragmented to fully parse, but it's clearly official municipal signage adjacent to an actual parking restriction notice.",
-    "confidence": 0.4
-  },
-  {
     "id": "101002605533",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002605533",
     "address": "226 Capitol Ave",
@@ -30232,23 +29440,6 @@
     "extracted_text": "RESIDENTIAL CLEANING SERVICES 415.791.6111 | Hotel's Let's... Know | MCP NIGHT | Contact is | IMPRO AUDITOR PLAY IMPROVISED COMEDY",
     "commentary": "A utility pole's greatest hits album: cleaning services, a mystery hotel ad, improv comedy nights, and what appears to be an incomplete audit reminder\u2014SF's version of a vision board.",
     "confidence": 0.65
-  },
-  {
-    "id": "101002599646",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002599646",
-    "address": "Intersection Clement St, Veterans Dr",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1758129527/san-francisco/production/d08i7na9em5fstijmjlx.jpg",
-    "status": "CLOSED",
-    "date": "31w ago",
-    "date_iso": "2025-09-16T16:52:37Z",
-    "lat": 37.78117556,
-    "lng": -122.50308048,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partially visible blue informational posting with circular icons/graphics, yellow safety bands around utility pole, white/gray weathered poster above",
-    "commentary": "The blue placard is too distant and weather-beaten to read clearly, but based on the circular icons and municipal-style formatting, this could be a utility notice, environmental signage, or community information\u2014impossible to say without closer inspection.",
-    "confidence": 0.3
   },
   {
     "id": "101002597010",
@@ -30402,23 +29593,6 @@
     "extracted_text": "AIGO (visible on sticker/band near top)",
     "commentary": "A utility bollard wrapped in sticker collage art\u2014this is pure SF street culture, where even the city's infrastructure becomes a canvas for tag layering and artistic expression.",
     "confidence": 0.35
-  },
-  {
-    "id": "101002587997",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002587997",
-    "address": "2523 Mission St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1757523184/san-francisco/production/u5dztsob54jmocjnsp5v.jpg",
-    "status": "CLOSED",
-    "date": "31w ago",
-    "date_iso": "2025-09-14T19:32:33Z",
-    "lat": 37.75664279,
-    "lng": -122.41884057,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "En volla, 10, APED",
-    "commentary": "This utility pole is a palimpsest of street culture\u2014we can make out fragments but the main attraction is obscured by weathering and overlapping tags; a classic SF pole that's seen better days and better documentation.",
-    "confidence": 0.3
   },
   {
     "id": "101002587816",
@@ -30676,23 +29850,6 @@
     "confidence": 1.0
   },
   {
-    "id": "101002574912",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002574912",
-    "address": "189 Kearny St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1757350672/san-francisco/production/w7cehobo8dublaxu9dnu.jpg",
-    "status": "CLOSED",
-    "date": "32w ago",
-    "date_iso": "2025-09-11T21:38:55Z",
-    "lat": 37.78964167,
-    "lng": -122.40381667,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Let Dre",
-    "commentary": "A clipboard-style posting with text too small/blurry to fully decipher\u2014looks like it might say 'Let Dre...' something, but we're left hanging like a song cut off mid-verse.",
-    "confidence": 0.3
-  },
-  {
     "id": "101002574864",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002574864",
     "address": "1343 Polk St",
@@ -30759,23 +29916,6 @@
     "extracted_text": "",
     "commentary": "",
     "confidence": 0.95
-  },
-  {
-    "id": "101002572611",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002572611",
-    "address": "Intersection 22 Nd St, Valencia St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1757549875/san-francisco/production/zelkvbjbjyyiapyvpbid.jpg",
-    "status": "CLOSED",
-    "date": "32w ago",
-    "date_iso": "2025-09-09T23:24:37Z",
-    "lat": 37.7552947784154,
-    "lng": -122.420964146993,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "ONEY JUDI (partial text visible on upper flyer); RED SERVE (partial text on lower red sticker)",
-    "commentary": "Classic SF utility pole collage\u2014there's definitely some posting action here, but the angle and distance make most text unreadable; looks like someone's been busy with multiple layers of activism or promotion.",
-    "confidence": 0.3
   },
   {
     "id": "101002571376",
@@ -31422,23 +30562,6 @@
     "extracted_text": "Art & Craft Workshop, mosaic, ring tutoring",
     "commentary": "A weathered flyer advertising art classes that's itself becoming a beautiful patina-covered work of street art\u2014very on-brand for SF's DIY ethos.",
     "confidence": 0.65
-  },
-  {
-    "id": "101002559074",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002559074",
-    "address": "Intersection Lusk St, Townsend St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1757089465/san-francisco/production/gklja30qpnxbrtxm73ke.jpg",
-    "status": "CLOSED",
-    "date": "33w ago",
-    "date_iso": "2025-09-06T00:05:45Z",
-    "lat": 37.77798231,
-    "lng": -122.39389843,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Appears to be a sandwich/food shop A-frame sign with orange and yellow coloring, red imagery, and some text that is too blurry/small to read clearly from this angle and distance",
-    "commentary": "",
-    "confidence": 0.3
   },
   {
     "id": "101002559025",
