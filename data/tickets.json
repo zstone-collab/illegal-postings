@@ -2451,10 +2451,11 @@
     "lng": -122.40715038,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfa8 Art & Culture",
     "extracted_text": "Partially visible sticker/flyer on utility pole with blue and yellow colors; text too small/unclear to read with confidence",
     "commentary": "A tiny, weather-beaten sticker clinging to life on a pole\u2014the visual equivalent of a post-it note screaming into the void.",
-    "confidence": 0.2
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003818675",
