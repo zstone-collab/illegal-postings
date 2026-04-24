@@ -14776,23 +14776,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003038386",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003038386",
-    "address": "992 Guerrero St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1764095187/san-francisco/production/rpny1ws8lgyzntukmqzt.jpg",
-    "status": "CLOSED",
-    "date": "18w ago",
-    "date_iso": "2025-12-18T18:19:46Z",
-    "lat": 37.75529864,
-    "lng": -122.42330546,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "",
-    "commentary": "Someone's attempted a minimalist poster campaign\u2014just vibes and a mysterious red blob at the top, now peeling away like a bad relationship.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003038375",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003038375",
     "address": "3398 22 Nd St",
