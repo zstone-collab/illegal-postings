@@ -16804,10 +16804,11 @@
     "lng": -122.43940116,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfa8 Art & Culture",
     "extracted_text": "Chinese/Japanese characters visible on wrapped paper or packaging on utility pole",
     "commentary": "Someone's carefully wrapped a utility pole like it's a gift\u2014either an art project or the world's most committed recycling effort.",
-    "confidence": 0.2
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002925960",
