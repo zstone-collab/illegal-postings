@@ -17298,23 +17298,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101002975830",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002975830",
-    "address": "Intersection Fillmore St, Waller St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763077413/san-francisco/production/cyafg7krknlfq0qd5hxu.jpg",
-    "status": "CLOSED",
-    "date": "22w ago",
-    "date_iso": "2025-11-19T19:43:23Z",
-    "lat": 37.7711736799009,
-    "lng": -122.430260697576,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partially visible white paper/flyer on tree trunk with some blue text/markings, text too degraded and distant to read clearly",
-    "commentary": "A weather-beaten flyer clinging to a tree like it's auditioning for a David Attenborough documentary about urban decay\u2014nature is slowly reclaiming San Francisco's street-level messaging.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002975814",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002975814",
     "address": "Intersection Steiner St, Waller St",
