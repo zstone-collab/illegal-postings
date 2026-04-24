@@ -19464,23 +19464,6 @@
     "confidence": 0.65
   },
   {
-    "id": "101002885463",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002885463",
-    "address": "184 Liberty St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1761785422/san-francisco/production/fj7l8ju5pqroir6yrqbh.jpg",
-    "status": "CLOSED",
-    "date": "13w ago",
-    "date_iso": "2026-01-23T08:00:00Z",
-    "lat": 37.75751352,
-    "lng": -122.42536604,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial text visible on white flyers/postings attached to wooden barriers - appears to include dates (09/24/25, 10/22/25) and contact information, but text is too small/distant to read with confidence",
-    "commentary": "Someone's plastered permit notices or construction updates on what looks like an active street closure\u2014either the most organized illegal posting ever or actual authorized signage, which would be deeply disappointing.",
-    "confidence": 0.25
-  },
-  {
     "id": "101002885114",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002885114",
     "address": "125 Stevenson St",
