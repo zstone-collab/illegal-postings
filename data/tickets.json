@@ -16955,10 +16955,11 @@
     "lng": -122.43327641,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "WINTER PARTY (partial text visible on blue flyer on utility box); Various event/show posters visible on lamp posts and utility boxes but text too small/obscured to read clearly",
     "commentary": "This is basically a greatest hits compilation of SF street furniture\u2014every available pole and box has become a concert poster gallery, creating a chaotic but authentic Mission District collage.",
-    "confidence": 0.35
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002913124",
