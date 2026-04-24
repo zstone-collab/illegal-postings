@@ -24268,7 +24268,8 @@
     "theme": "\ud83c\udfb5 Events",
     "extracted_text": "K MOTION (partial text visible on upper sticker) FRIDAY OCT 10 (yellow sticker with event details, partially legible) CLOSING TAHUEZA (black sticker below) INFO WEBSITE.COM FRIDAY OCT 10 (QR code visible on yellow sticker)",
     "commentary": "A classic SF pole-plastering combo: someone's stacking event flyers like they're playing Jenga with the 311 Department's patience\u2014festival vibes meet municipal code violations.",
-    "confidence": 0.55
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002657297",
