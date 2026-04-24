@@ -3567,23 +3567,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003708391",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003708391",
-    "address": "Intersection 25 Th St, Potrero Ave",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1773962912/san-francisco/production/x8qpsohwsevu3mtssij2.jpg",
-    "status": "OPEN",
-    "date": "5w ago",
-    "date_iso": "2026-03-19T23:28:33Z",
-    "lat": 37.75165684,
-    "lng": -122.40621159,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "GAJAH MINA 30X3 HALAL",
-    "commentary": "Someone's slapped a small business advertisement onto a utility pole next to an official no-left-turn sign\u2014bold move treating municipal infrastructure like a community bulletin board.",
-    "confidence": 0.6
-  },
-  {
     "id": "101003704542",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003704542",
     "address": "1248 Junipero Serra Blvd",
