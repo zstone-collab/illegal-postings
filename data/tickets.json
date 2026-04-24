@@ -15218,10 +15218,11 @@
     "lng": -122.44896925,
     "analyzed": true,
     "skip": false,
-    "theme": "\ud83d\udc41\ufe0f Weird & Unexplained",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "WYDC (tag); partial text on stickers including what appears to be a cycling/bike symbol and an ethereal blue poster with cosmic/mystical imagery",
     "commentary": "A grimy utility box gets a cosmic makeover with mystical blue stickers\u2014someone's trying to elevate the vibe of this industrial green rectangle one otherworldly poster at a time.",
-    "confidence": 0.55
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002975979",
