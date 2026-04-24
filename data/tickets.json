@@ -21676,23 +21676,6 @@
     "confidence": 0.35
   },
   {
-    "id": "101002779225",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002779225",
-    "address": "280 Montalvo Ave",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1764717955/san-francisco/production/bzckj7xlyr49gknlrjrc.jpg",
-    "status": "CLOSED",
-    "date": "20w ago",
-    "date_iso": "2025-12-01T22:58:16Z",
-    "lat": 37.74389915,
-    "lng": -122.463907,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "",
-    "commentary": "This is either a heavily weathered blue sticker/poster that's been through the San Francisco elements wringer, or someone's abstract contribution to the urban canvas\u2014either way, it's unreadable.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002779222",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002779222",
     "address": "588 Dewey Blvd",
@@ -21810,23 +21793,6 @@
     "extracted_text": "",
     "commentary": "",
     "confidence": 0.0
-  },
-  {
-    "id": "101002779188",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002779188",
-    "address": "2341 Market St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1770803103/san-francisco/production/u2xguz5lceadtdwerjmw.jpg",
-    "status": "CLOSED",
-    "date": "27w ago",
-    "date_iso": "2025-10-13T02:25:10Z",
-    "lat": 37.76329871,
-    "lng": -122.43390806,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial colorful sticker/flyer visible with red and yellow colors, text illegible due to distance, angle, and image quality",
-    "commentary": "There's definitely a sticker wedged in this alley crevice, but the photo's angle and distance render it basically unreadable\u2014peak SF urban archaeology moment.",
-    "confidence": 0.2
   },
   {
     "id": "101002779184",
