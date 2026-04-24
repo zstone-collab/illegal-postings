@@ -9766,24 +9766,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003248358",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003248358",
-    "address": "Intersection Fillmore St, Fulton St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1767499779/san-francisco/production/dmdemnptenyeyspqr1s5.jpg",
-    "status": "CLOSED",
-    "date": "15w ago",
-    "date_iso": "2026-01-09T23:43:24Z",
-    "lat": 37.7776999956503,
-    "lng": -122.431574806191,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\uddf3\ufe0f Political",
-    "extracted_text": "Red and yellow text visible on flyer, appears to have multiple horizontal sections, text too blurry/pixelated to read clearly",
-    "commentary": "This flyer is so potato-quality it looks like it was photographed through a Tim Hortons coffee cup\u2014we can see the vibes (red, yellow, organized layout) but not the message.",
-    "confidence": 1.0,
-    "reviewed_by_human": true
-  },
-  {
     "id": "101003248355",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003248355",
     "address": "831 Fillmore St",
