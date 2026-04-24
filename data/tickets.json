@@ -6144,23 +6144,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003499849",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003499849",
-    "address": "2541 24 Th St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1771049387/san-francisco/production/xevs3lx0qsdyil2mr0r6.jpg",
-    "status": "CLOSED",
-    "date": "10w ago",
-    "date_iso": "2026-02-14T22:19:41Z",
-    "lat": 37.75295964,
-    "lng": -122.40517259,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Public Event",
-    "commentary": "Night shot of a lamp post with what appears to be a partial posting, but the motion blur and darkness make it impossible to read most of the content\u2014classic SF street photography meets 311 report frustration.",
-    "confidence": 0.25
-  },
-  {
     "id": "101003495845",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003495845",
     "address": "2249 Mission St",
