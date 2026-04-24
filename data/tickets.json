@@ -19576,23 +19576,6 @@
     "confidence": 0.2
   },
   {
-    "id": "101002856098",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002856098",
-    "address": "1703 Baker St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1761362973/san-francisco/production/yxmaetyzaeuo4b4qxn8k.jpg",
-    "status": "CLOSED",
-    "date": "24w ago",
-    "date_iso": "2025-11-04T17:47:39Z",
-    "lat": 37.78686936,
-    "lng": -122.44373396,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partially visible white flyer/posting on wooden door, text too blurry/small to read clearly",
-    "commentary": "There's definitely an unauthorized posting on this wooden door, but the resolution and angle make it impossible to decipher whether it's activism, a lost pet, or someone's manifesto.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002856077",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002856077",
     "address": "Intersection Baker St, Golden Gate Ave",
@@ -19847,23 +19830,6 @@
     "extracted_text": "PLANNED PARENTHOOD IS RACIST",
     "commentary": "A provocative anti-abortion talking point wielded as street rhetoric\u2014this particular argument has been recycled since the '90s and remains deeply contested among historians and activists who point out that reproductive justice is intersectional, not a zero-sum game.",
     "confidence": 0.99
-  },
-  {
-    "id": "101002850099",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002850099",
-    "address": "1056 Potrero Ave",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1761317830/san-francisco/production/ajcxr2wicvwhpo715k7l.jpg",
-    "status": "CLOSED",
-    "date": "23w ago",
-    "date_iso": "2025-11-14T16:14:39Z",
-    "lat": 37.75520437,
-    "lng": -122.40683958,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial visible text on left poster appears to include imagery and some text but is too obscured by angle, lighting, and weathering to reliably extract",
-    "commentary": "There's definitely some kind of poster/flyer on the left side of this wall, but the combination of harsh sunlight, perspective angle, and decades of grime make the actual message unreadable\u2014classic SF alley archaeology.",
-    "confidence": 0.2
   },
   {
     "id": "101002846156",
