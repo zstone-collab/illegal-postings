@@ -718,10 +718,11 @@
     "analyzed": true,
     "date_iso": "2026-04-13T18:58:52Z",
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\uddf3\ufe0f Political",
     "extracted_text": "Small white flyer visible on pole/post in upper center of image; text too blurry/distant to read clearly",
     "commentary": "A mysterious little posting clinging to life on what looks like a historic staircase\u2014whoever put this up really committed to the scenic route.",
-    "confidence": 0.2
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003860717",
