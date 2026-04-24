@@ -14094,23 +14094,6 @@
     "confidence": 0.85
   },
   {
-    "id": "101002996457",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002996457",
-    "address": "1189 Capp St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763421712/san-francisco/production/pa4txa9quesuqpijn3l1.jpg",
-    "status": "CLOSED",
-    "date": "18w ago",
-    "date_iso": "2025-12-14T19:39:00Z",
-    "lat": 37.74825968,
-    "lng": -122.41792511,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\udd27 Services",
-    "extracted_text": "ENVIO NICARAGUA 415-251-5",
-    "commentary": "A homesick money transfer service literally plastered between graffiti tags\u2014the international remittance economy meets the utility pole, one phone number at a time.",
-    "confidence": 0.85
-  },
-  {
     "id": "101002996447",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002996447",
     "address": "3478 Cesar Chavez St",
