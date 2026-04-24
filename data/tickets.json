@@ -10730,23 +10730,6 @@
     "confidence": 0.65
   },
   {
-    "id": "101003240032",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003240032",
-    "address": "1392 Haight St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1767377309/san-francisco/production/vh5bxodzb2rv1jbskuli.jpg",
-    "status": "CLOSED",
-    "date": "15w ago",
-    "date_iso": "2026-01-05T22:11:13Z",
-    "lat": 37.77034828,
-    "lng": -122.44512071,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "ESTEFUL, Tacos",
-    "commentary": "Low-res photo makes it hard to read these sidewalk chalkboards, but they appear to be restaurant signage rather than an unauthorized posting\u2014though that small white flyer on the upper left might be worth a closer look.",
-    "confidence": 0.3
-  },
-  {
     "id": "101003239980",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003239980",
     "address": "Intersection Octavia St, Waller St",
