@@ -13871,23 +13871,6 @@
     "confidence": 0.75
   },
   {
-    "id": "101003002182",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003002182",
-    "address": "415 Buchanan St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763509415/san-francisco/production/swgtwu6ewdflyfkh5h1k.jpg",
-    "status": "CLOSED",
-    "date": "22w ago",
-    "date_iso": "2025-11-19T08:00:00Z",
-    "lat": 37.77386572,
-    "lng": -122.4275561,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\udd27 Services",
-    "extracted_text": "07/29/25 - 7/29/25\n8AM - 6PM\nMon - Fri\n115 BUCHANAN ST\non BUCHANAN ST/PAGE ST - LILY ST\n(40 ft.)\nAxels Construction LLC\n415-579-1258\nPermit # 22-332242\nStreet Use",
-    "commentary": "A construction permit sign flexing its bureaucratic swagger with a handmade car-crossing graphic\u2014SF's way of saying 'we're tearing up the street but we did it *officially*.'",
-    "confidence": 0.85
-  },
-  {
     "id": "101003001234",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003001234",
     "address": "2400 Market St",
