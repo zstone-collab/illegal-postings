@@ -15478,10 +15478,11 @@
     "lng": -122.42488463,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\ude80 Startups",
     "extracted_text": "Partial text visible but too blurry/pixelated to read clearly; appears to be a white flyer with QR code and some colored sections (pink/red band visible)",
     "commentary": "Classic SF lamp post real estate\u2014someone's definitely trying to reach people with that QR code, but this potato-quality photo makes it impossible to tell if it's a lost cat, a startup pivot, or something weirder.",
-    "confidence": 0.2
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002975946",
