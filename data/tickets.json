@@ -22413,23 +22413,6 @@
     "confidence": 0.75
   },
   {
-    "id": "101002767300",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002767300",
-    "address": "507 Buchanan St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1770803683/san-francisco/production/vwbkg3ruy8grrwiqeqwx.jpg",
-    "status": "CLOSED",
-    "date": "28w ago",
-    "date_iso": "2025-10-10T20:39:31Z",
-    "lat": 37.77452716,
-    "lng": -122.42764131,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial image visible showing what appears to be a figure with red coloring, some text at bottom is too blurry to read clearly",
-    "commentary": "This flyer's too grainy to decipher\u2014could be art, could be a service ad, could be someone's fever dream; the photo quality has us squinting harder than a hawk at a 311 report.",
-    "confidence": 0.25
-  },
-  {
     "id": "101002767302",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002767302",
     "address": "Intersection Buchanan St, Lily St",
