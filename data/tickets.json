@@ -102,11 +102,10 @@
     "analyzed": true,
     "date_iso": "2026-04-20T00:46:29Z",
     "skip": false,
-    "theme": "\ud83c\udfa8 Art & Culture",
+    "theme": "\u2753 Unclear",
     "extracted_text": "Partially visible pink/red sticker or small flyer on utility pole - text too small/blurry to read clearly",
     "commentary": "There's definitely something posted on that pole, but it's too distant and pixelated to make out the actual message\u2014could be anything from a lost cat to a existential cry for help.",
-    "confidence": 1.0,
-    "reviewed_by_human": true
+    "confidence": 0.1
   },
   {
     "id": "101003897158",
