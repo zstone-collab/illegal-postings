@@ -13743,23 +13743,6 @@
     "confidence": 0.85
   },
   {
-    "id": "101003083621",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003083621",
-    "address": "Intersection 5 Th Ave, Judah St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1764873413/san-francisco/production/gflnnvsy1zkq8lcm2a5u.jpg",
-    "status": "CLOSED",
-    "date": "19w ago",
-    "date_iso": "2025-12-10T22:15:29Z",
-    "lat": 37.7623627004969,
-    "lng": -122.46190040702,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "a (partial letter visible on left panel); blue swoosh/smile design on right panel; small pink circular sticker; white paper strip with small text (unreadable); Toyota logo visible on vehicle below",
-    "commentary": "A mystery smorgasbord of street art and postings: we've got what might be a corporate logo knockoff, some kind of minimal smiley mood, and a white flyer so weathered it's basically modern abstract expressionism.",
-    "confidence": 0.25
-  },
-  {
     "id": "101003083600",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003083600",
     "address": "390 Irving St",
