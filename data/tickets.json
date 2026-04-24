@@ -13807,23 +13807,6 @@
     "confidence": 0.25
   },
   {
-    "id": "101003083620",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003083620",
-    "address": "Intersection 5 Th Ave, Judah St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1764873414/san-francisco/production/ab0skvtkeooibrp9dkhn.jpg",
-    "status": "CLOSED",
-    "date": "18w ago",
-    "date_iso": "2025-12-16T17:03:15Z",
-    "lat": 37.7623627004969,
-    "lng": -122.46190040702,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partially visible sticker/posting on utility box; text too blurry/obscured to read with confidence",
-    "commentary": "There's definitely something stuck to that box, but the glare and angle have conspired to keep its secrets\u2014very on-brand for SF street ephemera.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003083600",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003083600",
     "address": "390 Irving St",
