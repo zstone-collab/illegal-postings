@@ -17491,10 +17491,11 @@
     "lng": -122.41427366,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "DIA DE LOS MUERTOS, MAKE OUT ROOM, CHEVROLET, Pentagon Ice Skating",
     "commentary": "A beautiful palimpsest of SF nightlife past and present\u2014D\u00eda de Muertos vibes layered over what looks like old venue ads, all competing for pole real estate like it's a nightclub dance floor.",
-    "confidence": 0.55
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002886444",
