@@ -42,49 +42,50 @@ app = Flask(__name__, static_folder=str(WEB_DIR))
 _data_lock = threading.Lock()
 
 
-# ── Auto-commit: poll-based background worker (simpler + more predictable than timers) ──
+# ── Auto-commit: every mark_dirty kicks a commit thread immediately.
+#    If one's already running, skip — it'll pick up our pending edit before finishing.
+#    No polling loop that can silently die. ─────────────────────────────────────
 
 _dirty = False
-_dirty_at = None          # when the first pending edit happened
+_dirty_at = None
 _last_reason = ""
 _dirty_lock = threading.Lock()
+_commit_mutex = threading.Lock()       # ensures only one git operation runs at a time
 _last_commit = {"ok": None, "ts": None, "reason": None, "error": None}
 
 
 def mark_dirty(reason: str):
-    """Called by admin endpoints after a successful save. Worker will commit soon."""
+    """Record a pending edit and kick off a background commit immediately."""
     global _dirty, _dirty_at, _last_reason
     with _dirty_lock:
         if not _dirty:
             _dirty_at = time.time()
         _dirty = True
         _last_reason = reason
+    # Fire and forget — new thread per edit. Mutex inside _commit_if_dirty serializes.
+    t = threading.Thread(target=_commit_if_dirty, daemon=True)
+    t.start()
 
 
-def _commit_worker():
-    """Background thread: every COMMIT_POLL_SEC, if dirty, commit + push."""
-    while True:
-        try:
-            time.sleep(COMMIT_POLL_SEC)
+def _commit_if_dirty():
+    """Acquire the commit mutex (non-blocking). If locked, bail — the current
+    committer will see the dirty flag and handle it. Otherwise, drain pending
+    edits by looping until _dirty is False after a commit attempt."""
+    if not _commit_mutex.acquire(blocking=False):
+        return  # someone else is committing; our edit will be seen
+
+    try:
+        # Drain loop: commit, then check if MORE edits arrived while we were committing
+        while True:
             with _dirty_lock:
                 if not _dirty:
-                    continue
-                # Only commit once the dust has settled (no writes in last poll interval)
-                # OR once the oldest pending edit is at least COMMIT_MAX_AGE_SEC old.
-                age = time.time() - (_dirty_at or 0)
-                if age < COMMIT_MAX_AGE_SEC - COMMIT_POLL_SEC:
-                    # Not max-age yet. Only commit if batch appears settled (we could check
-                    # timestamp of last edit too, but max-age cap already guarantees progress).
-                    # For simplicity we always commit on each tick — batching of >1 edit per
-                    # 3 seconds still merges cleanly into one commit because the file is
-                    # atomically updated.
-                    pass
+                    return
                 reason = _last_reason
                 _dirty = False
-                _dirty_at_snapshot = _dirty_at
             _do_git_commit(reason)
-        except Exception as e:
-            print(f"[commit-worker] unexpected error: {e}")
+            # After commit, check if more edits came in while we were pushing
+    finally:
+        _commit_mutex.release()
 
 
 def _do_git_commit(reason: str):
@@ -173,9 +174,7 @@ def _startup_recovery():
         print(f"[startup] recovery check failed: {e}")
 
 
-# Start the worker as soon as the module loads
-_worker_thread = threading.Thread(target=_commit_worker, daemon=True, name="git-commit-worker")
-_worker_thread.start()
+# Run startup recovery immediately — it calls mark_dirty which kicks its own thread
 _startup_recovery()
 
 
