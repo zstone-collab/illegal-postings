@@ -10097,10 +10097,11 @@
     "lng": -122.42959241,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\uddf3\ufe0f Political",
     "extracted_text": "Partially visible flyer with some imagery and text, but details are too blurry/obscured to read clearly",
     "commentary": "This flyer is giving 'I got posted on a pole in the rain' energy\u2014the photo quality and angle make it impossible to decipher what this is actually advertising, which is either a feature or a bug depending on your perspective.",
-    "confidence": 0.2
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003248286",
