@@ -28161,10 +28161,11 @@
     "lng": -122.42060462,
     "analyzed": true,
     "skip": false,
-    "theme": "\ud83c\udfa8 Art & Culture",
+    "theme": "\ud83d\udc41\ufe0f Weird & Unexplained",
     "extracted_text": "got milk? [left poster contains text about real milk/real people that is partially visible] [right poster contains text about an artist's journey and change, with mention of \"proving that real wins matter every step\"]",
     "commentary": "A cheeky subversion of the iconic 'Got Milk?' campaign featuring pixelated faces and woke messaging\u2014someone's turned a 90s advertising stalwart into a statement piece about authenticity and representation, one blurred cheekbone at a time.",
-    "confidence": 0.45
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002577709",
