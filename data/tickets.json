@@ -6872,10 +6872,11 @@
     "lng": -122.41859399,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "Mi Pueblo",
     "commentary": "This is a classic Mission District streetscape absolutely wallpapered with stickers and posters, but the individual flyers are too small and blurry to read from this distance\u2014looks like a beautiful collage of street ephemera rather than any single offense.",
-    "confidence": 0.25
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003445812",
