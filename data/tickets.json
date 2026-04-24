@@ -13110,23 +13110,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003097123",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003097123",
-    "address": "Intersection Gough St, Grove St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1765060109/san-francisco/production/bqs6ahfwrnu7tmc25qzj.jpg",
-    "status": "CLOSED",
-    "date": "20w ago",
-    "date_iso": "2025-12-06T22:33:41Z",
-    "lat": 37.777815226647,
-    "lng": -122.423165597057,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "FALL RE[...] [partial/blurry text visible on white flyer being held]",
-    "commentary": "Caught mid-paste: someone's actively installing what looks like a fall event flyer on a utility box while the camera rolls\u2014the real-time documentation of SF's underground poster wars.",
-    "confidence": 0.25
-  },
-  {
     "id": "101003097117",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003097117",
     "address": "Intersection Grove St, Octavia St",
