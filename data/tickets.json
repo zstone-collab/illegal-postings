@@ -16091,23 +16091,6 @@
     "reviewed_by_human": true
   },
   {
-    "id": "101002956569",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002956569",
-    "address": "Intersection 15 Th St, Sanchez St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1762815265/san-francisco/production/znqqhub8kb8b3xlbfsrf.jpg",
-    "status": "CLOSED",
-    "date": "21w ago",
-    "date_iso": "2025-11-25T23:18:02Z",
-    "lat": 37.7659961799544,
-    "lng": -122.431037937448,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial stickers/postings visible but text illegible due to image quality, angle, and lighting",
-    "commentary": "A mystery wrapped in a blurry photo\u2014there's definitely human-made ephemera on this pole, but the image quality makes it impossible to read what rebellious thoughts someone was trying to immortalize here.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002956562",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002956562",
     "address": "Intersection Henry St, Sanchez St",
