@@ -28448,23 +28448,6 @@
     "confidence": 0
   },
   {
-    "id": "101002551945",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002551945",
-    "address": "20 Octavia St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1757186265/san-francisco/production/v3ytelrv2jxnu45ju12l.jpg",
-    "status": "CLOSED",
-    "date": "33w ago",
-    "date_iso": "2025-09-05T18:31:19Z",
-    "lat": 37.77184938,
-    "lng": -122.42362614,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "",
-    "commentary": "There's definitely some kind of sticker or tag on this pole, but it's too weathered and obscured to make out any legible text\u2014just some faint blue/green marks that have seen better days.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002551032",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002551032",
     "address": "664 Odd Fellows Way",
