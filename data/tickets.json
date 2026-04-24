@@ -14272,23 +14272,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003016818",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003016818",
-    "address": "1390 Bush St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763744968/san-francisco/production/asfaaunla93eybjpdlfu.jpg",
-    "status": "CLOSED",
-    "date": "20w ago",
-    "date_iso": "2025-11-30T18:18:04Z",
-    "lat": 37.78876218,
-    "lng": -122.4201389,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partially visible sticker/label with red stripe visible, text too blurry and out of focus to read",
-    "commentary": "This photo is so out of focus it looks like it was taken through a kaleidoscope during an earthquake\u2014we can see *something* affixed to that pole, but the text remains a beautiful mystery.",
-    "confidence": 0.15
-  },
-  {
     "id": "101003016817",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003016817",
     "address": "1086 Bush St",
