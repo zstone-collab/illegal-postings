@@ -16973,10 +16973,11 @@
     "lng": -122.42501351,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "OLIVE BRANCH [partial text visible] ILLEGAL/ILLEGALS [text obscured by white paper covering] [pink/magenta poster at bottom - text too blurry to read reliably]",
     "commentary": "A palimpsest of protest: someone's plastered this pole with overlapping posters and then helpfully covered them with white paper\u2014whether for removal or dramatic effect, we may never know.",
-    "confidence": 0.25
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002975927",
