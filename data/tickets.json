@@ -14609,10 +14609,11 @@
     "lng": -122.43525075,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "SKILLEX (partial, on white sticker); yellow flyer with red text (content unreadable); various tags and stickers with illegible text",
     "commentary": "A classic SF lamp post palimpsest\u2014layers of stickers, tags, and wheat-pastes have created an archaeological record of street culture, but most text is too weathered or obscured to decipher.",
-    "confidence": 0.25
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003000606",
