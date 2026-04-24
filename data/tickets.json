@@ -13480,23 +13480,6 @@
     "confidence": 0.0
   },
   {
-    "id": "101003038397",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003038397",
-    "address": "890 Guerrero St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1764095250/san-francisco/production/feu9vi4noaoj8p81nqtx.jpg",
-    "status": "CLOSED",
-    "date": "17w ago",
-    "date_iso": "2025-12-26T19:10:57Z",
-    "lat": 37.75690645,
-    "lng": -122.42345901,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Small blue/white sticker or label visible on blue utility pole, text illegible in image",
-    "commentary": "There's definitely a small posting on that pole, but the resolution and angle make it impossible to read\u2014classic SF 311 mystery meat situation.",
-    "confidence": 0.3
-  },
-  {
     "id": "101003038398",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003038398",
     "address": "Intersection Guerrero St, Liberty St",
