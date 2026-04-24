@@ -16073,23 +16073,6 @@
     "reviewed_by_human": true
   },
   {
-    "id": "101002956595",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002956595",
-    "address": "304 Sanchez St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1762815454/san-francisco/production/pviebblwhrcqhjcizf6b.jpg",
-    "status": "CLOSED",
-    "date": "22w ago",
-    "date_iso": "2025-11-21T06:00:09Z",
-    "lat": 37.76425956,
-    "lng": -122.43092327,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Yellow sticker/label at top (text illegible), yellow tape/strips with partial text visible but unreadable, small white sticker with purple/maroon design (text too small to read)",
-    "commentary": "A chaotic palimpsest of utility marking tape and stickers\u2014this utility pole is basically SF's version of a bulletin board, though we can't quite make out if anyone's actually trying to communicate something or if this is just industrial ephemera.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002956575",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002956575",
     "address": "2199 Market St",
