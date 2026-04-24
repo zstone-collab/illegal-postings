@@ -1342,24 +1342,6 @@
     "confidence": 0.65
   },
   {
-    "id": "101003837868",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003837868",
-    "address": "2099 Folsom St",
-    "lat": 37.76372984,
-    "lng": -122.41485025,
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1775753959/san-francisco/production/qtfw6pzmbysije8txrhd.jpg",
-    "description": "",
-    "status": "OPEN",
-    "date": "2w ago",
-    "analyzed": true,
-    "date_iso": "2026-04-09T16:59:19Z",
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "EN [partial] ANE [partial] RCED [partial] LIMIT [partial] SAT [partial] PM [partial]",
-    "commentary": "A mysterious green poster wrapped around a utility pole, mostly obscured by weathering and overlapping layers\u2014could be a vintage bar happy hour announcement or parking restriction notice, but the real story is hidden under Mother Nature's aggressive edit.",
-    "confidence": 0.25
-  },
-  {
     "id": "101003837440",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003837440",
     "address": "274 Brannan St",
