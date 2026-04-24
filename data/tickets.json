@@ -12496,23 +12496,6 @@
     "confidence": 0.3
   },
   {
-    "id": "101003097054",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003097054",
-    "address": "1095 Hayes St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1765059566/san-francisco/production/jcjvfhdpdwyuulhklray.jpg",
-    "status": "CLOSED",
-    "date": "20w ago",
-    "date_iso": "2025-12-06T22:30:50Z",
-    "lat": 37.77535345,
-    "lng": -122.43399062,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Small rectangular sticker on pole with pink/red, blue, and yellow sections - text too small/blurry to read clearly",
-    "commentary": "A mysterious little rainbow rectangle has taken up residence on this pole\u2014looks like it might be trying to tell us something important, but it's playing coy about the actual message.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003097052",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003097052",
     "address": "701 Steiner St",
