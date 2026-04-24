@@ -10395,23 +10395,6 @@
     "confidence": 1.0
   },
   {
-    "id": "101003911700",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003911700",
-    "address": "1281 Hawes St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1776799348/san-francisco/production/paczuf05ot8r8kmpjxpx.jpg",
-    "status": "OPEN",
-    "date": "24h ago",
-    "date_iso": "2026-04-21T19:22:29Z",
-    "lat": 37.72820619,
-    "lng": -122.38187589,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partially visible small white posters/stickers on garage door - text too small/obscured to read clearly due to sunlight glare and distance",
-    "commentary": "A few mystery postings adorn this garage, but the harsh sun and distance render them unreadable\u2014could be anything from lost cats to existential warnings.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003911173",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003911173",
     "address": "1376 Van Ness Ave",
