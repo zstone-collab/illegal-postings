@@ -9616,23 +9616,6 @@
     "confidence": 0.65
   },
   {
-    "id": "101003248369",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003248369",
-    "address": "1420 Steiner St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1767499964/san-francisco/production/ia6ev8hvzltbxnxwwuqi.jpg",
-    "status": "CLOSED",
-    "date": "8w ago",
-    "date_iso": "2026-02-26T16:12:30Z",
-    "lat": 37.7823642,
-    "lng": -122.43415237,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "1",
-    "commentary": "A lonely white sticker with the number '1' on a textured pole\u2014either a minimalist art statement, a mysterious counting system, or someone's attempt to mark territory one number at a time.",
-    "confidence": 0.85
-  },
-  {
     "id": "101003248368",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003248368",
     "address": "1590 Steiner St",
