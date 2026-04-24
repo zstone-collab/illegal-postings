@@ -5508,23 +5508,6 @@
     "confidence": 1.0
   },
   {
-    "id": "101003577278",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003577278",
-    "address": "1495 Illinois St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1772214016/san-francisco/production/ikvyoyzkjqdvov6umr90.jpg",
-    "status": "CLOSED",
-    "date": "6w ago",
-    "date_iso": "2026-03-09T21:28:39Z",
-    "lat": 37.75304694,
-    "lng": -122.38665026,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial text visible on stickers/postings but too small/blurry to read clearly",
-    "commentary": "There appear to be multiple small stickers or postings on the utility poles (marked with red arrows), but the resolution and distance make it impossible to decipher their actual content\u2014could be anything from political to promotional.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003574542",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003574542",
     "address": "Intersection Hwy 101 N Off Ramp, Hwy 101 Northbound",
