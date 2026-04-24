@@ -2656,10 +2656,11 @@
     "lng": -122.40644697,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\udd27 Services",
     "extracted_text": "Partially visible sticker/label on red utility pole - text too blurry/obscured to read clearly",
     "commentary": "There's definitely a colorful sticker slapped on this utility pole, but the glare and angle make it impossible to decipher what message this street-level author was trying to broadcast.",
-    "confidence": 0.2
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003802507",
