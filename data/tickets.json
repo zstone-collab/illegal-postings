@@ -15978,23 +15978,6 @@
     "reviewed_by_human": true
   },
   {
-    "id": "101002975905",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002975905",
-    "address": "581 Hayes St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763077911/san-francisco/production/fjhkuej1ztanknucnani.jpg",
-    "status": "CLOSED",
-    "date": "22w ago",
-    "date_iso": "2025-11-18T21:45:22Z",
-    "lat": 37.77646886,
-    "lng": -122.42590054,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partially visible postings with blue tape/covering obscuring most text; small colorful sticker visible on lower left of pole",
-    "commentary": "Someone's really committed to the \"hide evidence\" aesthetic\u2014the blue tape is doing heavy lifting here, but you can tell there's definitely something worth covering up underneath.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002975900",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002975900",
     "address": "Intersection Hayes St, Laguna St",
