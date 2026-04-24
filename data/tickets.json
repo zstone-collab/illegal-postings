@@ -16356,23 +16356,6 @@
     "confidence": 0.75
   },
   {
-    "id": "101002956817",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002956817",
-    "address": "98 14 Th St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1762816826/san-francisco/production/o8ijequvoaglknxhrgzn.jpg",
-    "status": "CLOSED",
-    "date": "23w ago",
-    "date_iso": "2025-11-10T23:26:30Z",
-    "lat": 37.76859409,
-    "lng": -122.41558682,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partially visible flyer/postcard affixed to utility pole; text too small/distant to read clearly",
-    "commentary": "There's definitely a posting taped to that pole, but from this angle and distance, it's basically a cryptic white rectangle\u2014very on-brand for SF street archaeology.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002956798",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002956798",
     "address": "11 14 Th St",
