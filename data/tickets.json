@@ -4245,23 +4245,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003659627",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003659627",
-    "address": "1265 Hawes St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1773339816/san-francisco/production/zimhj4yisuprnekqkvdq.jpg",
-    "status": "CLOSED",
-    "date": "6w ago",
-    "date_iso": "2026-03-13T17:03:00Z",
-    "lat": 37.72825215,
-    "lng": -122.38187499,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial text visible on postings but too blurry/obscured by glare and distance to read clearly. At least 2-3 distinct flyers/postings visible on the garage door.",
-    "commentary": "The SF sunshine is doing DPW's job for them\u2014that lens flare is basically a natural censoring tool; whatever message these flyers had is now encrypted in solar glare.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003659448",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003659448",
     "address": "1581 Mission St",
