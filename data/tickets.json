@@ -11089,23 +11089,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003248303",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003248303",
-    "address": "Intersection Fell St, Laguna St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1767499049/san-francisco/production/d9jojdjjfcpuxqi1acev.jpg",
-    "status": "OPEN",
-    "date": "16w ago",
-    "date_iso": "2026-01-04T03:56:53Z",
-    "lat": 37.7755243958891,
-    "lng": -122.426070375351,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partially visible sticker/posting with red, white, and blue coloring; text not legible",
-    "commentary": "This blurry telephoto shot captures what might be a political or artistic posting, but we'd need a clearer close-up to determine if it's guerrilla art or just someone's lost balloon in a very deliberate location.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003248290",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003248290",
     "address": "801 Hayes St",
@@ -11223,23 +11206,6 @@
     "extracted_text": "",
     "commentary": "",
     "confidence": 0.95
-  },
-  {
-    "id": "101003248272",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003248272",
-    "address": "810 Steiner St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1767498633/san-francisco/production/ipys619c9dtmnb5yujhg.jpg",
-    "status": "CLOSED",
-    "date": "7w ago",
-    "date_iso": "2026-03-03T21:20:22Z",
-    "lat": 37.77667721,
-    "lng": -122.43298413,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "",
-    "commentary": "There's clearly a white/light colored flyer or posting affixed to this utility pole with what appear to be adhesive strips, but the text is completely illegible from this angle and distance\u2014we're basically just seeing the ghost of a posting.",
-    "confidence": 0.2
   },
   {
     "id": "101003248271",
