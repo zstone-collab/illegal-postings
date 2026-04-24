@@ -4262,23 +4262,6 @@
     "confidence": 0
   },
   {
-    "id": "101003658509",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003658509",
-    "address": "1925 Sacramento St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1773332682/san-francisco/production/esymhjbnxw61qm6qkz5v.jpg",
-    "status": "CLOSED",
-    "date": "5w ago",
-    "date_iso": "2026-03-18T22:50:01Z",
-    "lat": 37.79101377,
-    "lng": -122.42451895,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Appears to be a small posted sign on the utility pole, text not legible in image",
-    "commentary": "There's definitely a posting on that pole near the building entrance, but it's too small/distant to read what this scofflaw is hawking\u2014could be parking violation warnings, mysterious warnings, or lost cat notices for all we can tell.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003656626",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003656626",
     "address": "1056 Potrero Ave",
