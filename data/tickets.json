@@ -2406,23 +2406,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003815161",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003815161",
-    "address": "2041 Union St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1775447562/san-francisco/production/gdowl9hhomtf4mz981jk.jpg",
-    "status": "OPEN",
-    "date": "2w ago",
-    "date_iso": "2026-04-06T03:52:00Z",
-    "lat": 37.79733713,
-    "lng": -122.43288393,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83c\udfa8 Art & Culture",
-    "extracted_text": "",
-    "commentary": "Someone's been getting creative with projection mapping in the Mission\u2014this glowing winged eyeball is either very committed street art or someone's elaborate way of saying 'we're watching you' to the 311 snitches.",
-    "confidence": 0.85
-  },
-  {
     "id": "101003812828",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003812828",
     "address": "Intersection Connecticut St, 26 Th St",
