@@ -1724,23 +1724,6 @@
     "confidence": 0.0
   },
   {
-    "id": "101003832797",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003832797",
-    "address": "601 Paul Ave",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1775678757/san-francisco/production/jvj78d4lkjeyokwcvzre.jpg",
-    "status": "OPEN",
-    "date": "2w ago",
-    "date_iso": "2026-04-08T20:05:58Z",
-    "lat": 37.72354411,
-    "lng": -122.40089043,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\udc41\ufe0f Weird & Unexplained",
-    "extracted_text": "600 Paul! [red hand symbol]",
-    "commentary": "A mysterious sticker declaring \"600 Paul!\" with a red hand\u2014either a cryptic neighborhood inside joke, a lost soul's beacon, or Paul's very aggressive address marketing campaign.",
-    "confidence": 0.85
-  },
-  {
     "id": "101003832788",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003832788",
     "address": "1590 Bay Shore Blvd",
