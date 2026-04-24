@@ -2726,10 +2726,11 @@
     "lng": -122.40899641,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\uddf3\ufe0f Political",
     "extracted_text": "Text too small/blurry to read reliably from this distance. Appears to be multiple white flyers with dense text arranged in a grid pattern on the wall.",
     "commentary": "A whole wall plastered with what looks like manifestos or public notices\u2014this is either extremely important community organizing or someone's very committed ransom note situation.",
-    "confidence": 0.2
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003801661",
