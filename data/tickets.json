@@ -19703,10 +19703,11 @@
     "lng": -122.44693369284,
     "analyzed": true,
     "skip": false,
-    "theme": "\ud83d\udd27 Services",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "HOUSECLEAN DIT RIMBO! MITZI [additional text partially obscured/illegible on cream-colored flyer]",
     "commentary": "A vintage-looking house cleaning service flyer that's been stapled to the utility pole with the kind of optimistic permanence of someone who definitely didn't get a permit\u2014respecting the 1990s aesthetic while committing 2020s violations.",
-    "confidence": 0.45
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002881257",
