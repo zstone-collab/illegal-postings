@@ -18820,23 +18820,6 @@
     "confidence": 0.92
   },
   {
-    "id": "101002854239",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002854239",
-    "address": "752 Church St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1761343110/san-francisco/production/zml9yvfwvb3epcxxrx6u.jpg",
-    "status": "CLOSED",
-    "date": "26w ago",
-    "date_iso": "2025-10-24T22:16:08Z",
-    "lat": 37.75875066,
-    "lng": -122.42818239,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "LIFE & SUNSHINE (top sticker, partially legible); partial text visible on lower pink/multicolor sticker but too blurry to read clearly",
-    "commentary": "Two stickers affixed to a tree trunk with genuine optimism\u2014one declaring 'LIFE & SUNSHINE' with a sweet hand-drawn banner, the other a pastel mystery; honestly, the vibe is more 'aspiring Instagram aesthetic' than revolutionary street art.",
-    "confidence": 0.55
-  },
-  {
     "id": "101002854212",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002854212",
     "address": "682 Church St",
