@@ -12329,23 +12329,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003096990",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003096990",
-    "address": "Intersection Baker St, Page St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1765059296/san-francisco/production/je1oqxcmmnh5se2psmil.jpg",
-    "status": "CLOSED",
-    "date": "20w ago",
-    "date_iso": "2025-12-06T22:23:14Z",
-    "lat": 37.7717791655005,
-    "lng": -122.440546280759,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Small white sticker/label with line drawing of what appears to be a face or portrait in black ink; text illegible due to image resolution and angle",
-    "commentary": "A mysterious minimalist portrait sticker sandwiched between yellow safety bands\u2014either a missed connection trying very hard to blend in or the world's most committed game of hide-and-seek with utility pole advertising.",
-    "confidence": 0.3
-  },
-  {
     "id": "101003096988",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003096988",
     "address": "Intersection Buena Vista Ave West, Haight St",
