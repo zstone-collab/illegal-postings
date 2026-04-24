@@ -11458,23 +11458,6 @@
     "confidence": 0.4
   },
   {
-    "id": "101003138068",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003138068",
-    "address": "2370 Market St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1765648112/san-francisco/production/xn47ui583eew3da4iubc.jpg",
-    "status": "CLOSED",
-    "date": "16w ago",
-    "date_iso": "2025-12-31T17:17:05Z",
-    "lat": 37.76324246,
-    "lng": -122.43464579,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "COWGIRL IN ASHE[L/R] (partial/unclear), appears to be a sticker or small poster on utility box",
-    "commentary": "There's definitely a sticker slapped on this utility box, but the text is too obscured by glare, angle, and weathering to make out the full message\u2014looks like it might say something about a 'Cowgirl' and a location, but we're left guessing.",
-    "confidence": 0.25
-  },
-  {
     "id": "101003138060",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003138060",
     "address": "385 Castro St",
