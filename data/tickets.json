@@ -394,7 +394,8 @@
     "theme": "\u2753 Unclear",
     "extracted_text": "Multiple overlapping flyers visible; text too small/obscured to read clearly from this distance. Blue flyer appears prominent in middle section.",
     "commentary": "A classic SF utility pole palimpsest\u2014layers of competing messages that probably includes everything from lost cats to startup pivots, but the resolution and angle make it an unreadable democratic mess.",
-    "confidence": 0.2
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003881395",
