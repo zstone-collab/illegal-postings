@@ -19214,23 +19214,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101002808823",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002808823",
-    "address": "584 Masonic Ave",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1768696508/san-francisco/production/jctl0xv2m3iytuargsyi.jpg",
-    "status": "CLOSED",
-    "date": "26w ago",
-    "date_iso": "2025-10-19T20:05:58Z",
-    "lat": 37.77602647,
-    "lng": -122.44641109,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\udd27 Services",
-    "extracted_text": "BARBER (on spinning barber pole sign)",
-    "commentary": "Classic barber pole doing its timeless job\u2014this is the OG street-level advertising, though technically it might be permanent signage depending on how the 311 caller feels about tradition.",
-    "confidence": 0.85
-  },
-  {
     "id": "101002805589",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002805589",
     "address": "2400 23 Rd St",
