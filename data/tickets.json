@@ -17525,23 +17525,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101002906158",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002906158",
-    "address": "3191 17 Th St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1762117349/san-francisco/production/zqjticy9fvwbsg2gp0mu.jpg",
-    "status": "CLOSED",
-    "date": "18w ago",
-    "date_iso": "2025-12-14T18:18:59Z",
-    "lat": 37.7635279,
-    "lng": -122.41713444,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "",
-    "commentary": "There's definitely a small sticker or label affixed to this utility pole, but it's too distant and blurry to read any text\u2014even with the zoom, it's just a colorful blur on metal.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002906155",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002906155",
     "address": "3298 17 Th St",
