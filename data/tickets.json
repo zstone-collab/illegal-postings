@@ -10156,23 +10156,6 @@
     "reviewed_by_human": true
   },
   {
-    "id": "101003248277",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003248277",
-    "address": "1199 Fulton St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1767498691/san-francisco/production/oslfw87az60nol9xjejo.jpg",
-    "status": "CLOSED",
-    "date": "15w ago",
-    "date_iso": "2026-01-08T23:33:31Z",
-    "lat": 37.77703379,
-    "lng": -122.43644958,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partially visible flyer with red and yellow sections; text too blurry/small to read clearly",
-    "commentary": "A tiny, sun-bleached flyer clinging to a utility pole like it's holding on for dear life\u2014respect the persistence, even if nobody can actually read what it says.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003248278",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003248278",
     "address": "Intersection Fulton St, Pierce St",
