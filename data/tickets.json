@@ -3124,23 +3124,6 @@
     "confidence": 0.75
   },
   {
-    "id": "101003754787",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003754787",
-    "address": "2485 Union St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1774579940/san-francisco/production/rxnytzafu2xh0wzsdw4d.jpg",
-    "status": "CLOSED",
-    "date": "4w ago",
-    "date_iso": "2026-03-27T08:00:00Z",
-    "lat": 37.79646778,
-    "lng": -122.44003527,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "White paper/material visible on structure, text illegible",
-    "commentary": "Someone's street-level installation art featuring a precarious white paper sail on a rusty metal frame\u2014either a poignant comment on hope against the odds, or someone's lost irrigation project.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003749792",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003749792",
     "address": "401 Hayes St",
