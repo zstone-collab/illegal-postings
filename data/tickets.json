@@ -16016,10 +16016,11 @@
     "lng": -122.436507295507,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\uddf3\ufe0f Political",
     "extracted_text": "Text on flyer is too small and blurry to read clearly due to photo distance/angle and image quality",
     "commentary": "Classic SF utility pole posting caught in potato-quality surveillance\u2014the text might be revolutionary or it might be someone's lost cat; we simply cannot tell from this distance.",
-    "confidence": 0.15
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002982219",
