@@ -24728,10 +24728,11 @@
     "lng": -122.40676079,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\uddf3\ufe0f Political",
     "extracted_text": "ARIADATOR PARA... VIOLENCE SHOV... (partial text visible, mostly illegible due to angle and image quality)",
     "commentary": "Moon phase sticker with what looks like activist messaging, but the text is too weathered and angled to read with confidence\u2014classic pole propaganda that's seen better days.",
-    "confidence": 0.25
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002647393",
