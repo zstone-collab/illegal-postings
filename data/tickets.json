@@ -16599,23 +16599,6 @@
     "reviewed_by_human": true
   },
   {
-    "id": "101002927543",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002927543",
-    "address": "Intersection Haight St, Masonic Ave",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1762389565/san-francisco/production/mqpsi6btnjsgyhuz7k6o.jpg",
-    "status": "CLOSED",
-    "date": "22w ago",
-    "date_iso": "2025-11-20T20:38:08Z",
-    "lat": 37.7702101326969,
-    "lng": -122.445345107431,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "I'M TRYING TO MAKE IT IN BASIC HOUSING [text unclear] IS UNRELIABLE [partially visible text on white/blue poster below] VOTE [partially visible text on cream-colored label at bottom]",
-    "commentary": "A layered cry for help\u2014literally stacked flyers suggesting either desperate persistence or someone's really committed to their housing anxiety; the green sticky note screaming into the void is peak SF desperation energy.",
-    "confidence": 0.35
-  },
-  {
     "id": "101002926688",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002926688",
     "address": "4495 Mission St",
