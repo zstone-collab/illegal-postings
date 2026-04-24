@@ -670,24 +670,6 @@
     "confidence": 0.4
   },
   {
-    "id": "101003865065",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003865065",
-    "address": "1056 Potrero Ave",
-    "lat": 37.75524122,
-    "lng": -122.4067001,
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1776142888/san-francisco/production/jykb1pzamllbj6k4j34t.jpg",
-    "description": "",
-    "status": "OPEN",
-    "date": "1w ago",
-    "analyzed": true,
-    "date_iso": "2026-04-14T05:01:28Z",
-    "skip": false,
-    "theme": "\ud83d\ude80 Startups",
-    "extracted_text": "RED PEPPOR [partially visible text at top] [bottle imagery with red and yellow design elements] [Chinese characters visible]",
-    "commentary": "A vibrant liquor/beverage advertisement wheatpaste\u2014looks like a premium spirit or wine brand leveraging SF's diverse market with multilingual design cues; the bold yellow and red palette screams 'buy me' louder than any permit ever could.",
-    "confidence": 0.5
-  },
-  {
     "id": "101003864995",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003864995",
     "address": "521 Waller St",
