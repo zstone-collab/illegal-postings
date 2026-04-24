@@ -14372,23 +14372,6 @@
     "confidence": 0.0
   },
   {
-    "id": "101003021175",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003021175",
-    "address": "65 Baker St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763780489/san-francisco/production/hvq5winkbwk3uxheglob.jpg",
-    "status": "CLOSED",
-    "date": "22w ago",
-    "date_iso": "2025-11-22T03:09:18Z",
-    "lat": 37.77144077,
-    "lng": -122.44053032,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Yellow marking/stripe visible on pole",
-    "commentary": "Either a city utility marking or someone's very minimalist artistic statement\u2014hard to say which is more bureaucratic.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003019518",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003019518",
     "address": "3182 16 Th St",
