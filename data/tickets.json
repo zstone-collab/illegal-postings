@@ -25284,23 +25284,6 @@
     "confidence": 0.65
   },
   {
-    "id": "101002558988",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002558988",
-    "address": "Intersection Ritch St, Townsend St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1770930775/san-francisco/production/xyti7snuftoxyldfyuya.jpg",
-    "status": "CLOSED",
-    "date": "33w ago",
-    "date_iso": "2025-09-06T00:12:10Z",
-    "lat": 37.7784274051715,
-    "lng": -122.393287143408,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\udd27 Services",
-    "extracted_text": "Art & Craft Workshop, mosaic, ring tutoring",
-    "commentary": "A weathered flyer advertising creative workshops\u2014SF's DIY spirit lives on, even if the poster's already taking a beating from the elements.",
-    "confidence": 0.65
-  },
-  {
     "id": "101002557261",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002557261",
     "address": "1008 Harrison St",
