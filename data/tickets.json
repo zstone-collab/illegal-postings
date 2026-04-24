@@ -24175,10 +24175,11 @@
     "lng": -122.4217967,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "DJNC, QUEER, @CAM GIRL BESTIE, @DONNATACHILD, @SUCCUBUS & M, RECORD'S ROCK, RECORRD",
     "commentary": "A beautifully layered utility pole palimpsest featuring what appears to be queer/LGBTQ+ themed stickers, music promotion, and cam content ads\u2014classic SF intersection of intimacy work, community expression, and commerce.",
-    "confidence": 0.45
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002661827",
