@@ -2185,23 +2185,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003831247",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003831247",
-    "address": "3187 19 Th St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1775668094/san-francisco/production/yehxkizpgphaprs3lltp.jpg",
-    "status": "OPEN",
-    "date": "2w ago",
-    "date_iso": "2026-04-08T17:08:15Z",
-    "lat": 37.76057824,
-    "lng": -122.41444119,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial text visible on pole wrapping but too blurry/obscured to read clearly; appears to be colorful stickers/postings layered on utility pole",
-    "commentary": "Classic SF utility pole palimpsest\u2014someone's been using this pole as a community bulletin board, but the resolution and layering make it impossible to decipher what messages are actually here.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003830630",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003830630",
     "address": "84 4 Th St",
