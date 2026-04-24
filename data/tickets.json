@@ -3349,23 +3349,6 @@
     "reviewed_by_human": true
   },
   {
-    "id": "101003727020",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003727020",
-    "address": "2315 Sacramento St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1774276543/san-francisco/production/dbn8pic82bx0ocmatxbb.jpg",
-    "status": "CLOSED",
-    "date": "4w ago",
-    "date_iso": "2026-03-25T08:00:00Z",
-    "lat": 37.79011931,
-    "lng": -122.43137406,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "NO STOPPING 3/23/26 - 3/27/26 MF-SAT",
-    "commentary": "Someone's fighting city Hall with a bootleg 'No Stopping' sign\u2014either a parking protest masterpiece or the world's most specific real estate complaint.",
-    "confidence": 0.65
-  },
-  {
     "id": "101003725327",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003725327",
     "address": "706 Balboa St",
