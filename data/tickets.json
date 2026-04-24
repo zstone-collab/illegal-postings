@@ -18817,23 +18817,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101002856216",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002856216",
-    "address": "2690 Harrison St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1761365029/san-francisco/production/k856ghy9qsfjumymwk9v.jpg",
-    "status": "CLOSED",
-    "date": "26w ago",
-    "date_iso": "2025-10-25T04:13:38Z",
-    "lat": 37.75451608,
-    "lng": -122.41223511,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partially visible stickers/flyers on utility pole - text too small and obscured to read clearly",
-    "commentary": "Classic SF utility pole real estate with what looks like a layered collage of small stickers, but the photo's angle and distance make the actual content a mystery\u2014could be anything from lost pets to underground concerts.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002856211",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002856211",
     "address": "Intersection 23 Rd St, Harrison St",
