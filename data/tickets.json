@@ -24885,23 +24885,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101002615323",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002615323",
-    "address": "1478 27 Th Ave",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1757949286/san-francisco/production/pznrros9dvsxuusnippc.jpg",
-    "status": "CLOSED",
-    "date": "30w ago",
-    "date_iso": "2025-09-24T19:49:56Z",
-    "lat": 37.75988767,
-    "lng": -122.48534247,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "SALIS RADIO (partial, on utility pole sticker/posting)",
-    "commentary": "There's definitely a sticker or small posting on that utility pole, but the resolution and angle make it tough to read the full text\u2014looks like it might be radio-related signage, but too blurry to confidently classify.",
-    "confidence": 0.35
-  },
-  {
     "id": "101002614180",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002614180",
     "address": "503 Divisadero St",
