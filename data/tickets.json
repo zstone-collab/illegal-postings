@@ -3050,10 +3050,11 @@
     "lng": -122.42325302,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "Crossing the Cadre: How to Buy Property in San Francisco, Now [partial/obscured text on upper poster]; APPLE [yellow text]; ON [blue text]; SPEED LIMIT 20; Various overlapping posters with partial text visible including what appears to be event/promotional content",
     "commentary": "Classic SF utility pole palimpsest\u2014layers of flyers competing for attention like a visual game of Tetris where nobody wins and the city's 311 app loses.",
-    "confidence": 0.35
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003749509",
