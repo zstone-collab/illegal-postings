@@ -9991,23 +9991,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003214327",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003214327",
-    "address": "1301 Leavenworth St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1766882347/san-francisco/production/bgbgpsirnyansln2c4ni.jpg",
-    "status": "CLOSED",
-    "date": "15w ago",
-    "date_iso": "2026-01-06T21:18:40Z",
-    "lat": 37.793064,
-    "lng": -122.41625815,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\udd27 Services",
-    "extracted_text": "ORGANIZATION & DECLUTTERING",
-    "commentary": "A cheerful blue sticker for a professional organizer\u2014because nothing says \"I'll help you Marie Kondo your life\" like guerrilla marketing on a utility pole in the Mission.",
-    "confidence": 0.65
-  },
-  {
     "id": "101003214324",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003214324",
     "address": "1301 Leavenworth St",
