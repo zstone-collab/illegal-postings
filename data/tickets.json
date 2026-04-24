@@ -14170,23 +14170,6 @@
     "confidence": 1.0
   },
   {
-    "id": "101003017078",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003017078",
-    "address": "Intersection Grove St, Masonic Ave",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763746529/san-francisco/production/nf9jdacquvz4brkmwyvc.jpg",
-    "status": "CLOSED",
-    "date": "18w ago",
-    "date_iso": "2025-12-16T19:08:06Z",
-    "lat": 37.7748710208347,
-    "lng": -122.446283562664,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "",
-    "commentary": "There's definitely a white flyer affixed to that utility box, but the resolution and angle make it impossible to read any actual text\u2014it's like trying to read a ransom note through frosted glass.",
-    "confidence": 0.15
-  },
-  {
     "id": "101003017070",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003017070",
     "address": "555 Masonic Ave",
