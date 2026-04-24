@@ -7699,23 +7699,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003415613",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003415613",
-    "address": "Intersection Clayton St, Haight St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1769893172/san-francisco/production/ifw2ydhuicec0r1mpxeq.jpg",
-    "status": "CLOSED",
-    "date": "11w ago",
-    "date_iso": "2026-02-06T22:32:40Z",
-    "lat": 37.7697979719542,
-    "lng": -122.448578838049,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial flyers visible on right side of image - text too blurry/small to read with confidence",
-    "commentary": "There are clearly some postings on that red utility box on the right, but they're too distant and blurry to make out what they're hawking\u2014could be anything from a lost cat to a pyramid scheme.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003415229",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003415229",
     "address": "1400 Haight St",
