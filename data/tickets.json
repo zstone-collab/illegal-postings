@@ -22550,23 +22550,6 @@
     "confidence": 0.0
   },
   {
-    "id": "101002772347",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002772347",
-    "address": "Intersection Broderick St, Clay St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1770799214/san-francisco/production/nexhcag6zfmhakolifls.jpg",
-    "status": "CLOSED",
-    "date": "27w ago",
-    "date_iso": "2025-10-16T21:16:49Z",
-    "lat": 37.7896628337949,
-    "lng": -122.442476405568,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Small flyer visible on utility pole, text too small/blurry to read clearly",
-    "commentary": "Someone's posted a mysterious little rectangle on this lamp post\u2014looks like it might be a missing person or event flyer, but we'd need binoculars and better lighting to know if it's a lost cat, a DJ set, or something weirder.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002772324",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002772324",
     "address": "Intersection Broderick St, California St",
