@@ -6076,23 +6076,6 @@
     "confidence": 1.0
   },
   {
-    "id": "101003515467",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003515467",
-    "address": "3060 16 Th St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1771363050/san-francisco/production/ubznpxulzwjcxrb1eeiy.jpg",
-    "status": "CLOSED",
-    "date": "9w ago",
-    "date_iso": "2026-02-21T18:57:26Z",
-    "lat": 37.76499622,
-    "lng": -122.42097954,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "OUT OF HERE [partial text visible on lower sticker]",
-    "commentary": "Multiple weathered stickers and paper postings layered on a utility pole, but most text is too faded, obscured, or partially torn to read clearly\u2014classic SF pole palimpsest.",
-    "confidence": 0.25
-  },
-  {
     "id": "101003510941",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003510941",
     "address": "Intersection Stockton St, Emma St",
