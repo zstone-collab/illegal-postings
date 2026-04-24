@@ -25847,23 +25847,6 @@
     "confidence": 0.85
   },
   {
-    "id": "101002709235",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002709235",
-    "address": "2248 Mission St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1759338029/san-francisco/production/skxige90uimzxdmpjeoq.jpg",
-    "status": "CLOSED",
-    "date": "29w ago",
-    "date_iso": "2025-10-01T17:08:26Z",
-    "lat": 37.76102513,
-    "lng": -122.4193251,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83c\udfa8 Art & Culture",
-    "extracted_text": "KAZY KAZY (sticker with crossed planes/swords design) + additional stickers with red character imagery and partial text including what appears to be \"BABY\" and other obscured text",
-    "commentary": "Classic SF sticker bombing\u2014a utility pole becomes an unwilling canvas for various artists' tags, creating a palimpsest of street cred that's somehow more interesting than any commissioned mural.",
-    "confidence": 0.5
-  },
-  {
     "id": "101002708636",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002708636",
     "address": "82 2 Nd St",
