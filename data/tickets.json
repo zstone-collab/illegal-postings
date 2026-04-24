@@ -26035,23 +26035,6 @@
     "confidence": 0.75
   },
   {
-    "id": "101002687380",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002687380",
-    "address": "108 Congdon St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1759008053/san-francisco/production/opvcnk53uzmgcuiz9e7z.jpg",
-    "status": "CLOSED",
-    "date": "12w ago",
-    "date_iso": "2026-01-29T12:02:42Z",
-    "lat": 37.73052633,
-    "lng": -122.42615164,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Green leaf logo visible at top; body text too blurry to read clearly; appears to be a standard flyer/posting on mesh or netting material",
-    "commentary": "This flyer's resolution is so potato-quality we can barely make out it exists\u2014even 311's camera seems to be protesting on behalf of the poster.",
-    "confidence": 0.25
-  },
-  {
     "id": "101002687225",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002687225",
     "address": "1329 9 Th Ave",
