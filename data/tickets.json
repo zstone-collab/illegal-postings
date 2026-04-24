@@ -1286,24 +1286,6 @@
     "confidence": 0.85
   },
   {
-    "id": "101003839535",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003839535",
-    "address": "1128 Haight St",
-    "lat": 37.77087344,
-    "lng": -122.44089408,
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1775764204/san-francisco/production/dxthdvwzhuaprnwuyvts.jpg",
-    "description": "",
-    "status": "OPEN",
-    "date": "2w ago",
-    "analyzed": true,
-    "date_iso": "2026-04-09T19:50:05Z",
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Small white rectangular sticker/label visible on dark pole, text too small/distant to read clearly",
-    "commentary": "There's definitely a posting on that pole, but it's basically a postage stamp from this distance\u2014nice try, 311 reporter, but we're gonna need binoculars.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003839515",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003839515",
     "address": "3001 24 Th St",
