@@ -8945,23 +8945,6 @@
     "confidence": 0.72
   },
   {
-    "id": "101003324145",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003324145",
-    "address": "1202 Hampshire St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1768540862/san-francisco/production/pnj06bpjoyxlg9abfs8b.jpg",
-    "status": "CLOSED",
-    "date": "12w ago",
-    "date_iso": "2026-01-28T22:21:58Z",
-    "lat": 37.75278998,
-    "lng": -122.40739949,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "HOW BOO[?]",
-    "commentary": "A utility pole covered in layered postings\u2014classic SF street archaeology\u2014but the text is too weathered and obscured to confidently decode the messaging.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003323745",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003323745",
     "address": "2701 24 Th St",
