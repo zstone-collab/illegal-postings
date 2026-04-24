@@ -17120,23 +17120,6 @@
     "reviewed_by_human": true
   },
   {
-    "id": "101002975862",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002975862",
-    "address": "600 Oak St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763077595/san-francisco/production/jl3knoshygtdkmq5edzb.jpg",
-    "status": "CLOSED",
-    "date": "16w ago",
-    "date_iso": "2026-01-03T17:21:35Z",
-    "lat": 37.77425783,
-    "lng": -122.42940859,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Small white rectangular stickers/labels visible on pole, text illegible",
-    "commentary": "Someone's been playing sticker roulette on this utility pole\u2014there are at least two white rectangular postings, but they're too distant/blurry to read what they're advertising (or protesting).",
-    "confidence": 0.25
-  },
-  {
     "id": "101002975848",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002975848",
     "address": "300 Waller St",
