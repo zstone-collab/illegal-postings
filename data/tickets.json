@@ -19608,23 +19608,6 @@
     "confidence": 0
   },
   {
-    "id": "101002811469",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002811469",
-    "address": "2197 Fillmore St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1760743830/san-francisco/production/vybb3msdfnjk0ya5gbxz.jpg",
-    "status": "CLOSED",
-    "date": "26w ago",
-    "date_iso": "2025-10-23T17:20:16Z",
-    "lat": 37.7897463,
-    "lng": -122.43410378,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\ude80 Startups",
-    "extracted_text": "MODERN CITIZEN\n3608 SACRAMENTO ST.",
-    "commentary": "A sleek A-frame ad for what appears to be a boutique or lifestyle brand\u2014someone's really committed to sidewalk real estate in Hayes Valley, complete with weighted-down sandbags to survive the Bay wind.",
-    "confidence": 0.95
-  },
-  {
     "id": "101002810004",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002810004",
     "address": "99 Parnassus Ave",
