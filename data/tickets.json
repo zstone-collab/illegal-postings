@@ -21950,10 +21950,11 @@
     "lng": -122.41216415,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "Partial visible text on poster includes what appears to be event/show information, but most text is too blurry/small to read with confidence. Yellow bands visible on pole (likely city removal markers).",
     "commentary": "",
-    "confidence": 0.25
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002820631",
