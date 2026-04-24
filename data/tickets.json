@@ -14323,23 +14323,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003016639",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003016639",
-    "address": "Intersection Grant Ave, Pine St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763743975/san-francisco/production/i571els52rjo2l9mg1wy.jpg",
-    "status": "CLOSED",
-    "date": "20w ago",
-    "date_iso": "2025-12-01T16:15:37Z",
-    "lat": 37.7914981137873,
-    "lng": -122.405741994024,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial text visible on green pole - appears to be a sticker or small posting but text is too blurry/obscured to read clearly",
-    "commentary": "This is either a very committed minimalist artist or a 311 caller with a blurry phone camera\u2014either way, the mystery is intact.",
-    "confidence": 0.15
-  },
-  {
     "id": "101003016636",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003016636",
     "address": "Intersection Grant Ave, Pine St",
