@@ -16067,23 +16067,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101002975814",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002975814",
-    "address": "Intersection Steiner St, Waller St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763077289/san-francisco/production/ikhvjqhenmabzfipahsg.jpg",
-    "status": "CLOSED",
-    "date": "22w ago",
-    "date_iso": "2025-11-17T22:17:14Z",
-    "lat": 37.7709643606972,
-    "lng": -122.431904186111,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partially visible text on stickers/flyers - appears to include some blue and green sticky notes or papers, but text is too blurry and obscured by angle and focus to read reliably",
-    "commentary": "A mysterious totem of neon sticky notes and white paper affixed to what looks like a utility box\u2014either someone's aggressive reminder system or a tiny shrine to bureaucratic chaos.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002975803",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002975803",
     "address": "17 Scott St",
