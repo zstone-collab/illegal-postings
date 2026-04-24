@@ -12770,23 +12770,6 @@
     "confidence": 1.0
   },
   {
-    "id": "101003090077",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003090077",
-    "address": "84 Carl St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1764961180/san-francisco/production/jhdpow0acsiy5am8timk.jpg",
-    "status": "CLOSED",
-    "date": "18w ago",
-    "date_iso": "2025-12-14T16:26:47Z",
-    "lat": 37.76596905,
-    "lng": -122.44973149,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial text visible on pole-mounted flyer but too blurry/distant to read clearly",
-    "commentary": "There's definitely a white flyer taped to the wooden utility pole, but the photo distance and angle make the text illegible\u2014classic SF street archival challenge.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003089457",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003089457",
     "address": "2601 Mission St",
