@@ -14136,23 +14136,6 @@
     "confidence": 0.3
   },
   {
-    "id": "101003017106",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003017106",
-    "address": "Intersection Haight St, Masonic Ave",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763746706/san-francisco/production/rfz2wczfbxxq3laa5buu.jpg",
-    "status": "CLOSED",
-    "date": "21w ago",
-    "date_iso": "2025-11-25T22:11:29Z",
-    "lat": 37.7702101326969,
-    "lng": -122.445345107431,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partially visible sticker/posting with pink/red imagery, text too degraded and obscured to read clearly",
-    "commentary": "This weathered relic on a utility box has seen better days\u2014the photo angle and deterioration make it impossible to decipher what message (if any) this plucky flyer was trying to deliver.",
-    "confidence": 0.15
-  },
-  {
     "id": "101003017079",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003017079",
     "address": "701 Masonic Ave",
