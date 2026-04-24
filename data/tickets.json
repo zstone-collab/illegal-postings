@@ -14025,23 +14025,6 @@
     "confidence": 0.85
   },
   {
-    "id": "101003017105",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003017105",
-    "address": "Intersection Masonic Ave, Page St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763746705/san-francisco/production/nk9r68ivb16oryzkyq9q.jpg",
-    "status": "CLOSED",
-    "date": "22w ago",
-    "date_iso": "2025-11-22T21:59:19Z",
-    "lat": 37.7711420504648,
-    "lng": -122.445535273801,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partially visible white sticker/label on blue pole with some text that appears to include a date, but text is too blurry and obscured by angle/lighting to read clearly",
-    "commentary": "There's definitely a posting here on that blue pole, but it's playing hide-and-seek with the camera\u2014we can see it exists, just not what it's selling, protesting, or advertising.",
-    "confidence": 0.3
-  },
-  {
     "id": "101003017079",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003017079",
     "address": "701 Masonic Ave",
