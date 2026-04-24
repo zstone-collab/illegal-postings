@@ -7454,23 +7454,6 @@
     "confidence": 1.0
   },
   {
-    "id": "101003432897",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003432897",
-    "address": "159 Bay Shore Blvd",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1770146285/san-francisco/production/uafmq2zsxkgpgbtmdbc8.jpg",
-    "status": "CLOSED",
-    "date": "11w ago",
-    "date_iso": "2026-02-04T15:54:18Z",
-    "lat": 37.74677936,
-    "lng": -122.40363065,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "NO PARKING ANY TIME",
-    "commentary": "A mysterious black tarp poster has achieved what most street art aspires to: perfect anonymity\u2014we can see it exists, but what it's trying to say remains delightfully unknowable.",
-    "confidence": 0.3
-  },
-  {
     "id": "101003431974",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003431974",
     "address": "3008 16 Th St",
