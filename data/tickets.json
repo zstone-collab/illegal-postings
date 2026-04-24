@@ -11178,10 +11178,11 @@
     "lng": -122.43125654,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "SYZYGIE (partially visible at top), NSHEA (partially visible), various stickers and posters on utility box but text too small/blurry to read clearly",
     "commentary": "This ornate black utility box is basically SF's unofficial gallery wall\u2014layered with stickers and small posters that are unfortunately too small to decipher from this angle, making it a palimpsest of urban expression that remains frustratingly illegible.",
-    "confidence": 0.3
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003139454",
