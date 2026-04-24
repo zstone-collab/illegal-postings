@@ -379,25 +379,6 @@
     "confidence": 0
   },
   {
-    "id": "101003881418",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003881418",
-    "address": "2749 24 Th St",
-    "lat": 37.75280615,
-    "lng": -122.40719296,
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1776363696/san-francisco/production/njuoi5b2bsdwuoydlwhf.jpg",
-    "description": "",
-    "status": "OPEN",
-    "date": "6d ago",
-    "analyzed": true,
-    "date_iso": "2026-04-16T18:21:37Z",
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Multiple overlapping flyers visible; text too small/obscured to read clearly from this distance. Blue flyer appears prominent in middle section.",
-    "commentary": "A classic SF utility pole palimpsest\u2014layers of competing messages that probably includes everything from lost cats to startup pivots, but the resolution and angle make it an unreadable democratic mess.",
-    "confidence": 1.0,
-    "reviewed_by_human": true
-  },
-  {
     "id": "101003881395",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003881395",
     "address": "2815 24 Th St",
