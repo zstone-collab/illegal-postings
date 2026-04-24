@@ -4232,23 +4232,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003635047",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003635047",
-    "address": "1210 Funston Ave",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1773009104/san-francisco/production/chboretjswrvtsec5omv.jpg",
-    "status": "CLOSED",
-    "date": "6w ago",
-    "date_iso": "2026-03-13T18:49:49Z",
-    "lat": 37.76554869,
-    "lng": -122.47064788,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\ude80 Startups",
-    "extracted_text": "SELL HOUSE AS-IS\nNO COMMISSION\nNO CLOSING COSTS!\n415-756-CASH",
-    "commentary": "A real estate hustler's yellow sign promising the dream that doesn't exist\u2014no commission AND no closing costs is peak SF optimism, though the Comic Sans energy suggests they're definitely not a licensed agent.",
-    "confidence": 0.95
-  },
-  {
     "id": "101003633916",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003633916",
     "address": "Justin Herman/Embarcadero Plaza I Poi",
