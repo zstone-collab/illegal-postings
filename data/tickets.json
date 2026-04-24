@@ -2354,23 +2354,6 @@
     "confidence": 0.72
   },
   {
-    "id": "101003819022",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003819022",
-    "address": "1742 Quesada Ave",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1775672300/san-francisco/production/yn4kru6wsezqs5j5judz.jpg",
-    "status": "CLOSED",
-    "date": "2w ago",
-    "date_iso": "2026-04-08T19:12:24Z",
-    "lat": 37.73386857,
-    "lng": -122.39203002,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "TOMATO SEASON IS HERE",
-    "commentary": "A mysterious horticultural manifesto adorns a rain barrel at Qurada Gardens\u2014someone's very committed to vegetable-based public service announcements.",
-    "confidence": 0.65
-  },
-  {
     "id": "101003818876",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003818876",
     "address": "2797 25 Th St",
