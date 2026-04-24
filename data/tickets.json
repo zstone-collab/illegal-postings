@@ -22994,10 +22994,11 @@
     "lng": -122.419981393661,
     "analyzed": true,
     "skip": false,
-    "theme": "\ud83d\udc41\ufe0f Weird & Unexplained",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "ROCK BOMB (visible on olive/gold spray painted surfaces)",
     "commentary": "Someone's turned these utility boxes into a spray-painted tag gallery\u2014the 'ROCK BOMB' crew is apparently very committed to their real estate strategy, one olive box at a time.",
-    "confidence": 0.45
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002783471",
