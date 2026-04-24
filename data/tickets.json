@@ -17609,10 +17609,11 @@
     "lng": -122.42108573,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "KIDE, TURN OUT NOW, LET'S GO TRANS, partial text fragments visible but largely illegible due to angle, weathering, and overlapping stickers",
     "commentary": "A palimpsest of Mission District activism\u2014this pole is basically a physical Twitter thread where someone's definitely yelling about trans rights and civic engagement, though the specifics are lost to time and weather.",
-    "confidence": 0.35
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002881266",
