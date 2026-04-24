@@ -4573,23 +4573,6 @@
     "confidence": 0.6
   },
   {
-    "id": "101003596857",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003596857",
-    "address": "1101 California St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1772485594/san-francisco/production/mmdb0iqi91by813pmxqz.jpg",
-    "status": "CLOSED",
-    "date": "7w ago",
-    "date_iso": "2026-03-02T21:14:13Z",
-    "lat": 37.79154127,
-    "lng": -122.41268351,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83c\udfb5 Events",
-    "extracted_text": "Alert 45 3/1/26 8 AM \u2013 9:30 AM BOARD ON \u4e0a\u8eca\u5730\u9ede / Aborde en / Sumakay sa Union & Mason For details visit: SFMTA.com or contact 311",
-    "commentary": "A multilingual transit alert for what appears to be a shuttle or charter bus boarding\u2014someone's definitely trying to get the word out about 3/1/26 at Union & Mason with pleasantly inclusive language options.",
-    "confidence": 0.92
-  },
-  {
     "id": "101003592313",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003592313",
     "address": "191 Potrero Ave",
