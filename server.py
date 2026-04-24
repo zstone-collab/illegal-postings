@@ -55,11 +55,13 @@ _last_commit = {"ok": None, "ts": None, "reason": None, "error": None}
 
 
 def mark_dirty(reason: str):
-    """Record edit + commit synchronously in the request thread.
+    """Record edit, then try to acquire commit mutex non-blocking.
 
-    Background threads were getting starved on Render free tier — never ran.
-    Synchronous commit adds ~1-2s per admin action but gives absolute certainty
-    that the edit is in git before the HTTP response returns.
+    - First clicker gets the mutex, commits + drains any arriving edits, releases
+    - Concurrent clicks see locked mutex, return fast (~50ms). Their edit is in
+      _dirty so the in-flight committer WILL pick it up on the next drain-loop pass
+    - Worst case: server dies mid-drain → on restart, _startup_recovery notices
+      tickets.json differs from HEAD and fires a recovery commit
     """
     global _dirty, _dirty_at, _last_reason
     with _dirty_lock:
@@ -68,9 +70,12 @@ def mark_dirty(reason: str):
         _dirty = True
         _last_reason = reason
 
-    # Serialize concurrent admin requests so we don't race on git ops
-    with _commit_mutex:
-        # Drain loop: grab latest reason, commit, then check if MORE edits arrived
+    # Non-blocking: if another request is already committing, bail fast.
+    if not _commit_mutex.acquire(blocking=False):
+        return  # our edit is on disk + _dirty flag set; current committer will see it
+
+    try:
+        # Drain loop: commit, then re-check if more edits arrived during the push
         while True:
             with _dirty_lock:
                 if not _dirty:
@@ -78,6 +83,8 @@ def mark_dirty(reason: str):
                 reason = _last_reason
                 _dirty = False
             _do_git_commit(reason)
+    finally:
+        _commit_mutex.release()
 
 
 def _do_git_commit(reason: str):
@@ -105,11 +112,15 @@ def _do_git_commit(reason: str):
         _last_commit = {"ok": False, "ts": time.time(), "reason": reason, "error": msg}
 
     try:
-        # Configure origin fresh (Render strips it during deploy)
-        run(["git", "remote", "remove", "origin"])  # best-effort
-        r = run(["git", "remote", "add", "origin", remote_url])
-        if r.returncode != 0:
-            return fail(f"remote add failed: {r.stderr.decode()[:200]}")
+        # Ensure origin points at the tokenized URL. Only (re)configure if missing
+        # or different — avoids ~100ms of unnecessary subprocess work on every commit.
+        r = run(["git", "remote", "get-url", "origin"])
+        current = (r.stdout or b"").decode().strip() if r.returncode == 0 else ""
+        if current != remote_url:
+            run(["git", "remote", "remove", "origin"])  # best-effort
+            r = run(["git", "remote", "add", "origin", remote_url])
+            if r.returncode != 0:
+                return fail(f"remote add failed: {r.stderr.decode()[:200]}")
 
         # Stage
         r = run(["git", "add", "data/tickets.json"])
