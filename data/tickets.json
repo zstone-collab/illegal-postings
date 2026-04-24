@@ -13668,23 +13668,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003035231",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003035231",
-    "address": "298 Liberty St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1764029009/san-francisco/production/rfbpkalibdojchfrae4g.jpg",
-    "status": "CLOSED",
-    "date": "20w ago",
-    "date_iso": "2025-12-01T17:45:41Z",
-    "lat": 37.75735112,
-    "lng": -122.42790644,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "WTF, M/C, partial text on black pole - illegible handwritten tags and stickers",
-    "commentary": "A classic utility pole palimpsest: illegible handwriting, mystery stickers, and the universal SF cry of 'WTF'\u2014this one's too smudged and cryptic to properly catalog, though it's definitely someone's unauthorized thoughts.",
-    "confidence": 0.3
-  },
-  {
     "id": "101003032730",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003032730",
     "address": "Intersection Hayes St, Stanyan St",
