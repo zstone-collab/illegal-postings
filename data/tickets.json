@@ -21609,10 +21609,11 @@
     "lng": -122.4552168433,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "Partial text visible on sticker but too blurry/small to read with confidence",
     "commentary": "There's definitely a sticker on that pole near Stanyan Street, but it's small enough that even a street archivist needs reading glasses\u2014looks like it might be activist messaging, but I'm not confident enough to call it.",
-    "confidence": 0.25
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002821079",
