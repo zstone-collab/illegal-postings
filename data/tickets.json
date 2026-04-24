@@ -5863,7 +5863,8 @@
     "theme": "\ud83d\uddf3\ufe0f Political",
     "extracted_text": "PROP\u00d3SITO DEL FRENTE CONTRA EL FASCISMO [yellow flyer, partially visible]\n[Pink/purple flyers with Spanish text - appears to be political organizing material, text too blurry to extract completely but mentions 'AGENDA FASCISTA' and appears to be a multi-language document with Russian/Cyrillic text visible]",
     "commentary": "A multi-lingual anti-fascist organizing effort has colonized this utility pole like political barnacles\u2014mixing Spanish, English, and Russian in what looks like a coordinated resistance campaign against something very specific (and very pink).",
-    "confidence": 0.45
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003553532",
