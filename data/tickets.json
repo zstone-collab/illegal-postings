@@ -15978,23 +15978,6 @@
     "reviewed_by_human": true
   },
   {
-    "id": "101002975922",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002975922",
-    "address": "556 Hayes St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763077984/san-francisco/production/ftupwxadmu0nu8mmiifp.jpg",
-    "status": "CLOSED",
-    "date": "22w ago",
-    "date_iso": "2025-11-18T21:38:01Z",
-    "lat": 37.77666948,
-    "lng": -122.42551378,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Illegible text on white paper strips affixed to utility pole",
-    "commentary": "This one's doing its best to stay mysterious\u2014the photo angle, lighting, and weathering have conspired to make whatever message this flyer is screaming essentially unreadable.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002975905",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002975905",
     "address": "581 Hayes St",
