@@ -5597,23 +5597,6 @@
     "confidence": 0.0
   },
   {
-    "id": "101003553268",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003553268",
-    "address": "2301 Market St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1771906653/san-francisco/production/hwmjchdfjqtngmakzybm.jpg",
-    "status": "CLOSED",
-    "date": "6w ago",
-    "date_iso": "2026-03-09T18:08:35Z",
-    "lat": 37.76375246,
-    "lng": -122.43333435,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial text visible but too blurry/angled to read completely - appears to be stenciled or spray-painted white text on pavement",
-    "commentary": "Someone's taken the classic sidewalk stencil game to the streets with what looks like a flowing script piece\u2014legibility is sacrificed for style, which is very on-brand for SF street art.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003553054",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003553054",
     "address": "1092 Noe St",
