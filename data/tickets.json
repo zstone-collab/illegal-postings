@@ -16714,23 +16714,6 @@
     "confidence": 0.2
   },
   {
-    "id": "101002975925",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002975925",
-    "address": "564 Hayes St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763077977/san-francisco/production/p5zqznoi9yjc7xfgesua.jpg",
-    "status": "CLOSED",
-    "date": "23w ago",
-    "date_iso": "2025-11-14T18:20:39Z",
-    "lat": 37.77665371,
-    "lng": -122.42563739,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Blue stripe visible on white posting/flyer",
-    "commentary": "This photo is so blurry and shot at such a weird angle that we're essentially looking at an abstract expressionist interpretation of a flyer\u2014which, honestly, might be more interesting than the actual content.",
-    "confidence": 0.15
-  },
-  {
     "id": "101002975905",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002975905",
     "address": "581 Hayes St",
