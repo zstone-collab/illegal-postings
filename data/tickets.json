@@ -11326,23 +11326,6 @@
     "reviewed_by_human": true
   },
   {
-    "id": "101003138124",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003138124",
-    "address": "1500 Harrison St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1765648843/san-francisco/production/ad6zdt41n476hxjtjllg.jpg",
-    "status": "CLOSED",
-    "date": "18w ago",
-    "date_iso": "2025-12-14T16:20:06Z",
-    "lat": 37.7706622,
-    "lng": -122.41253717,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "LAVENDER (partial text visible on upper sticker), additional text on lower sticker is too small/blurry to read clearly",
-    "commentary": "Classic pole-stacking at 11th & 400: someone's running a guerrilla ad campaign with at least two flyers competing for real estate on this poor utility pole.",
-    "confidence": 0.35
-  },
-  {
     "id": "101003138100",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003138100",
     "address": "Intersection Duboce Ave, Guerrero St",
