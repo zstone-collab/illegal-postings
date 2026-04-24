@@ -15999,10 +15999,11 @@
     "lng": -122.48038876,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\uddf3\ufe0f Political",
     "extracted_text": "NO PARKING / TOW AWAY / [partial text visible on stickers but too small/blurry to read completely] / 'very small in a way that is hard to be / seen but it is the truth / one does not look for / the perfectly / [additional text fragments illegible]'",
     "commentary": "A utility pole festooned with what appears to be multiple parking enforcement stickers layered with at least one poetic or philosophical message\u2014impossible to read clearly, but the layering suggests either genuine signage beneath protest art or someone's very committed parking commentary.",
-    "confidence": 0.25
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002998434",
