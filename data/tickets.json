@@ -14399,23 +14399,6 @@
     "confidence": 1.0
   },
   {
-    "id": "101003008345",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003008345",
-    "address": "2050 Van Ness Ave",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1770747519/san-francisco/production/ll5phxquo4gociekqic8.jpg",
-    "status": "CLOSED",
-    "date": "10w ago",
-    "date_iso": "2026-02-09T17:33:54Z",
-    "lat": 37.79465719,
-    "lng": -122.42292424,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "2020 [visible on building above door]; blue-taped white flyer on black door [text not legible in image]",
-    "commentary": "There's definitely a white flyer with blue tape on this mysterious black door, but the actual text is too small/blurry to read\u2014looks like someone's trying to serve notice on whatever's happening behind that ominous entrance.",
-    "confidence": 0.3
-  },
-  {
     "id": "101003006978",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003006978",
     "address": "90 Charter Oak Ave",
