@@ -17114,10 +17114,11 @@
     "lng": -122.43039889,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\udc95 Dating",
     "extracted_text": "Partially visible sticker/posting on lamp post with red coloring, text too small/obscured to read clearly",
     "commentary": "There's definitely some street art happening on that lamp post, but the resolution and angle make it impossible to decipher the actual message\u2014could be political, could be a lost cat, could be someone's manifesto; SF's beautiful mystery.",
-    "confidence": 0.2
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002913125",
