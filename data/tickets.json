@@ -9416,10 +9416,11 @@
     "lng": -122.42160707,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "YELLOW (partial text visible on pole-mounted posting, but too distant/small to read fully)",
     "commentary": "There's definitely a yellow poster affixed to that utility pole in the middle distance, but the resolution and distance make it impossible to decipher what it's advertising\u2014could be anything from a lost cat to a revolutionary manifesto.",
-    "confidence": 0.2
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003282516",
