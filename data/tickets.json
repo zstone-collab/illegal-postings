@@ -20469,10 +20469,11 @@
     "lng": -122.42595332,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\ude80 Startups",
     "extracted_text": "FREE OPEN WATER SWIMMING SAN FRANCISCO THINK LIKE A BEACH OR BODY AND CONSIDER YOUR 40",
     "commentary": "A chaotic pole collage of partially legible postings\u2014mostly water/swimming-related activism fighting for aquatic freedom, but the bottom third devolves into illegibility and what appears to be a '40' reference that could be anything from a neighborhood marker to a very confused flyer.",
-    "confidence": 0.55
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002783749",
