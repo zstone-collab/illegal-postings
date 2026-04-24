@@ -428,16 +428,44 @@ def debug_commit():
 @app.route("/api/admin-status", methods=["GET"])
 @require_admin
 def admin_status():
-    """Pending state + last commit result. Hit any time to check persistence health."""
+    """Pending state + last commit result. Reads last commit from git log so it
+    works across multiple Python workers (each has its own in-memory _last_commit
+    but they all share the git repo).
+    """
     with _dirty_lock:
         pending = _dirty
         pending_age = (time.time() - _dirty_at) if (_dirty and _dirty_at) else 0
         pending_reason = _last_reason if _dirty else None
+
+    # Read last "Admin edit" commit from git log (cross-worker truth)
+    last_commit = {"ok": None, "ts": None, "reason": None, "error": None}
+    try:
+        r = subprocess.run(
+            ["git", "log", "--grep=^Admin edit", "-1", "--format=%ct|%s"],
+            cwd=str(REPO_DIR), capture_output=True, timeout=5,
+        )
+        if r.returncode == 0 and r.stdout:
+            parts = r.stdout.decode().strip().split("|", 1)
+            if len(parts) == 2:
+                last_commit = {
+                    "ok": True,
+                    "ts": int(parts[0]),
+                    "reason": parts[1].replace("Admin edit: ", ""),
+                    "error": None,
+                }
+    except Exception as e:
+        last_commit["error"] = f"status check failed: {e}"
+
+    # If the in-memory _last_commit has a more recent timestamp (or an error),
+    # prefer it — it's this worker's own freshly-observed state.
+    if _last_commit.get("ts") and (not last_commit.get("ts") or _last_commit["ts"] > last_commit["ts"]):
+        last_commit = _last_commit
+
     return jsonify({
         "pending_commit": pending,
         "pending_age_sec": round(pending_age, 1),
         "pending_reason": pending_reason,
-        "last_commit": _last_commit,
+        "last_commit": last_commit,
         "token_configured": bool(GITHUB_TOKEN),
     })
 

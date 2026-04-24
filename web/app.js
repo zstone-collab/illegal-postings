@@ -127,28 +127,35 @@ async function refreshPersistStatus(showAlertOnError = false) {
       el.title = "GITHUB_TOKEN not set — edits will NOT survive redeploys";
       return;
     }
-    if (s.pending_commit) {
+    if (s.pending_commit && s.pending_age_sec > 10) {
+      // Only show "saving" if genuinely pending for more than 10s
       el.textContent = `● Saving (${Math.round(s.pending_age_sec)}s)`;
       el.className = "persist-pending";
       el.title = `Pending: ${s.pending_reason}`;
       return;
     }
-    if (s.last_commit && s.last_commit.ok === false) {
-      el.textContent = "⚠ Commit failed";
-      el.className = "persist-error";
-      el.title = s.last_commit.error || "Unknown error";
-      if (showAlertOnError) alert("Last commit failed: " + (s.last_commit.error || "unknown"));
+    // Show last commit time (read from git log)
+    if (s.last_commit && s.last_commit.ts) {
+      const ageSec = Math.round(Date.now()/1000 - s.last_commit.ts);
+      el.textContent = ageSec < 60 ? "✓ Synced" : `✓ Saved ${fmtAge(ageSec)}`;
+      el.className = "persist-ok";
+      el.title = `Last commit: ${s.last_commit.reason || "(unknown)"} at ${new Date(s.last_commit.ts * 1000).toLocaleTimeString()}`;
       return;
     }
-    el.textContent = "✓ Synced";
-    el.className = "persist-ok";
-    const lastTs = s.last_commit?.ts ? new Date(s.last_commit.ts * 1000).toLocaleTimeString() : "never";
-    el.title = `Last commit: ${lastTs}`;
+    el.textContent = "✓ Ready";
+    el.className = "persist-idle";
+    el.title = "No edits yet this session";
   } catch (e) {
     el.textContent = "? Unknown";
     el.className = "persist-error";
     el.title = "Can't reach /api/admin-status: " + e.message;
   }
+}
+
+function fmtAge(sec) {
+  if (sec < 60) return `${sec}s ago`;
+  if (sec < 3600) return `${Math.round(sec/60)}m ago`;
+  return `${Math.round(sec/3600)}h ago`;
 }
 
 async function openReview() {
