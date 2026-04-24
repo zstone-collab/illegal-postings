@@ -16495,10 +16495,11 @@
     "lng": -122.46425724,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\uddf3\ufe0f Political",
     "extracted_text": "WE BOUGHT A [text too blurry to read completely]",
     "commentary": "There's definitely a posting here with what looks like a small white flyer and a hot pink tear-off tab, but the resolution is too grainy to make out the full message\u2014classic street ephemera that's either a lost pet, local business, or guerrilla announcement.",
-    "confidence": 0.25
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002989328",
