@@ -2748,23 +2748,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003766829",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003766829",
-    "address": "3698 Geary Blvd",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1774752365/san-francisco/production/dyd6e4t8pcrvvfpn7vjr.jpg",
-    "status": "OPEN",
-    "date": "4w ago",
-    "date_iso": "2026-03-29T02:44:45Z",
-    "lat": 37.78139092,
-    "lng": -122.45881921,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\udd27 Services",
-    "extracted_text": "Psychic Temple\n3829 Geary Blvd\nSan Francisco, CA 94118\n(415) 387-1356\nCall for free question\nUnlock the Secrets of Your Future\nLove \u2022 Success \u2022 Clarity \u2022 Abundance\nPsychic Readings Services\nTarot \u2022 Palm \u2022 Crystal \u2022 Numerology",
-    "commentary": "A-frame sandwich board advertising psychic services with all the mystical hits\u2014tarot, palm reading, and crystal work\u2014because apparently Geary Blvd needed more cosmic guidance.",
-    "confidence": 0.92
-  },
-  {
     "id": "101003766611",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003766611",
     "address": "1782 The Embarcadero",
