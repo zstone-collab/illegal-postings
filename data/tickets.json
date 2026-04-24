@@ -15594,23 +15594,6 @@
     "confidence": 0.0
   },
   {
-    "id": "101002992888",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002992888",
-    "address": "Intersection Birch St, Octavia St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763395410/san-francisco/production/pmrxabc9vgiqbrzsfc16.jpg",
-    "status": "CLOSED",
-    "date": "21w ago",
-    "date_iso": "2025-11-28T06:00:06Z",
-    "lat": 37.7780719843018,
-    "lng": -122.424904042793,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "",
-    "commentary": "This image is too blurry and out of focus to discern any text on what appears to be a white flyer or posting on a utility pole\u2014we can see the yellow safety stripe and general placement, but the actual content remains a mystery.",
-    "confidence": 0.15
-  },
-  {
     "id": "101002992873",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002992873",
     "address": "613 Octavia St",
