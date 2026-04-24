@@ -20081,7 +20081,8 @@
     "theme": "\ud83c\udfb5 Events",
     "extracted_text": "SF MUSICIANS [partial text visible] SUPPORT OUR LOCAL MUSICIANS [additional text unclear but visible on flyer]",
     "commentary": "A musician's call-to-arms flyer doing its thing on a utility pole\u2014classic SF busking ethos meets organized labor vibes, pitched right at the intersection of passion and pragmatism.",
-    "confidence": 0.45
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002863931",
