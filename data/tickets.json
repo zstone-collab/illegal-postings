@@ -11607,10 +11607,11 @@
     "lng": -122.43765781,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\uddf3\ufe0f Political",
     "extracted_text": "Multiple stickers/flyers on utility pole; leftmost visible text appears to include a QR code and partial text that looks like it could be \"SITTING\" or similar; other flyers too small/blurry to read definitively from this angle and distance",
     "commentary": "A classic SF utility pole salad\u2014someone's definitely been busy papering this thing, but the photo angle and distance make it impossible to read what these postings are actually hawking.",
-    "confidence": 0.25
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003128580",
