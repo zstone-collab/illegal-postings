@@ -428,10 +428,11 @@
     "analyzed": true,
     "date_iso": "2026-04-16T17:11:08Z",
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "SIGN TO SHOW MUM & CAR",
     "commentary": "There's definitely a light blue flyer on that utility pole, but the text is mostly obscured by angle and distance\u2014looks like it might be a lost & found or services posting, but we're squinting at shadows here.",
-    "confidence": 0.3
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003880668",
