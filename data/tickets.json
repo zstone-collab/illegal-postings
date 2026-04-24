@@ -15674,23 +15674,6 @@
     "confidence": 1.0
   },
   {
-    "id": "101002957826",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002957826",
-    "address": "901 Brannan St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1762826596/san-francisco/production/lqavo05vaxaekubc2blh.jpg",
-    "status": "CLOSED",
-    "date": "23w ago",
-    "date_iso": "2025-11-11T22:10:22Z",
-    "lat": 37.77106867,
-    "lng": -122.40545727,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "HAPPY ON STORY",
-    "commentary": "Cryptic tag on a bike route sign\u2014either the world's most optimistic graffiti or someone's very specific manifesto about narrative satisfaction.",
-    "confidence": 0.6
-  },
-  {
     "id": "101002956935",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002956935",
     "address": "1796 Mission St",
