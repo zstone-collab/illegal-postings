@@ -1177,24 +1177,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003839619",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003839619",
-    "address": "1340 Haight St",
-    "lat": 37.77026772,
-    "lng": -122.4442921,
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1775764628/san-francisco/production/bq4hn42uqzvril2yv2fb.jpg",
-    "description": "",
-    "status": "OPEN",
-    "date": "2w ago",
-    "analyzed": true,
-    "date_iso": "2026-04-09T19:57:09Z",
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "LET'S SAVE SF'S [rest illegible]",
-    "commentary": "There's definitely a small white flyer on that utility pole with a political vibe, but the text is too blurry/small to read fully\u2014looks like someone's trying to save something (SF's soul? parking spots? sanity?).",
-    "confidence": 0.3
-  },
-  {
     "id": "101003839607",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003839607",
     "address": "1317 Haight St",
