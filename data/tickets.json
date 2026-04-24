@@ -12209,23 +12209,6 @@
     "confidence": 0.3
   },
   {
-    "id": "101003097059",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003097059",
-    "address": "700 Grove St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1765059630/san-francisco/production/zrbl58c566z6dca2155m.jpg",
-    "status": "CLOSED",
-    "date": "20w ago",
-    "date_iso": "2025-12-06T22:29:57Z",
-    "lat": 37.77722998,
-    "lng": -122.42813042,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "BUCHANAN",
-    "commentary": "There's definitely a small posting affixed to the pole, but the image resolution and angle make it impossible to read what this mystery flyer is advertising\u2014could be anything from a lost cat to an underground rave.",
-    "confidence": 0.3
-  },
-  {
     "id": "101003097018",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003097018",
     "address": "1155 Hayes St",
