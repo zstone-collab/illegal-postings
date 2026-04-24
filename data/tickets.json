@@ -14657,23 +14657,6 @@
     "confidence": 0.0
   },
   {
-    "id": "101002992873",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002992873",
-    "address": "613 Octavia St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763395289/san-francisco/production/cd2agfy6mdlayzepzzco.jpg",
-    "status": "CLOSED",
-    "date": "21w ago",
-    "date_iso": "2025-11-28T06:00:06Z",
-    "lat": 37.77771769,
-    "lng": -122.42490239,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial text visible but too blurry/distant to read clearly - appears to be a white flyer posted on the brown utility box/pipe",
-    "commentary": "A ghostly flyer haunting this alleyway like it's auditioning for a found-footage horror film\u2014the photo quality suggests it's been captured by a potato, not a camera.",
-    "confidence": 0.15
-  },
-  {
     "id": "101002991559",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002991559",
     "address": "Intersection Ivy St, Laguna St",
