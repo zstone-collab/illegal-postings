@@ -16955,10 +16955,11 @@
     "lng": -122.424808799855,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\uddf3\ufe0f Political",
     "extracted_text": "Join us for [text too blurry to read clearly]. Screening & Presentation [partial text visible]. regarding on [text] & for Park Branch Library. [website/contact info partially visible: appears to include 'd.sfound.org' or similar]",
     "commentary": "There's definitely a flyer here with what looks like event/screening info, but the resolution and angle make it impossible to read the full details\u2014nature of the posting remains mysterious.",
-    "confidence": 0.25
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002975926",
