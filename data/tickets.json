@@ -15245,23 +15245,6 @@
     "confidence": 0.85
   },
   {
-    "id": "101002986108",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002986108",
-    "address": "Intersection 7 Th Ave, Lincoln Way",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763242599/san-francisco/production/kmu21wvlatmjo6yw6kqf.jpg",
-    "status": "CLOSED",
-    "date": "12w ago",
-    "date_iso": "2026-01-29T21:44:34Z",
-    "lat": 37.7659627664775,
-    "lng": -122.464296930814,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Text is too small and blurry to read clearly from this distance/angle on the utility pole",
-    "commentary": "There's definitely a white flyer stapled to this pole, but the resolution and angle make it impossible to decipher what message this enterprising poster is trying to share with the 38-Geary bus crowd.",
-    "confidence": 0.15
-  },
-  {
     "id": "101002986103",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002986103",
     "address": "1212 7 Th Ave",
