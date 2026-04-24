@@ -17,6 +17,7 @@ import json
 import os
 import shutil
 import subprocess
+import threading
 from functools import wraps
 from pathlib import Path
 
@@ -24,9 +25,93 @@ from flask import Flask, abort, jsonify, request, send_from_directory
 
 DATA_FILE = Path(__file__).parent / "data" / "tickets.json"
 WEB_DIR = Path(__file__).parent / "web"
+REPO_DIR = Path(__file__).parent
 ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "sfpastebin")
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
+GITHUB_REPO = "zstone-collab/illegal-postings"
+COMMIT_DEBOUNCE_SEC = 10  # wait this long after last edit before committing
 
 app = Flask(__name__, static_folder=str(WEB_DIR))
+
+
+# ── Auto-commit admin edits back to git so they survive Render redeploys ─────
+
+_commit_timer = None
+_commit_lock = threading.Lock()
+
+
+def schedule_git_commit(reason: str):
+    """Debounce admin edits into a single commit ~COMMIT_DEBOUNCE_SEC after the last write."""
+    if not GITHUB_TOKEN:
+        print("[git-commit] GITHUB_TOKEN not set; skipping persistence")
+        return
+    global _commit_timer
+    with _commit_lock:
+        if _commit_timer is not None:
+            _commit_timer.cancel()
+        _commit_timer = threading.Timer(COMMIT_DEBOUNCE_SEC, _do_git_commit, args=[reason])
+        _commit_timer.daemon = True
+        _commit_timer.start()
+
+
+def _do_git_commit(reason: str):
+    """Stage tickets.json, commit, push. Runs on a background thread."""
+    if not GITHUB_TOKEN:
+        return
+
+    cwd = str(REPO_DIR)
+    env = os.environ.copy()
+    env["GIT_AUTHOR_NAME"] = "Illegal Postings Admin"
+    env["GIT_AUTHOR_EMAIL"] = "admin@illegal-postings.com"
+    env["GIT_COMMITTER_NAME"] = "Illegal Postings Admin"
+    env["GIT_COMMITTER_EMAIL"] = "admin@illegal-postings.com"
+    remote_url = f"https://x-access-token:{GITHUB_TOKEN}@github.com/{GITHUB_REPO}.git"
+
+    def run(cmd, **kw):
+        return subprocess.run(cmd, cwd=cwd, env=env, capture_output=True, timeout=30, **kw)
+
+    try:
+        # Configure origin fresh (Render strips it during deploy)
+        run(["git", "remote", "remove", "origin"])  # best-effort
+        r = run(["git", "remote", "add", "origin", remote_url])
+        if r.returncode != 0:
+            print(f"[git-commit] remote add failed: {r.stderr.decode()}")
+            return
+
+        # Stage the data file
+        r = run(["git", "add", "data/tickets.json"])
+        if r.returncode != 0:
+            print(f"[git-commit] add failed: {r.stderr.decode()}")
+            return
+
+        # No-op if nothing changed
+        if run(["git", "diff", "--staged", "--quiet"]).returncode == 0:
+            return
+
+        # Commit
+        r = run(["git", "commit", "-m", f"Admin edit: {reason}"])
+        if r.returncode != 0:
+            print(f"[git-commit] commit failed: {r.stderr.decode()}")
+            return
+
+        # Push. If remote has diverged, fetch + rebase once, then retry push.
+        r = run(["git", "push", "origin", "HEAD:main"])
+        if r.returncode != 0:
+            print(f"[git-commit] push failed, trying rebase: {r.stderr.decode()}")
+            run(["git", "fetch", "origin", "main"])
+            r = run(["git", "rebase", "origin/main"])
+            if r.returncode != 0:
+                print(f"[git-commit] rebase failed: {r.stderr.decode()}")
+                run(["git", "rebase", "--abort"])
+                return
+            r = run(["git", "push", "origin", "HEAD:main"])
+            if r.returncode != 0:
+                print(f"[git-commit] retry push failed: {r.stderr.decode()}")
+                return
+
+        print(f"[git-commit] ✓ pushed ({reason})")
+    except Exception as e:
+        print(f"[git-commit] EXCEPTION ({reason}): {e}")
 
 
 def require_admin(f):
@@ -93,6 +178,7 @@ def delete_ticket(ticket_id):
     if len(tickets) == before:
         abort(404, f"Ticket {ticket_id} not found")
     save_tickets(tickets)
+    schedule_git_commit(f"delete {ticket_id}")
     return jsonify({"deleted": ticket_id, "remaining": len(tickets)})
 
 
@@ -108,6 +194,7 @@ def bulk_delete():
     tickets = [t for t in tickets if t["id"] not in ids_to_delete]
     deleted = before - len(tickets)
     save_tickets(tickets)
+    schedule_git_commit(f"bulk-delete {deleted} tickets")
     return jsonify({"deleted": deleted, "remaining": len(tickets)})
 
 
@@ -121,6 +208,7 @@ def skip_unanalyzed():
             t["skip"] = True
             count += 1
     save_tickets(tickets)
+    schedule_git_commit(f"skip-unanalyzed ({count})")
     return jsonify({"marked_skip": count})
 
 
@@ -171,6 +259,7 @@ def bulk_skip_by_theme():
             t["skip"] = True
             count += 1
     save_tickets(tickets)
+    schedule_git_commit(f"bulk-skip {prefix} ({count})")
     return jsonify({"skipped": count, "theme_prefix": prefix})
 
 
@@ -189,6 +278,7 @@ def categorize_ticket(ticket_id):
             t["confidence"] = 1.0
             t["reviewed_by_human"] = True
             save_tickets(tickets)
+            schedule_git_commit(f"categorize {ticket_id} → {theme}")
             return jsonify({"id": ticket_id, "theme": theme})
     abort(404)
 
