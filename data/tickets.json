@@ -20292,23 +20292,6 @@
     "confidence": 0.3
   },
   {
-    "id": "101002827639",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002827639",
-    "address": "4000 17 Th St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1768695862/san-francisco/production/lnricj0zgxsq4isgeav1.jpg",
-    "status": "CLOSED",
-    "date": "26w ago",
-    "date_iso": "2025-10-20T23:50:31Z",
-    "lat": 37.76276341,
-    "lng": -122.43537005,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial text visible on stickers/postings on utility pole, but too small/blurry to read clearly from this distance/angle",
-    "commentary": "A classic SF utility pole covered in the democratic chaos of street postings\u2014we can see there's definitely human-made ephemera here, but the resolution and distance make it impossible to decipher what specific messages are being shared.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002827628",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002827628",
     "address": "376 Castro St",
