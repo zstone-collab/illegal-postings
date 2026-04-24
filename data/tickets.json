@@ -7089,10 +7089,11 @@
     "lng": -122.40672424,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfa8 Art & Culture",
     "extracted_text": "STOLEN [partial text visible on red pole]",
     "commentary": "There's definitely a posting on this red utility pole, but the text is too weathered and partially obscured to read with confidence\u2014looks like it might say 'STOLEN' but could be a lost pet or something else entirely.",
-    "confidence": 0.3
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003455135",
