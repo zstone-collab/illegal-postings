@@ -13634,10 +13634,11 @@
     "lng": -122.41112407,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "Partial visible text includes what appears to be event/service postings on the utility pole, with some yellow and white flyers visible but text too small/distant to read clearly",
     "commentary": "Classic SF utility pole collage\u2014a palimpsest of urban life where the pole itself has become a bulletin board for the neighborhood's forgotten announcements.",
-    "confidence": 0.25
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003087828",
