@@ -13141,23 +13141,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003097129",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003097129",
-    "address": "1578 Mission St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1765060170/san-francisco/production/ikzjzzdwrgl4jx19vxno.jpg",
-    "status": "CLOSED",
-    "date": "20w ago",
-    "date_iso": "2025-12-06T22:41:43Z",
-    "lat": 37.77345731,
-    "lng": -122.41839063,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partially visible small sticker/label on utility box - text too degraded/small to read clearly",
-    "commentary": "Someone stuck a tiny sticker on an electrical box like it's a high-stakes game of Where's Waldo\u2014good luck reading that from street level.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003097123",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003097123",
     "address": "Intersection Gough St, Grove St",
