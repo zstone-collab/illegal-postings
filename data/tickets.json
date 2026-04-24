@@ -10066,23 +10066,6 @@
     "confidence": 0.75
   },
   {
-    "id": "101003257380",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003257380",
-    "address": "Intersection Jackson St, Scott St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1767656130/san-francisco/production/cjzpanpi01ahfylseemg.jpg",
-    "status": "CLOSED",
-    "date": "14w ago",
-    "date_iso": "2026-01-13T17:46:33Z",
-    "lat": 37.7918428192977,
-    "lng": -122.439487676054,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "ALIA",
-    "commentary": "Tiny sticker with partial text 'ALIA' on a building pillar\u2014either a tag, brand marker, or the saddest postcard ever mailed to a structural support beam.",
-    "confidence": 0.3
-  },
-  {
     "id": "101003257370",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003257370",
     "address": "Intersection Jackson St, Steiner St",
