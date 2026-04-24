@@ -13361,23 +13361,6 @@
     "confidence": 0
   },
   {
-    "id": "101003044208",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003044208",
-    "address": "3493 19 Th St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1764183460/san-francisco/production/lzd1eoyotrwt3jcstqzu.jpg",
-    "status": "CLOSED",
-    "date": "20w ago",
-    "date_iso": "2025-12-07T06:00:06Z",
-    "lat": 37.76002742,
-    "lng": -122.42133987,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Et voil\u00e0, ALHERED COMMODATIO ACITY, CROP SO ARTI, OCEAN LANES, ZIPGUN (appears multiple times)",
-    "commentary": "A fire hydrant wrapped in a colorful collage of stickers and flyers\u2014the text is too degraded and layered to determine the actual messaging, but this is classic SF street art palimpsest energy.",
-    "confidence": 0.3
-  },
-  {
     "id": "101003043993",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003043993",
     "address": "3399 17 Th St",
