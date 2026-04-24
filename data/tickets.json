@@ -27204,10 +27204,11 @@
     "lng": -122.39139925,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfa8 Art & Culture",
     "extracted_text": "Partial text visible on pole posting but too blurry/small to reliably read complete message",
     "commentary": "There's definitely a wheatpasted flyer on that utility pole, but the resolution and angle make it impossible to extract meaningful text\u2014could be political, could be art, could be a cry for help; we may never know.",
-    "confidence": 0.2
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002559025",
