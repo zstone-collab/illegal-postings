@@ -14457,23 +14457,6 @@
     "confidence": 0.15
   },
   {
-    "id": "101003017095",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003017095",
-    "address": "1501 Page St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763746648/san-francisco/production/upozwoq6lch3ltbloqxw.jpg",
-    "status": "CLOSED",
-    "date": "18w ago",
-    "date_iso": "2025-12-15T16:33:08Z",
-    "lat": 37.7710815,
-    "lng": -122.44557167,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial text visible on pole-mounted flyer but too blurry/weathered to read clearly",
-    "commentary": "There's definitely a posting on this utility pole, but the weather and angle have conspired to make it basically illegible\u2014classic SF street ephemera in its final form.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003017079",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003017079",
     "address": "701 Masonic Ave",
