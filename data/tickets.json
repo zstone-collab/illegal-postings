@@ -15651,23 +15651,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101002989181",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002989181",
-    "address": "Intersection Clarendon Ave, Panorama Dr",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763316264/san-francisco/production/dskfusoiyav9qxevscbp.jpg",
-    "status": "CLOSED",
-    "date": "8w ago",
-    "date_iso": "2026-02-25T15:59:56Z",
-    "lat": 37.753774358501,
-    "lng": -122.455537451548,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "USPS blue postal service element visible",
-    "commentary": "There's clearly something posted on this utility pole, but the photo angle and resolution make it impossible to read the actual content\u2014all we can make out is what looks like a USPS label or postage element.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002989142",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002989142",
     "address": "1200 Clayton St",
