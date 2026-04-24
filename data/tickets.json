@@ -17240,23 +17240,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101002911733",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002911733",
-    "address": "Intersection 22 Nd St, San Bruno Ave",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1762200689/san-francisco/production/aidjp9788idfg0ziaty3.jpg",
-    "status": "CLOSED",
-    "date": "24w ago",
-    "date_iso": "2025-11-05T22:07:34Z",
-    "lat": 37.75693798,
-    "lng": -122.40467303,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partially visible newspaper/document clipping on utility pole; text too small and distant to read clearly",
-    "commentary": "A mysterious flyer on a pole in what looks like a residential neighborhood\u2014could be anything from a lost cat to a conspiracy theory, but the photo's distance and angle render it unreadable.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002911618",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002911618",
     "address": "1060 Potrero Ave",
