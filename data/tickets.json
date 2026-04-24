@@ -3073,23 +3073,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003758361",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003758361",
-    "address": "Intersection Bernal Heights Blvd, Ellsworth St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1774637783/san-francisco/production/mwsgy3flesmxxb4ixoyx.jpg",
-    "status": "OPEN",
-    "date": "4w ago",
-    "date_iso": "2026-03-27T18:56:24Z",
-    "lat": 37.74255093,
-    "lng": -122.41433937,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "",
-    "commentary": "There are small white stickers/labels affixed to these wooden steps, but the text is too small and blurry to read from this aerial angle\u2014looks like someone's marking a hiking trail or claiming these steps as their own in the most passive-aggressive way possible.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003757026",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003757026",
     "address": "22 Valley St",
