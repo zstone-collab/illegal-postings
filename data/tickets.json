@@ -16821,23 +16821,6 @@
     "confidence": 1.0
   },
   {
-    "id": "101002982302",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002982302",
-    "address": "Intersection Divisadero St, Haight St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763164228/san-francisco/production/rdawe1e3chi6fb7q927z.jpg",
-    "status": "OPEN",
-    "date": "23w ago",
-    "date_iso": "2025-11-14T23:49:48Z",
-    "lat": 37.7712673011746,
-    "lng": -122.437045741868,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "",
-    "commentary": "This is a heavily weathered utility pole covered in layered posters and stickers that have deteriorated into an illegible palimpsest\u2014basically what happens when street art decides to become abstract.",
-    "confidence": 0.15
-  },
-  {
     "id": "101002982267",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002982267",
     "address": "Intersection Fulton St, Scott St",
