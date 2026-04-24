@@ -16711,23 +16711,6 @@
     "confidence": 0.85
   },
   {
-    "id": "101002890722",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002890722",
-    "address": "424 Cole St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1761863868/san-francisco/production/uiv0l5dbdpy4mjfm1urb.jpg",
-    "status": "CLOSED",
-    "date": "20w ago",
-    "date_iso": "2025-12-01T22:58:16Z",
-    "lat": 37.77106896,
-    "lng": -122.45040596,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\udd27 Services",
-    "extracted_text": "NO STOPPING\n[Parking enforcement sign with phone number]\n(415) 558-6325\nMon - Fri",
-    "commentary": "Someone's turned parking enforcement into street theater\u2014complete with a DIY wooden sign and cinder block stabilizers that scream 'I'm taking this seriously, but also, how long can I keep this up?'",
-    "confidence": 0.55
-  },
-  {
     "id": "101002890150",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002890150",
     "address": "192 5 Th St",
