@@ -11370,10 +11370,11 @@
     "lng": -122.44547256,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\udc3e Lost & Found",
     "extracted_text": "43, FRAU, TR",
     "commentary": "A mysterious poles-and-stickers situation: we've got a red circular sticker (possibly a transit marker?), some graffiti tags, and what appears to be partial flyer fragments, but the text is too fragmented and obscured by angle/distance to determine what this is actually advertising.",
-    "confidence": 0.3
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003191554",
