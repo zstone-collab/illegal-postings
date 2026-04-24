@@ -924,24 +924,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003839856",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003839856",
-    "address": "1644 Haight St",
-    "lat": 37.76980196,
-    "lng": -122.44939705,
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1775765814/san-francisco/production/zdfgpjhlnnu36zkt91bl.jpg",
-    "description": "",
-    "status": "OPEN",
-    "date": "2w ago",
-    "analyzed": true,
-    "date_iso": "2026-04-09T20:16:55Z",
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Fragments visible on pole and storefront but text too small/blurry to read with confidence",
-    "commentary": "This streetscape is a palimpsest of SF hustle\u2014multiple white flyers on the green pole are partially visible but illegible in this shot, though they appear to be advertising or informational postings typical of Mission District commerce.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003839824",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003839824",
     "address": "1612 Haight St",
