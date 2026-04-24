@@ -20275,23 +20275,6 @@
     "confidence": 0.3
   },
   {
-    "id": "101002827650",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002827650",
-    "address": "2398 Market St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1764717897/san-francisco/production/shvhcwlw3lanj4cswwdu.jpg",
-    "status": "CLOSED",
-    "date": "20w ago",
-    "date_iso": "2025-12-01T22:58:16Z",
-    "lat": 37.76275481,
-    "lng": -122.43522043,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial sticker visible on utility pole, text too small/blurry to read clearly",
-    "commentary": "There's definitely some sticker action happening on this pole, but the resolution and angle make it impossible to decipher whether it's a lost cat, a startup pitch, or someone's manifesto.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002827641",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002827641",
     "address": "359 Castro St",
