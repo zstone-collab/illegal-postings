@@ -9763,23 +9763,6 @@
     "confidence": 0.25
   },
   {
-    "id": "101003257332",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003257332",
-    "address": "Intersection Grove St, Steiner St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1767655801/san-francisco/production/w6osp71err7njustn029.jpg",
-    "status": "CLOSED",
-    "date": "15w ago",
-    "date_iso": "2026-01-06T17:51:53Z",
-    "lat": 37.7765502042876,
-    "lng": -122.433028531717,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial white sticker/tag visible on green pole - text too blurry/obscured to read clearly",
-    "commentary": "Someone's tag got weathered into abstract art, which is honestly more interesting than whatever message they were going for.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003256520",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003256520",
     "address": "1058 Potrero Ave",
