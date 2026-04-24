@@ -9420,23 +9420,6 @@
     "confidence": 0.35
   },
   {
-    "id": "101003303949",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003303949",
-    "address": "Intersection Mission St, 24 Th St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1768317234/san-francisco/production/q8zdqje0m1hwzitl327h.jpg",
-    "status": "CLOSED",
-    "date": "12w ago",
-    "date_iso": "2026-01-29T05:30:13Z",
-    "lat": 37.7522598,
-    "lng": -122.4184351,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Mission (street sign visible); various stickers and postings visible on pole but text too small/blurry to read clearly",
-    "commentary": "A classic SF lamp post palimpsest at Mission & 24th\u2014layers of stickers, tags, and ephemera create an illegible collage that's actually more interesting than any single poster could be.",
-    "confidence": 0.3
-  },
-  {
     "id": "101003296378",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003296378",
     "address": "90 New Montgomery St",
