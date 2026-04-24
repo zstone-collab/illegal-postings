@@ -3407,10 +3407,11 @@
     "lng": -122.40294635,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\udc41\ufe0f Weird & Unexplained",
     "extracted_text": "Partial text visible but illegible due to image angle and resolution; appears to be a colorful illustrated flyer with cartoon-style artwork featuring a character and various graphic elements including what looks like candy/lollipop imagery",
     "commentary": "A cheerful paste-up with illustrated vibes that's unfortunately rotated and too distant to read\u2014SF's sidewalks are basically an accidental art gallery at this angle.",
-    "confidence": 0.25
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003727020",
