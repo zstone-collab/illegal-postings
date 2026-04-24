@@ -6264,23 +6264,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003456656",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003456656",
-    "address": "452 Waller St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1770761908/san-francisco/production/qwyyfl0yob9yzwjgbm4s.jpg",
-    "status": "CLOSED",
-    "date": "10w ago",
-    "date_iso": "2026-02-10T08:00:00Z",
-    "lat": 37.77116404,
-    "lng": -122.43109837,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\udd27 Services",
-    "extracted_text": "NO STOPPING\n06/24/25 - 12/24/25\n7AM - 6PM\nMon - Sat\n445 waller st or waller st/fillmore st - steiner st (25 ft)\nKeightley Builders Inc\n415-374-5840\nPermit # 25-38-288775\nStreet Use",
-    "commentary": "A construction permit sign doing its job\u2014boring but legally sanctioned, so technically this is the anti-flyer: a bureaucratic posting that *should* be there and probably annoys 311 reporters who don't understand the difference between illegal wheatpaste and legitimate site notices.",
-    "confidence": 0.95
-  },
-  {
     "id": "101003456163",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003456163",
     "address": "708 Beach St",
