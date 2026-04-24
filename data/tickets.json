@@ -7653,10 +7653,11 @@
     "lng": -122.40840565,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\uddf3\ufe0f Political",
     "extracted_text": "FRENTE UNIDO",
     "commentary": "Two wrapped postings on a utility pole\u2014one in Spanish (\"Frente Unido\") suggesting political organizing, but the text is too small and distant to read the full message; this could be activism, community organizing, or something else entirely.",
-    "confidence": 0.3
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003425570",
