@@ -18560,23 +18560,6 @@
     "confidence": 1.0
   },
   {
-    "id": "101002930969",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002930969",
-    "address": "517 Castro St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1762453050/san-francisco/production/xdi1s2jwgtedq1enfg4d.jpg",
-    "status": "CLOSED",
-    "date": "24w ago",
-    "date_iso": "2025-11-06T18:24:27Z",
-    "lat": 37.7605229,
-    "lng": -122.43478347,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Multiple stickers and flyers visible on pole, text too small/blurry to read clearly from distance",
-    "commentary": "Classic Castro District lamp post turned into an underground media hub\u2014someone's definitely been busy with the paste and stickers, though the actual messages remain illegibly mysterious from street level.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002927562",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002927562",
     "address": "Intersection Haight St, Masonic Ave",
