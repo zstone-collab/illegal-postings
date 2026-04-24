@@ -23356,7 +23356,8 @@
     "theme": "\ud83c\udfb5 Events",
     "extracted_text": "Multiple event/concert posters stacked on utility pole; legible text includes partial band/show names and dates, though resolution makes complete text extraction difficult. Visible fragments suggest live music/DJ events.",
     "commentary": "Classic SF lamp-post palimpsest: someone's carefully curated event stack competing for eyeballs on 16th Street\u2014this is the underground music calendar written in wheat paste.",
-    "confidence": 0.45
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002779180",
