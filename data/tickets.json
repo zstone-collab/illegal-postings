@@ -19388,10 +19388,11 @@
     "lng": -122.41485436,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\udc41\ufe0f Weird & Unexplained",
     "extracted_text": "Partial text visible on multiple stickers/postings but too blurry/obscured to read clearly. Can make out what appears to be QR codes and some small text fragments on white and pink/red colored stickers.",
     "commentary": "A pole covered in the SF special: a palimpsest of stickers competing for real estate, with at least one hot pink rectangle of mystery that's been enthusiastically applied.",
-    "confidence": 0.25
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002886450",
