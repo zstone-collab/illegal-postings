@@ -4317,23 +4317,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003625395",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003625395",
-    "address": "1506 Vallejo St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1772839731/san-francisco/production/jooz0tycuuxnwhdil7ew.jpg",
-    "status": "CLOSED",
-    "date": "6w ago",
-    "date_iso": "2026-03-11T21:38:58Z",
-    "lat": 37.79697355,
-    "lng": -122.42209187,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\ude80 Startups",
-    "extracted_text": "FERRIS\ncontemporary menswear\nopen 12-7p wed-sun",
-    "commentary": "A-frame sandwich board for a minimalist menswear boutique\u2014the storefront illustration is giving \"we're too cool for a street address\" energy, very on-brand for SF's contemporary retail scene.",
-    "confidence": 0.95
-  },
-  {
     "id": "101003623309",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003623309",
     "address": "1331 Polk St",
