@@ -14813,23 +14813,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101002989142",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002989142",
-    "address": "1200 Clayton St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763315914/san-francisco/production/drp2vcqd376ks6jxehgk.jpg",
-    "status": "CLOSED",
-    "date": "18w ago",
-    "date_iso": "2025-12-18T18:36:10Z",
-    "lat": 37.7615379,
-    "lng": -122.4464768,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\ude80 Startups",
-    "extracted_text": "SALE",
-    "commentary": "A neon green flyer screaming 'SALE' in the most aggressively millennial way possible\u2014someone's either liquidating their startup dreams or hawking drop-shipped goods from a utility pole.",
-    "confidence": 0.85
-  },
-  {
     "id": "101002986103",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002986103",
     "address": "1212 7 Th Ave",
