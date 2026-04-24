@@ -16350,23 +16350,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101002950653",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002950653",
-    "address": "Intersection 25 Th Ave, Clement St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1762740878/san-francisco/production/c6tujapjanfk3uocsw4c.jpg",
-    "status": "CLOSED",
-    "date": "23w ago",
-    "date_iso": "2025-11-13T21:26:14Z",
-    "lat": 37.7820253497691,
-    "lng": -122.484874085641,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial text visible on sticker/label, mostly obscured by angle and wear; appears to include partial words but not legible enough for reliable transcription",
-    "commentary": "A mysterious little sticker clinging to life on this utility box\u2014whatever message it once had is now lost to time, angle, and the elements' relentless editing process.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002950581",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002950581",
     "address": "1017 Clement St",
