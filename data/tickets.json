@@ -14219,23 +14219,6 @@
     "confidence": 0.85
   },
   {
-    "id": "101003060517",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003060517",
-    "address": "3181 16 Th St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1764548030/san-francisco/production/yzuaqlokfsx39w8m1acg.jpg",
-    "status": "CLOSED",
-    "date": "19w ago",
-    "date_iso": "2025-12-11T06:00:06Z",
-    "lat": 37.7646975,
-    "lng": -122.42370175,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "GREEK (partial text visible on sticker/sign), additional signage and postings present but text largely illegible due to image quality, angle, and reflections",
-    "commentary": "A layered archaeology of SF street posting: multiple stickers, tags, and papers competing for real estate on what looks like a storefront, but the photo quality makes it impossible to read the actual messages\u2014fittingly mysterious for unauthorized ephemera.",
-    "confidence": 0.25
-  },
-  {
     "id": "101003060513",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003060513",
     "address": "Intersection 16 Th St, Albion St",
