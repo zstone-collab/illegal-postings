@@ -12732,23 +12732,6 @@
     "confidence": 0.92
   },
   {
-    "id": "101003118723",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003118723",
-    "address": "Intersection Franklin St, Pine St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1765385790/san-francisco/production/kji3o0xtxaab0gkjlqh8.jpg",
-    "status": "CLOSED",
-    "date": "19w ago",
-    "date_iso": "2025-12-11T08:00:00Z",
-    "lat": 37.7892032312048,
-    "lng": -122.423781047253,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial text visible on orange and white warning/notice signs attached to wooden barricades, but content is not legible from this distance/angle",
-    "commentary": "A fleet of construction barriers with official-looking notices\u2014either a legitimate street closure or someone's very committed performance art about bureaucratic obstruction.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003117383",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003117383",
     "address": "953 Broderick St",
