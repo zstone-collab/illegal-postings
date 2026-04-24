@@ -1638,23 +1638,6 @@
     "confidence": 0.85
   },
   {
-    "id": "101003832891",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003832891",
-    "address": "1233 Bay Shore Blvd",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1775679379/san-francisco/production/a2krrmeksbmvhzthoaht.jpg",
-    "status": "OPEN",
-    "date": "2w ago",
-    "date_iso": "2026-04-08T20:16:20Z",
-    "lat": 37.72896778,
-    "lng": -122.40245407,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\udd27 Services",
-    "extracted_text": "CAJAS\nARITHA\nSOXO3\n#SALVAME\n415-525-50",
-    "commentary": "A multilingual services flyer (Spanish/Portuguese mix) advertising boxes and moving supplies\u2014the phone number suggests this is legit neighborhood commerce trying to reach the Mission's polyglot residents.",
-    "confidence": 0.65
-  },
-  {
     "id": "101003832877",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003832877",
     "address": "Intersection Bay Shore Blvd, Phelps St",
