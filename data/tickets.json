@@ -20953,7 +20953,8 @@
     "theme": "\ud83d\udc3e Lost & Found",
     "extracted_text": "MISSING [person's face visible on flyer]. Text partially illegible but appears to be a missing person/pet notice with contact information.",
     "commentary": "A heartfelt lost-and-found poster affixed to a tree in what looks like an upscale neighborhood\u2014the most earnest thing SF311 probably has to worry about, yet here we are.",
-    "confidence": 0.45
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002855258",
