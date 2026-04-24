@@ -1413,24 +1413,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003833440",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003833440",
-    "address": "1880 Mission St",
-    "lat": 37.76722415,
-    "lng": -122.42002866,
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1775682655/san-francisco/production/chgyjbo8z852w8sru1ly.jpg",
-    "description": "",
-    "status": "OPEN",
-    "date": "2w ago",
-    "analyzed": true,
-    "date_iso": "2026-04-08T21:10:56Z",
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Yellow poster/flyer visible on pole (text illegible from distance/angle); green neon 'OPEN' sign in storefront window; various posters/notices in storefront windows",
-    "commentary": "There's definitely some yellow paper action happening on that pole, but the resolution and distance make it impossible to read\u2014could be art, could be a lost dog, could be someone's magnum opus; the real question is why the storefront is still advertising 'OPEN' in 2024.",
-    "confidence": 0.3
-  },
-  {
     "id": "101003833432",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003833432",
     "address": "1829 Mission St",
