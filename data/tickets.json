@@ -22325,23 +22325,6 @@
     "confidence": 0.75
   },
   {
-    "id": "101002762262",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002762262",
-    "address": "299 11 Th St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1760545106/san-francisco/production/vmfw5trhg9cuet3ityvf.jpg",
-    "status": "CLOSED",
-    "date": "27w ago",
-    "date_iso": "2025-10-14T16:01:55Z",
-    "lat": 37.77191107,
-    "lng": -122.41398837,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "BACI (pink sticker, top left); partial poster with what appears to be event/cultural imagery; blue sticker with partial text visible",
-    "commentary": "Classic SF utility pole palimpsest\u2014multiple layers of stickers and posters in various states of decay, but the resolution and angle make it tough to definitively read the main poster's full message.",
-    "confidence": 0.35
-  },
-  {
     "id": "101002761614",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002761614",
     "address": "2354 Market St",
