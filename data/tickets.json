@@ -17768,10 +17768,11 @@
     "lng": -122.428508806321,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\uddf3\ufe0f Political",
     "extracted_text": "",
     "commentary": "Two pixelated mugshot-style images on what appears to be a utility pole posting, but the resolution and angle make any actual text completely illegible\u2014could be missing persons, wanted posters, or just abstract art; we're in digital mystery box territory.",
-    "confidence": 0.2
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002956595",
