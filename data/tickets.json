@@ -12326,23 +12326,6 @@
     "confidence": 0.6
   },
   {
-    "id": "101003103120",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003103120",
-    "address": "2991 24 Th St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1765172524/san-francisco/production/w3wasd8lwi0ff2zshclf.jpg",
-    "status": "CLOSED",
-    "date": "19w ago",
-    "date_iso": "2025-12-09T21:56:24Z",
-    "lat": 37.75254344,
-    "lng": -122.41180267,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial text visible on multiple flyers/postings wrapped around pole; text is too small, angled, and weathered to read clearly. Appears to be several layered postings in blue and white/light colors.",
-    "commentary": "Classic SF utility pole palimpsest\u2014a stratigraphic record of community messaging, though the resolution and angle make decryption nearly impossible from street level.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003101978",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003101978",
     "address": "3840 Clay St",
