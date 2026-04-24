@@ -3856,23 +3856,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003659827",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003659827",
-    "address": "5911 California St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1773341276/san-francisco/production/mihkqc87ggy75gpxjzqc.jpg",
-    "status": "CLOSED",
-    "date": "5w ago",
-    "date_iso": "2026-03-19T20:30:29Z",
-    "lat": 37.78390068,
-    "lng": -122.48082127,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\udd27 Services",
-    "extracted_text": "PARKING FOR AOS CUSTOMERS ONLY",
-    "commentary": "A business is gatekeeping parking with a hand-written sign\u2014classic SF move of claiming public street space for private gain, though \"AOS\" remains delightfully mysterious.",
-    "confidence": 0.95
-  },
-  {
     "id": "101003659448",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003659448",
     "address": "1581 Mission St",
