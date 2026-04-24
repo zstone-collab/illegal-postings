@@ -16777,10 +16777,11 @@
     "lng": -122.42666936,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\udc95 Dating",
     "extracted_text": "Text is too blurry and weathered to read clearly. Appears to be a pink/magenta colored flyer on a yellow support column.",
     "commentary": "A ghost of a posting\u2014someone clearly wanted to advertise something important, but Mother Nature and San Francisco's elements have rendered it as legible as a ransom note left in the rain.",
-    "confidence": 0.15
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002975870",
