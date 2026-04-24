@@ -15390,23 +15390,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101002996505",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002996505",
-    "address": "Intersection Treat Way, End (1400 Block Of)",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763421922/san-francisco/production/yvvlcjgluthymikjpzzm.jpg",
-    "status": "CLOSED",
-    "date": "17w ago",
-    "date_iso": "2025-12-21T21:14:29Z",
-    "lat": 37.7484446046837,
-    "lng": -122.412597507691,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "WARNING [remaining text too blurry to read clearly]",
-    "commentary": "A faded warning label clinging to life on a utility box\u2014could be anything from electrical hazard to 'don't feed the pigeons,' but the photo quality makes it impossible to tell if this is a legitimate safety notice or guerrilla street art.",
-    "confidence": 0.15
-  },
-  {
     "id": "101002996498",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002996498",
     "address": "Intersection Treat Way, End (1400 Block Of)",
