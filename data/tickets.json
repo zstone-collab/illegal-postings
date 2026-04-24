@@ -27153,10 +27153,11 @@
     "lng": -122.40757383,
     "analyzed": true,
     "skip": false,
-    "theme": "\ud83d\udd27 Services",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "La Pe\u00f1a FERIA BOLCHON [something] TIMBAS CUMBIA [partial/unclear text]",
     "commentary": "A feria/market flyer advertising what looks like mattresses (bolch\u00f3n) and live music\u2014classic SF Mission District hustle meeting street pole real estate.",
-    "confidence": 0.45
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002647340",
