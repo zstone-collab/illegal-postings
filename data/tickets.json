@@ -18880,10 +18880,11 @@
     "lng": -122.443940002313,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\udd27 Services",
     "extracted_text": "Small sticker/marking visible on pole, text illegible due to image angle and resolution",
     "commentary": "This sidewalk pole is hosting what looks like a small sticker or label, but the photo's diagonal angle and distance make it impossible to read\u2014nice try, 311 reporter, but we need a closer shot.",
-    "confidence": 0.2
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002856077",
