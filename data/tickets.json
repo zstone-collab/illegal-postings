@@ -11366,10 +11366,11 @@
     "lng": -122.410076815302,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "DIS STORY 13, KINN",
     "commentary": "A weathered sticker collage on a yellow utility box that's mostly illegible\u2014looks like layers of torn posters creating an accidental mixed-media installation, though we can barely make out what anyone was trying to say.",
-    "confidence": 0.25
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003138124",
