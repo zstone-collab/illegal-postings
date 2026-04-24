@@ -5359,23 +5359,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003564026",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003564026",
-    "address": "2494 Mission St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1772047749/san-francisco/production/omllku2iibvwiwfpm4kn.jpg",
-    "status": "CLOSED",
-    "date": "8w ago",
-    "date_iso": "2026-02-27T17:50:07Z",
-    "lat": 37.75712766,
-    "lng": -122.41889198,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial visible text includes what appears to be event or service promotional material with colored sections (orange, green, red), a QR code visible, and some fragmented text that is too degraded/layered/overlapped to read with confidence. Multiple overlapping posters on weathered pole.",
-    "commentary": "A palimpsest of SF street posting culture\u2014layers upon layers of faded dreams and promotional debris competing for pole real estate, now one with the urban patina.",
-    "confidence": 0.25
-  },
-  {
     "id": "101003563925",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003563925",
     "address": "3199 22 Nd St",
