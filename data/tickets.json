@@ -22906,10 +22906,11 @@
     "lng": -122.4593346,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\uddf3\ufe0f Political",
     "extracted_text": "OCT 18",
     "commentary": "A small white flyer clinging to a wooden pole like it's auditioning for a role in a nature documentary\u2014text is mostly illegible, but the date suggests something was happening on October 18th.",
-    "confidence": 0.25
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002779235",
