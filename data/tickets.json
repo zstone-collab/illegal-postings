@@ -17381,23 +17381,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101002881159",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002881159",
-    "address": "151 3 Rd St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1761757141/san-francisco/production/vddhlmohvbp7axvvgj4z.jpg",
-    "status": "CLOSED",
-    "date": "22w ago",
-    "date_iso": "2025-11-21T20:56:31Z",
-    "lat": 37.78563016,
-    "lng": -122.40102845,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\ude80 Startups",
-    "extracted_text": "FRESH NOODLES EVERY DAY, HOURS: [hours text partially obscured]",
-    "commentary": "A&P's noodle shop sandwich board doing the Lord's work\u2014fresh carbs 24/7 is the real startup hustle, not another crypto bro's app.",
-    "confidence": 0.65
-  },
-  {
     "id": "101002881096",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002881096",
     "address": "63 Yerba Buena Ln",
