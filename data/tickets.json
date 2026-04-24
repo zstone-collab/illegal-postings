@@ -1134,10 +1134,11 @@
     "analyzed": true,
     "date_iso": "2026-04-09T20:01:50Z",
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "HERON ARTY",
     "commentary": "There's definitely a small white flyer affixed to the utility box, but the text is too pixelated and distant to read with confidence\u2014all we can make out are fragments that might say 'HERON' and 'ARTY,' which could be art-related or literally anything else.",
-    "confidence": 0.3
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003839655",
