@@ -20492,7 +20492,8 @@
     "theme": "\ud83c\udfb5 Events",
     "extracted_text": "LEGEND AWARD CLEVE JO [FRIDAY, NOV?] [partially obscured] ISAAC LENNON",
     "commentary": "A concert/event flyer so weathered and palimpsested it reads like an archaeological dig\u2014multiple layers of SF's musical past literally stacked on top of each other.",
-    "confidence": 0.45
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002858153",
