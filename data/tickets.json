@@ -16621,23 +16621,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101002989195",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002989195",
-    "address": "1921 8 Th Ave",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763316389/san-francisco/production/ttnq2svv3eazb1ovjhp5.jpg",
-    "status": "CLOSED",
-    "date": "22w ago",
-    "date_iso": "2025-11-16T20:55:59Z",
-    "lat": 37.75250816,
-    "lng": -122.46457084,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "MS64222 (partial text visible on small white sticker/label)",
-    "commentary": "There's definitely a small white label affixed to this utility pole, but the vegetation is doing its best to reclaim it and the image resolution makes full text extraction a mystery\u2014nature's way of saying even organized data wants to be free.",
-    "confidence": 0.25
-  },
-  {
     "id": "101002989186",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002989186",
     "address": "Intersection Laguna Honda Blvd, Plaza St",
