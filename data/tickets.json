@@ -8275,23 +8275,6 @@
     "confidence": 0.65
   },
   {
-    "id": "101003389615",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003389615",
-    "address": "2658 Mission St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1769535913/san-francisco/production/k8haykbohztijlomnedp.jpg",
-    "status": "CLOSED",
-    "date": "12w ago",
-    "date_iso": "2026-01-29T21:03:27Z",
-    "lat": 37.7544515,
-    "lng": -122.41877202,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "MONTY POWER (partial text visible on pole stickers)",
-    "commentary": "This lamp post is a vibrant palimpsest of SF street culture\u2014a chaotic collage of stickers and small postings that's mostly illegible from this angle, but clearly someone's beloved canvas for years of artistic expression.",
-    "confidence": 0.3
-  },
-  {
     "id": "101003387959",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003387959",
     "address": "1149 Potrero Ave",
