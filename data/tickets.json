@@ -15873,23 +15873,6 @@
     "confidence": 0.55
   },
   {
-    "id": "101002975991",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002975991",
-    "address": "1099 Masonic Ave",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763078365/san-francisco/production/jhrm74eyyctdfthuvibn.jpg",
-    "status": "CLOSED",
-    "date": "18w ago",
-    "date_iso": "2025-12-15T16:34:29Z",
-    "lat": 37.77116174,
-    "lng": -122.44560911,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Small white flyer on utility pole, text too blurry to read clearly despite zoom",
-    "commentary": "Classic SF lamp-post real estate\u2014someone's clearly desperate to communicate something, but this photo is too out-of-focus to tell if it's a lost cat, a startup pitch, or an existential cry for help.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002975979",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002975979",
     "address": "Intersection Ofarrell St, Saint Josephs Ave",
