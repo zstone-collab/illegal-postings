@@ -11300,10 +11300,11 @@
     "lng": -122.40337283,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\udc41\ufe0f Weird & Unexplained",
     "extracted_text": "Text not legible - appears to be a black and white photograph/poster of a person",
     "commentary": "There's definitely a wheatpasted black-and-white portrait here, but the accompanying text is too small/blurry to read from this distance\u2014classic SF move of bold imagery paired with unreadable manifestos.",
-    "confidence": 0.3
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003138125",
