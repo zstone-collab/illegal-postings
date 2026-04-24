@@ -7890,23 +7890,6 @@
     "confidence": 0.0
   },
   {
-    "id": "101003356751",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003356751",
-    "address": "1569 Francisco St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1769034445/san-francisco/production/kqntwh7vxybex7ikdcke.jpg",
-    "status": "CLOSED",
-    "date": "13w ago",
-    "date_iso": "2026-01-22T18:31:05Z",
-    "lat": 37.80249424,
-    "lng": -122.43111879,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\udd27 Services",
-    "extracted_text": "NO STOPPING\n11/07/25 - 12/07/25\n7am - 5pm\nMon - Fri\nLAGUNA-ST/FRANCISCO ST - BAY ST\n(1 BL) - Even\nConstruction Inc.\n[phone number]\n[additional contact info]\nConstruction Zone\nLIMB",
-    "commentary": "A construction crew deployed the ultimate anti-parking deterrent: an actual excavation pit with a professionally printed no-stopping sign\u2014bureaucratic theater meets infrastructure chaos.",
-    "confidence": 0.65
-  },
-  {
     "id": "101003354842",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003354842",
     "address": "4074 24 Th St",
