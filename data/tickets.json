@@ -28584,23 +28584,6 @@
     "confidence": 0.0
   },
   {
-    "id": "101002544310",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002544310",
-    "address": "2401 Lake St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1756889250/san-francisco/production/bwjoaieqkjejryaj2mdv.jpg",
-    "status": "CLOSED",
-    "date": "33w ago",
-    "date_iso": "2025-09-03T20:59:20Z",
-    "lat": 37.78551839,
-    "lng": -122.48531822,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial text visible on ground-level posting but too blurry/obscured to read clearly",
-    "commentary": "There's definitely a flyer down there on the pavement, but the photo angle and distance make it impossible to decipher\u2014could be anything from a lost cat to a protest manifesto.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002542611",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002542611",
     "address": "1331 Polk St",
