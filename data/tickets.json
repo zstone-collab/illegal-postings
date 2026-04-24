@@ -17861,23 +17861,6 @@
     "confidence": 0.85
   },
   {
-    "id": "101002857383",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002857383",
-    "address": "2707 16 Th St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1761409112/san-francisco/production/gabewz4traxni8kw7p3h.jpg",
-    "status": "CLOSED",
-    "date": "24w ago",
-    "date_iso": "2025-11-07T18:36:47Z",
-    "lat": 37.76535008,
-    "lng": -122.41335251,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\udd27 Services",
-    "extracted_text": "ENVIOS\nNICARAGUA\n+1-525-6006\n+1-251-5734",
-    "commentary": "A money transfer/shipping service flyer for Nicaragua remittances\u2014practical infrastructure for the diaspora economy, quietly plastered on utility poles across the city.",
-    "confidence": 0.85
-  },
-  {
     "id": "101002857357",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002857357",
     "address": "3200 20 Th St",
