@@ -13878,23 +13878,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003038375",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003038375",
-    "address": "3398 22 Nd St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1764095133/san-francisco/production/oeypgj9g6r3cdj0ggnqs.jpg",
-    "status": "CLOSED",
-    "date": "18w ago",
-    "date_iso": "2025-12-18T18:01:09Z",
-    "lat": 37.7552828,
-    "lng": -122.42300135,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "",
-    "commentary": "A mysterious red box with what appears to be a small posted image or label\u2014the text is too blurry and distant to decipher, though the rainbow-striped utility boxes nearby suggest someone's doing some intentional visual organizing of the street.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003038372",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003038372",
     "address": "992 Guerrero St",
