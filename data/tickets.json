@@ -1504,24 +1504,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003833320",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003833320",
-    "address": "645 Valencia St",
-    "lat": 37.76251343,
-    "lng": -122.42157612,
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1775681832/san-francisco/production/v5qmjheiuh73mghfggy6.jpg",
-    "description": "",
-    "status": "OPEN",
-    "date": "2w ago",
-    "analyzed": true,
-    "date_iso": "2026-04-08T20:57:12Z",
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "MAY (partial text visible on white flyer on pole)",
-    "commentary": "There's definitely a white flyer affixed to the lamp post, but the text is too small/blurry to read clearly from this distance\u2014classic SF street furniture mystery.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003833200",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003833200",
     "address": "2525 Mission St",
