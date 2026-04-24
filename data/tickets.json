@@ -17779,23 +17779,6 @@
     "confidence": 0.25
   },
   {
-    "id": "101002956573",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002956573",
-    "address": "226 Sanchez St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1762815327/san-francisco/production/j3jhecptc2x19wi95pua.jpg",
-    "status": "OPEN",
-    "date": "23w ago",
-    "date_iso": "2025-11-10T22:54:47Z",
-    "lat": 37.76544626,
-    "lng": -122.43105442,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\udd27 Services",
-    "extracted_text": "1003463 [phone number]\n[Partial text on dark sticker - appears to be service-related but largely obscured]",
-    "commentary": "A utility pole's worth of hustler energy\u2014yellow number tags and mystery business cards creating that classic SF street-level symphony of \"call me maybe\" desperation.",
-    "confidence": 0.45
-  },
-  {
     "id": "101002956569",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002956569",
     "address": "Intersection 15 Th St, Sanchez St",
