@@ -18852,23 +18852,6 @@
     "reviewed_by_human": true
   },
   {
-    "id": "101002856116",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002856116",
-    "address": "Intersection California St, Divisadero St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1761363209/san-francisco/production/bfjnidlqo8itrupdmjwv.jpg",
-    "status": "CLOSED",
-    "date": "23w ago",
-    "date_iso": "2025-11-13T19:36:34Z",
-    "lat": 37.7880671611059,
-    "lng": -122.440440262149,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "SALE (partial text visible on storefront signage and flyers)",
-    "commentary": "This is a cluttered streetscape with multiple overlapping postings on a utility pole and storefront, but the text is too blurry and obscured by the angle, distance, and competing signage to confidently extract what's being advertised.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002856101",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002856101",
     "address": "Intersection Broderick St, Jackson St",
