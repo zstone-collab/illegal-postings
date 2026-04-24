@@ -22646,10 +22646,11 @@
     "lng": -122.441300120164,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\uddf3\ufe0f Political",
     "extracted_text": "Partial text visible on white flyer; yellow address/permit markers visible; image quality and angle make full text extraction impossible",
     "commentary": "Classic SF move: slap a flyer on a tree in front of a Victorian and let 311 do the heavy lifting\u2014though this photo's graininess makes it impossible to ID what we're actually dealing with here.",
-    "confidence": 0.2
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002772261",
