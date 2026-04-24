@@ -19405,23 +19405,6 @@
     "confidence": 0.85
   },
   {
-    "id": "101002857382",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002857382",
-    "address": "2044 Harrison St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1761409109/san-francisco/production/d0fjbrczttmo72ppwn6k.jpg",
-    "status": "CLOSED",
-    "date": "25w ago",
-    "date_iso": "2025-10-30T18:57:41Z",
-    "lat": 37.76429078,
-    "lng": -122.41312107,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Blue and yellow rectangles/sections visible on chain-link fence, text content not legible",
-    "commentary": "A mystery wrapped in chain-link\u2014there's clearly something posted here (those colored rectangles suggest intent), but the photo quality and angle render the actual message unreadable; classic SF infrastructure street art in its most cryptic form.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002857383",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002857383",
     "address": "2707 16 Th St",
