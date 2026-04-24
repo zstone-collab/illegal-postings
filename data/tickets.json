@@ -11315,23 +11315,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003158422",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003158422",
-    "address": "Intersection Harrison St, Mistral St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1765945370/san-francisco/production/qsvbvbw67pyp85gwffwv.jpg",
-    "status": "CLOSED",
-    "date": "16w ago",
-    "date_iso": "2025-12-29T22:18:51Z",
-    "lat": 37.7600622303792,
-    "lng": -122.412610125306,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial red poster/flyer visible on wooden pole with yellow utility straps; text too small/obscured to read clearly",
-    "commentary": "Someone really committed to the yellow utility strap aesthetic here\u2014three perfectly parallel bands of municipal neutrality sandwiching what looks like a red flyer that's now basically modern art through strategic obstruction.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003157461",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003157461",
     "address": "599 South Van Ness Ave",
