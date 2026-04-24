@@ -17014,23 +17014,6 @@
     "reviewed_by_human": true
   },
   {
-    "id": "101002923993",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002923993",
-    "address": "761 14 Th St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1762365507/san-francisco/production/mm9jrpism9vsdptwhbkg.jpg",
-    "status": "CLOSED",
-    "date": "22w ago",
-    "date_iso": "2025-11-19T21:14:27Z",
-    "lat": 37.76752978,
-    "lng": -122.43031197,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial text visible on pole but too blurry/obscured to read clearly",
-    "commentary": "There's definitely something affixed to this utility pole (looks like a blue-taped flyer or sticker), but the image quality and angle make it impossible to decipher what it says\u2014very on-brand for SF street ephemera photography.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002922680",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002922680",
     "address": "2906 Harrison St",
