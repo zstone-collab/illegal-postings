@@ -9886,23 +9886,6 @@
     "confidence": 0.3
   },
   {
-    "id": "101003248338",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003248338",
-    "address": "455 Hayes St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1767499471/san-francisco/production/ti1yzhh3ashuqxfjiwnt.jpg",
-    "status": "CLOSED",
-    "date": "15w ago",
-    "date_iso": "2026-01-08T20:26:00Z",
-    "lat": 37.77661693,
-    "lng": -122.42407824,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partially visible text on pole and storefront glass including fragments that appear to say \"AROU\" or similar, storefront signage visible but obscured",
-    "commentary": "This is mostly a candid photo of someone enjoying the holidays in a red Adirondack chair; the actual postings on the utility pole are too weathered and partially obscured to read, though there are definitely some white and blue stickers/papers affixed to it.",
-    "confidence": 0.25
-  },
-  {
     "id": "101003248328",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003248328",
     "address": "395 Hayes St",
