@@ -4821,10 +4821,11 @@
     "lng": -122.4024374,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\uddf3\ufe0f Political",
     "extracted_text": "Partial text visible on blue flyer with yellow bands, content illegible in photo",
     "commentary": "Someone's gone full construction-site chic with the yellow and blue band aesthetic\u2014either a lost pet, a service ad, or evidence of very committed utility box decoration.",
-    "confidence": 0.2
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003597735",
