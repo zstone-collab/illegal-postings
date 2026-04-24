@@ -11657,23 +11657,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003138087",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003138087",
-    "address": "3598 16 Th St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1765648371/san-francisco/production/lrgglaw3037vdymspvgl.jpg",
-    "status": "CLOSED",
-    "date": "6w ago",
-    "date_iso": "2026-03-09T19:31:03Z",
-    "lat": 37.76433738,
-    "lng": -122.43297933,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Multiple small posters/flyers visible on utility box but text is too blurry and obscured by reflections, dirt, and angle to read legibly",
-    "commentary": "A classic SF utility box palimpsest\u2014so many layers of postings that they've achieved visual abstraction; even the flyers are tired of being read.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003138076",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003138076",
     "address": "2292 Market St",
