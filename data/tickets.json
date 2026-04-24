@@ -13890,23 +13890,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003021188",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003021188",
-    "address": "1600 Hayes St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763780670/san-francisco/production/vtclumguqjruuqwbldn4.jpg",
-    "status": "CLOSED",
-    "date": "17w ago",
-    "date_iso": "2025-12-23T17:09:55Z",
-    "lat": 37.77439322,
-    "lng": -122.44281255,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "ophie Nam (partial text visible at top), NOPA Clinic (visible on lower flyer), QR code visible",
-    "commentary": "Classic pole collage featuring at least two layered postings\u2014text is too weathered and partially obscured to fully decode, but we've got what looks like a community services flyer stacked with something else, held together by blue tape and the force of urban will.",
-    "confidence": 0.35
-  },
-  {
     "id": "101003021185",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003021185",
     "address": "Intersection Baker St, Fell St",
