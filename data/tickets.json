@@ -22431,23 +22431,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101002733920",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002733920",
-    "address": "2197 Fillmore St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1759693955/san-francisco/production/po5jb8zhuusllflqkkrr.jpg",
-    "status": "CLOSED",
-    "date": "28w ago",
-    "date_iso": "2025-10-06T17:01:47Z",
-    "lat": 37.78974993,
-    "lng": -122.43409247,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\ude80 Startups",
-    "extracted_text": "MODERN CITIZEN\n2508 SACRAMENTO ST.",
-    "commentary": "A sleek A-frame for what appears to be a fashion/lifestyle brand\u2014SF's version of aggressive sidewalk marketing, complete with weighted-down fabric to prevent wind theft.",
-    "confidence": 0.95
-  },
-  {
     "id": "101002732595",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002732595",
     "address": "1182 9 Th Ave",
