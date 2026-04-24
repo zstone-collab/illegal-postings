@@ -9906,23 +9906,6 @@
     "confidence": 0.0
   },
   {
-    "id": "101003236521",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003236521",
-    "address": "1595 Pacific Ave",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1767297649/san-francisco/production/rgnr2ryz2xj7svhc2mho.jpg",
-    "status": "CLOSED",
-    "date": "16w ago",
-    "date_iso": "2026-01-02T19:05:51Z",
-    "lat": 37.79496947,
-    "lng": -122.42145888,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\ude80 Startups",
-    "extracted_text": "stuff",
-    "commentary": "A sidewalk sandwich board hawking 'stuff'\u2014the most confidently vague product pitch in San Francisco history, which honestly tracks for either a minimalist design collective or a startup that pivoted so many times it forgot what it actually does.",
-    "confidence": 0.85
-  },
-  {
     "id": "101003235950",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003235950",
     "address": "697 22 Nd St",
