@@ -21655,23 +21655,6 @@
     "confidence": 1.0
   },
   {
-    "id": "101002772315",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002772315",
-    "address": "1903 Broderick St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1761765518/san-francisco/production/yhdged3jhxjw39zgtju1.jpg",
-    "status": "CLOSED",
-    "date": "25w ago",
-    "date_iso": "2025-10-28T19:02:49Z",
-    "lat": 37.78808988,
-    "lng": -122.44229518,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "TUTORING, Contact Info, QR code visible, partially obscured text due to angle and lighting",
-    "commentary": "A tutoring flyer with a headshot and QR code, but the glare and angle make most details illegible\u2014classic lamp post posting that's either genius guerrilla marketing or destined for instant 311 removal.",
-    "confidence": 0.35
-  },
-  {
     "id": "101002772311",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002772311",
     "address": "1837 Broderick St",
