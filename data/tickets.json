@@ -21285,23 +21285,6 @@
     "reviewed_by_human": true
   },
   {
-    "id": "101002772261",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002772261",
-    "address": "Intersection Baker St, Golden Gate Ave",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1762539503/san-francisco/production/xp0fpivqhrugwmbbli0n.jpg",
-    "status": "CLOSED",
-    "date": "24w ago",
-    "date_iso": "2025-11-06T17:42:18Z",
-    "lat": 37.7782995257223,
-    "lng": -122.441865650186,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\udc41\ufe0f Weird & Unexplained",
-    "extracted_text": "OCT 11",
-    "commentary": "A tiny, cryptic sticker depicting what appears to be a date or countdown (OCT 11) with ominous red imagery\u2014either SF street prophecy or someone's very committed Inside joke about an unremarkable Tuesday.",
-    "confidence": 0.6
-  },
-  {
     "id": "101002772243",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002772243",
     "address": "1298 Haight St",
