@@ -14525,23 +14525,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003016869",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003016869",
-    "address": "2205 Bush St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763745271/san-francisco/production/e73etpkbpl2cudynoar0.jpg",
-    "status": "CLOSED",
-    "date": "21w ago",
-    "date_iso": "2025-11-26T16:44:03Z",
-    "lat": 37.78695206,
-    "lng": -122.43356145,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial text visible on small flyers/stickers wrapped around pole; text too blurry/distant to read clearly",
-    "commentary": "Someone's really committed to the horizontal stripe aesthetic here\u2014three different colored bands on a support pole that might be ads, might be art, might be someone's fever dream about minimalism.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003016859",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003016859",
     "address": "2113 Bush St",
