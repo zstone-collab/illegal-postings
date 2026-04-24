@@ -27207,10 +27207,11 @@
     "lng": -122.4322154,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\ude80 Startups",
     "extracted_text": "offir new cheer[...]",
     "commentary": "A crumpled olive-green pouch stapled to a pole with partial text visible\u2014looks like it could be promoting something 'new' but the sun-faded messaging and awkward mounting make it genuinely unreadable.",
-    "confidence": 0.25
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002617773",
