@@ -1433,24 +1433,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003833392",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003833392",
-    "address": "1724 Mission St",
-    "lat": 37.76956693,
-    "lng": -122.42026996,
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1775682320/san-francisco/production/neqqwtv2qe4iaqihci8r.jpg",
-    "description": "",
-    "status": "OPEN",
-    "date": "2w ago",
-    "analyzed": true,
-    "date_iso": "2026-04-08T21:05:21Z",
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial text visible on purple/pink flyers on yellow bollard, content unreadable",
-    "commentary": "There are definitely some flyers wheat-pasted to that yellow traffic control bollard, but the resolution and angle make the actual content a mystery\u2014classic SF street archaeology where you know *something* happened here, you just can't quite read the memo.",
-    "confidence": 0.3
-  },
-  {
     "id": "101003833341",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003833341",
     "address": "99 Clarion Aly",
