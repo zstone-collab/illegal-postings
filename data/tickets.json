@@ -18817,23 +18817,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101002856211",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002856211",
-    "address": "Intersection 23 Rd St, Harrison St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1761364968/san-francisco/production/ubyfy56mhvmkassbdb0w.jpg",
-    "status": "CLOSED",
-    "date": "26w ago",
-    "date_iso": "2025-10-25T04:13:05Z",
-    "lat": 37.7542303125683,
-    "lng": -122.412047246317,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Yellow horizontal lines/marks visible on dark surface; small white rectangular element with unclear text; white paper or material affixed to pole",
-    "commentary": "This grainy surveillance-style image shows what appears to be stickers or small postings on a dark mat/surface near a pole, but the resolution and angle make it impossible to read any actual messaging\u2014very mysterious, very SF.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002856204",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002856204",
     "address": "2890 Harrison St",
