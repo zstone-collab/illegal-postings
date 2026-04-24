@@ -13531,23 +13531,6 @@
     "confidence": 0.4
   },
   {
-    "id": "101003016860",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003016860",
-    "address": "2057 Bush St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763745218/san-francisco/production/xztd7y1ztbhr6balmb6m.jpg",
-    "status": "CLOSED",
-    "date": "21w ago",
-    "date_iso": "2025-11-26T17:26:10Z",
-    "lat": 37.78721292,
-    "lng": -122.43108209,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\udd27 Services",
-    "extracted_text": "LOADING ONLY\n7:30 - 11:30\n1:30 - 5:30\nand PM\n9pm-12ish\nWEEKDAY",
-    "commentary": "A mysteriously vague loading zone sign that tells you when things are loading (very helpful) but absolutely nothing about what, where, or why\u2014peak cryptic SF infrastructure cosplay.",
-    "confidence": 0.55
-  },
-  {
     "id": "101003016858",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003016858",
     "address": "2000 Bush St",
