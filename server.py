@@ -283,6 +283,59 @@ def categorize_ticket(ticket_id):
     abort(404)
 
 
+@app.route("/api/debug-commit", methods=["POST"])
+@require_admin
+def debug_commit():
+    """Synchronously run the full commit flow and return every step's output.
+    Makes a tiny no-op write so there's something to commit.
+    """
+    if not GITHUB_TOKEN:
+        return jsonify({"error": "GITHUB_TOKEN not set"}), 400
+
+    # Force a real diff: touch the last-modified in a harmless way
+    tickets = load_tickets()
+    save_tickets(tickets)  # rewrites file (may be identical if JSON dump is deterministic)
+
+    cwd = str(REPO_DIR)
+    env = os.environ.copy()
+    env["GIT_AUTHOR_NAME"] = "Illegal Postings Admin"
+    env["GIT_AUTHOR_EMAIL"] = "admin@illegal-postings.com"
+    env["GIT_COMMITTER_NAME"] = "Illegal Postings Admin"
+    env["GIT_COMMITTER_EMAIL"] = "admin@illegal-postings.com"
+    remote_url = f"https://x-access-token:{GITHUB_TOKEN}@github.com/{GITHUB_REPO}.git"
+
+    steps = []
+
+    def run(cmd, ignore_fail=False):
+        try:
+            r = subprocess.run(cmd, cwd=cwd, env=env, capture_output=True, text=True, timeout=30)
+            step = {
+                "cmd": " ".join(c if "x-access-token" not in c else c.split("@")[-1] for c in cmd),
+                "rc": r.returncode,
+                "stdout": (r.stdout or "").strip()[:500],
+                "stderr": (r.stderr or "").strip()[:500],
+            }
+            steps.append(step)
+            return r
+        except Exception as e:
+            steps.append({"cmd": " ".join(cmd[:2]), "error": str(e)})
+            return None
+
+    run(["git", "remote", "remove", "origin"], ignore_fail=True)
+    run(["git", "remote", "add", "origin", remote_url])
+    run(["git", "add", "data/tickets.json"])
+    r = run(["git", "diff", "--staged", "--quiet"])
+    has_changes = r is not None and r.returncode != 0
+    steps.append({"info": f"has_staged_changes: {has_changes}"})
+    if has_changes:
+        run(["git", "commit", "-m", "Debug test commit"])
+        run(["git", "push", "origin", "HEAD:main"])
+    else:
+        steps.append({"info": "No changes to commit (save_tickets wrote identical JSON)"})
+
+    return jsonify({"steps": steps})
+
+
 @app.route("/api/admin-probe", methods=["GET"])
 @require_admin
 def admin_probe():
