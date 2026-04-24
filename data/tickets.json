@@ -11871,23 +11871,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101003150897",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003150897",
-    "address": "535 Felton St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1765841737/san-francisco/production/jofl43aujswyoap6kewu.jpg",
-    "status": "CLOSED",
-    "date": "9w ago",
-    "date_iso": "2026-02-17T08:00:00Z",
-    "lat": 37.7284729,
-    "lng": -122.41002207,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Small white/red rectangular postings visible on buildings but text is too small/distant to read clearly",
-    "commentary": "There are definitely some small flyers posted on the garage doors here, but they're too far away and blurry to make out what they're advertising\u2014could be anything from a lost dog to a tech startup's fever dream.",
-    "confidence": 0.3
-  },
-  {
     "id": "101003150868",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003150868",
     "address": "Intersection Guerrero St, 16 Th St",
