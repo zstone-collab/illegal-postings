@@ -23349,23 +23349,6 @@
     "confidence": 0.75
   },
   {
-    "id": "101002660838",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002660838",
-    "address": "2444 Broadway",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1758641791/san-francisco/production/yigkoplokpfftnk1m8yj.jpg",
-    "status": "CLOSED",
-    "date": "30w ago",
-    "date_iso": "2025-09-25T07:00:00Z",
-    "lat": 37.79396103,
-    "lng": -122.43737509,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\udd27 Services",
-    "extracted_text": "PLEASE, KEEP THIS SPACE FREE. SCAFFOLDING TRUCK COMING ON SEPT 17, 18, & 19. BETWEEN 7:30 AM AND 4:30 PM. THANK YOU. NO STOPPING 07/12/25 - 08/12/25 7AM - 6PM Mon - Fri. 2616 PACIFIC AVE on PACIFIC AVE/BRODERICK ST - BAKER ST (60 ft.). MAGIC BRUSH INC. 415-641-8622. Permit # 25-54-280376. Street Use. QUESTIONS: 628-277-3000 or 415-695-7200.",
-    "commentary": "A contractor's permission slip masquerading as street theater\u2014Magic Brush Inc. basically posted a giant \"don't tow me\" note with the aesthetic confidence of someone who paid for the proper permits and wants *everyone* to know it.",
-    "confidence": 0.95
-  },
-  {
     "id": "101002659687",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002659687",
     "address": "2551 23 Rd St",
