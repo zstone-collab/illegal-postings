@@ -24819,23 +24819,6 @@
     "confidence": 0.6
   },
   {
-    "id": "101002676049",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002676049",
-    "address": "1501 Grove St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1770854510/san-francisco/production/yzn8imvweh07azh7ulcy.jpg",
-    "status": "CLOSED",
-    "date": "30w ago",
-    "date_iso": "2025-09-25T21:49:20Z",
-    "lat": 37.77545772,
-    "lng": -122.44134122,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Text on flyer is too small and blurry to read clearly from this distance/angle",
-    "commentary": "There's definitely a small flyer affixed to the utility pole, but we're too far away and the resolution is too soft to make out what it's advertising\u2014could be anything from a lost cat to a missing roommate.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002675787",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002675787",
     "address": "2551 23 Rd St",
