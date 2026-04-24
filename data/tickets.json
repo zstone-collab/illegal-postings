@@ -4489,23 +4489,6 @@
     "reviewed_by_human": true
   },
   {
-    "id": "101003591267",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003591267",
-    "address": "60 Thor Ave",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1772409395/san-francisco/production/u2ehrdp5ut4hyvqthyzx.jpg",
-    "status": "CLOSED",
-    "date": "7w ago",
-    "date_iso": "2026-03-03T03:34:56Z",
-    "lat": 37.73516193,
-    "lng": -122.43419114,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\udd27 Services",
-    "extracted_text": "NO STOPPING\n03/02/25 - 04/03/25\n7:00 AM-4:00 PM\nMon-8Wed-Thu-Fri\nTF Scaffold Company\n(415) 467-1702\nStreet Use",
-    "commentary": "A construction scaffold permit doing the bare minimum of visual appeal\u2014orange tape and bureaucratic authenticity are the only decorative elements here, very on-brand for SF's perpetual state of controlled chaos.",
-    "confidence": 0.75
-  },
-  {
     "id": "101003590471",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003590471",
     "address": "502 Irving St",
