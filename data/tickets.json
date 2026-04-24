@@ -18215,10 +18215,11 @@
     "lng": -122.43179847,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "ACCESSIBLE MESSAGE ONLY [partial text visible on posters but too blurry/obscured to read fully]",
     "commentary": "Classic SF utility pole palimpsest\u2014layers of flyers stacked like urban archaeological strata, but the resolution and overlap make it impossible to decipher what actually says what.",
-    "confidence": 0.25
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002863537",
