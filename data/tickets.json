@@ -2280,10 +2280,11 @@
     "lng": -122.4087121,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "3 (partial text visible on lower sticker), and what appears to be additional text on upper portion but not clearly legible from this angle",
     "commentary": "There's definitely a posting game happening on this utility pole, but the resolution and angle make it tough to read the full message\u2014classic SF pole collage energy though.",
-    "confidence": 0.3
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003825331",
