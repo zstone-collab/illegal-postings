@@ -16402,10 +16402,11 @@
     "lng": -122.41634209,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "Partial text visible on blue sticker - appears to say something about parking/no parking but text is too small and obscured to read with confidence",
     "commentary": "",
-    "confidence": 0.2
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002956684",
