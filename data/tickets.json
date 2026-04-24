@@ -10474,10 +10474,11 @@
     "lng": -122.40546595,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\udd27 Services",
     "extracted_text": "Small white flyer with blue accent visible on pole, text too small/distant to read clearly",
     "commentary": "There's definitely a posting affixed to that utility pole, but from this angle and distance it's basically a mystery\u2014could be anything from a lost cat to a startup pitch.",
-    "confidence": 0.2
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003232870",
