@@ -13107,23 +13107,6 @@
     "confidence": 0.92
   },
   {
-    "id": "101003060313",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003060313",
-    "address": "3801 17 Th St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1764546449/san-francisco/production/bbt37y6opkaqcwi0ok01.jpg",
-    "status": "CLOSED",
-    "date": "18w ago",
-    "date_iso": "2025-12-16T16:43:57Z",
-    "lat": 37.7627101,
-    "lng": -122.43074732,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partially visible handwritten text on white paper, too blurry/distant to read clearly",
-    "commentary": "A mysterious white flyer on a utility pole that's just blurry enough to fuel a thousand conspiracy theories\u2014SF's favorite kind of street ephemera.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003060292",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003060292",
     "address": "497 Castro St",
