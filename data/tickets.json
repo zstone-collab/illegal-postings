@@ -6145,23 +6145,6 @@
     "confidence": 0.85
   },
   {
-    "id": "101003474769",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003474769",
-    "address": "381 Laguna Honda Blvd",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1770740918/san-francisco/production/hlmnehjny4b74rh3akqo.jpg",
-    "status": "CLOSED",
-    "date": "10w ago",
-    "date_iso": "2026-02-10T16:31:56Z",
-    "lat": 37.74757242,
-    "lng": -122.45875385,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\udc41\ufe0f Weird & Unexplained",
-    "extracted_text": "",
-    "commentary": "Two pixelated portrait stickers of what appear to be public figures with their faces deliberately obscured\u2014a cheeky digital-age twist on classic SF wheat-paste culture that manages to be both a statement and aggressively vague.",
-    "confidence": 0.3
-  },
-  {
     "id": "101003474442",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003474442",
     "address": "491 Pennsylvania Ave",
