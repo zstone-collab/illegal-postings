@@ -23986,23 +23986,6 @@
     "confidence": 0.65
   },
   {
-    "id": "101002724303",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002724303",
-    "address": "Intersection 19 Th St, Minnesota St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1770819393/san-francisco/production/b0ynret9eztv1uyuin3m.jpg",
-    "status": "CLOSED",
-    "date": "29w ago",
-    "date_iso": "2025-10-03T21:46:23Z",
-    "lat": 37.7616522330279,
-    "lng": -122.39057321435,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Small blue/purple sticker visible on utility pole; additional faint markings on pole; text illegible due to distance and image quality",
-    "commentary": "This one's playing it mysterious\u2014we can see *something* colorful got posted on that pole, but the resolution is giving us 'Bigfoot sighting' vibes rather than actual intel.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002723852",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002723852",
     "address": "330 Valencia St",
