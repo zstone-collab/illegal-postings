@@ -5030,6 +5030,23 @@
     "confidence": 0.25
   },
   {
+    "id": "101003600573",
+    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003600573",
+    "address": "89 Badger St",
+    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1772519135/san-francisco/production/pkovycvh4fknn1i46gn4.jpg",
+    "status": "CLOSED",
+    "date": "7w ago",
+    "date_iso": "2026-03-05T20:20:38Z",
+    "lat": 37.73052972,
+    "lng": -122.43387256,
+    "analyzed": true,
+    "skip": false,
+    "theme": "\u2753 Unclear",
+    "extracted_text": "Partial characters visible on building near door, too obscured by ivy and distance to read clearly",
+    "commentary": "Either this building is so aggressively verdant it's staging a hostile takeover, or the ivy is just really committed to hiding the evidence\u2014either way, any postings here are now officially part of the architectural ecosystem.",
+    "confidence": 0.2
+  },
+  {
     "id": "101003600430",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003600430",
     "address": "1426 Polk St",
@@ -6273,23 +6290,6 @@
     "extracted_text": "Events",
     "commentary": "A teal-colored flyer with 'Events' visible at the top is affixed to the utility pole, but the rest of the text is too small/blurry to read from this distance\u2014could be anything from a concert series to a community board announcement.",
     "confidence": 0.3
-  },
-  {
-    "id": "101003526459",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003526459",
-    "address": "465 Dolores St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1771530012/san-francisco/production/jfugw5esuqvq8aanbfxr.jpg",
-    "status": "CLOSED",
-    "date": "9w ago",
-    "date_iso": "2026-02-19T19:46:12Z",
-    "lat": 37.76193826,
-    "lng": -122.42587591,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial text visible on multiple postings on utility box and pole - text too blurry/obscured to read with confidence",
-    "commentary": "Classic SF pole-wrapping situation: someone's committed to papering this utility box like it owes them money, but the actual messaging is illegible from this angle\u2014a true ephemera mystery.",
-    "confidence": 0.2
   },
   {
     "id": "101003524445",
