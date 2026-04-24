@@ -25017,10 +25017,11 @@
     "lng": -122.420664719703,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "CHRIS LIEBING [partial text visible on stickers/postings on utility pole, QR codes visible, additional text too blurry to read completely]",
     "commentary": "A utility pole plastered with what appears to be DJ/music event promotions\u2014Chris Liebing is a legendary Frankfurt techno DJ, so someone's either promoting a show or just really committed to his artistry.",
-    "confidence": 0.45
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002608848",
