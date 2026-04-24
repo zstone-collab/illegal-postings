@@ -1521,23 +1521,6 @@
     "confidence": 1.0
   },
   {
-    "id": "101003833122",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003833122",
-    "address": "2920 Mission St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1775680742/san-francisco/production/vtdqswltvfyclge9kkov.jpg",
-    "status": "OPEN",
-    "date": "2w ago",
-    "date_iso": "2026-04-08T20:39:03Z",
-    "lat": 37.7500919,
-    "lng": -122.41839188,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Pay by License Plate, 5682900, small stickers/postings visible but text largely illegible due to distance and angle",
-    "commentary": "A utility pole palimpsest of parking enforcement bureaucracy and street-level stickers\u2014the illegible collage is almost more interesting than what we can actually read.",
-    "confidence": 0.3
-  },
-  {
     "id": "101003833116",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003833116",
     "address": "2937 Mission St",
