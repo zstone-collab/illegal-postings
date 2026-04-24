@@ -21530,23 +21530,6 @@
     "confidence": 0.65
   },
   {
-    "id": "101002825556",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002825556",
-    "address": "1419 San Bruno Ave",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1760988333/san-francisco/production/thuwzmmhojr67awp3wpw.jpg",
-    "status": "CLOSED",
-    "date": "26w ago",
-    "date_iso": "2025-10-23T19:12:50Z",
-    "lat": 37.75117239,
-    "lng": -122.40406718,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Street Closure [partial text visible but illegible due to distance and angle]",
-    "commentary": "This appears to be an official street closure or parking notice secured with yellow tape, but the actual text is too blurry and distant to read the details\u2014ironically, the very notice designed to inform the public is barely readable from street level.",
-    "confidence": 0.25
-  },
-  {
     "id": "101002825473",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002825473",
     "address": "2699 25 Th St",
