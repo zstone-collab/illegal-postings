@@ -27225,10 +27225,11 @@
     "lng": -122.43332676,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\uddf3\ufe0f Political",
     "extracted_text": "Partial sticker visible on utility pole with what appears to be an illustration/character and some blue text/branding, but text is too small and obscured to read clearly",
     "commentary": "There's definitely a sticker here\u2014looks like it might be some kind of brand mascot or character\u2014but the resolution and angle make it impossible to decipher what they're actually promoting.",
-    "confidence": 0.25
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002615876",
