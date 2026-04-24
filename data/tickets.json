@@ -24601,23 +24601,6 @@
     "reviewed_by_human": true
   },
   {
-    "id": "101002608848",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002608848",
-    "address": "833 Clipper Ter",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1757800809/san-francisco/production/dikwdebt1ln5igrc2tsc.jpg",
-    "status": "CLOSED",
-    "date": "29w ago",
-    "date_iso": "2025-10-01T22:35:59Z",
-    "lat": 37.74805182,
-    "lng": -122.4428303,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\ud83d\ude80 Startups",
-    "extracted_text": "heath real estate\ntyler stewart\n(415) 860-5555\n39-High.com",
-    "commentary": "A real estate agent's sign strategically placed at a literal dead end\u2014either brilliant market targeting or a devastating commentary on the Bay Area housing market's metaphorical futility.",
-    "confidence": 0.95
-  },
-  {
     "id": "101002608323",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002608323",
     "address": "1089 Golden Gate Ave",
