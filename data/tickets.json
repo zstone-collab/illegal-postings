@@ -7635,10 +7635,11 @@
     "lng": -122.40769017,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\uddf3\ufe0f Political",
     "extracted_text": "FUNCIONAL PARA PASAR (partial text visible on purple/lavender section at top); yellow section at bottom with text too small/blurry to read clearly",
     "commentary": "A multi-colored cylindrical posting on a utility pole with layered sections in purple, white, and yellow\u2014looks like someone's created a stratified street poetry experience, though the text resolution makes it tough to decipher the full message.",
-    "confidence": 0.3
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101003425650",
