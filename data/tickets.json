@@ -14967,23 +14967,6 @@
     "confidence": 0.65
   },
   {
-    "id": "101003005779",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003005779",
-    "address": "2580 Mission St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763577869/san-francisco/production/f4r9gufch3w11twzpd3f.jpg",
-    "status": "CLOSED",
-    "date": "19w ago",
-    "date_iso": "2025-12-11T20:42:42Z",
-    "lat": 37.75571156,
-    "lng": -122.41888279,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Various tags and stickers visible on utility pole; text too small/obscured to read clearly",
-    "commentary": "A classic SF utility pole palimpsest\u2014this thing's been a public billboard longer than most start-ups have lasted, but the actual messaging is lost to resolution and urban decay.",
-    "confidence": 0.2
-  },
-  {
     "id": "101003005070",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003005070",
     "address": "1499 Bush St",
@@ -15459,23 +15442,6 @@
     "extracted_text": "",
     "commentary": "",
     "confidence": 0
-  },
-  {
-    "id": "101002989364",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002989364",
-    "address": "Intersection 4 Th Ave, Hugo St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1763318191/san-francisco/production/f2nj52cr06hdhvbwswfz.jpg",
-    "status": "CLOSED",
-    "date": "22w ago",
-    "date_iso": "2025-11-16T18:45:29Z",
-    "lat": 37.7652094041382,
-    "lng": -122.461022984264,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partially visible sticker/flyer with black and white imagery on yellow backing, text illegible",
-    "commentary": "There's definitely something affixed to that pole, but the image quality and angle conspire to keep its secrets safe from 311's prying eyes.",
-    "confidence": 0.2
   },
   {
     "id": "101002989365",
