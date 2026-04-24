@@ -10331,23 +10331,6 @@
     "confidence": 0.75
   },
   {
-    "id": "101003224710",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101003224710",
-    "address": "2708 24 Th St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1767076522/san-francisco/production/stkmnstinsfse3wukkp2.jpg",
-    "status": "CLOSED",
-    "date": "16w ago",
-    "date_iso": "2025-12-30T15:45:32Z",
-    "lat": 37.753067,
-    "lng": -122.40653984,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Rooms for Rent 16 Geary (phone number partially visible)",
-    "commentary": "A classic SF housing hustler's move\u2014slapping a rental ad on a utility pole where desperate renters will definitely see it, though the weathering suggests this particular room deal may have already been rented or abandoned.",
-    "confidence": 0.55
-  },
-  {
     "id": "101003224322",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101003224322",
     "address": "Intersection California St, Jones St",
