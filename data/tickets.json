@@ -28079,10 +28079,11 @@
     "lng": -122.42195777,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83d\udc8a Drugs",
     "extracted_text": "MON - SAT (partial text visible at top), various stickers and posters visible but text largely illegible due to image angle, lighting, and overlay of multiple postings",
     "commentary": "A classic SF utility box palimpsest: layers of stickers, wheatpaste, and signage so densely applied that individual messages dissolve into a beautiful visual cacophony\u2014the democratic chaos of street expression.",
-    "confidence": 0.25
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002571109",
