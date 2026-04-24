@@ -17,7 +17,9 @@ import json
 import os
 import shutil
 import subprocess
+import tempfile
 import threading
+import time
 from functools import wraps
 from pathlib import Path
 
@@ -29,34 +31,68 @@ REPO_DIR = Path(__file__).parent
 ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "sfpastebin")
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
 GITHUB_REPO = "zstone-collab/illegal-postings"
-COMMIT_DEBOUNCE_SEC = 10  # wait this long after last edit before committing
+COMMIT_POLL_SEC = 3        # worker wakes up this often
+COMMIT_MAX_AGE_SEC = 10    # an edit will be committed within this many seconds, guaranteed
 
 app = Flask(__name__, static_folder=str(WEB_DIR))
 
 
-# ── Auto-commit admin edits back to git so they survive Render redeploys ─────
+# ── Data-file lock: serialize load-modify-save across concurrent admin requests ──
 
-_commit_timer = None
-_commit_lock = threading.Lock()
+_data_lock = threading.Lock()
 
 
-def schedule_git_commit(reason: str):
-    """Debounce admin edits into a single commit ~COMMIT_DEBOUNCE_SEC after the last write."""
-    if not GITHUB_TOKEN:
-        print("[git-commit] GITHUB_TOKEN not set; skipping persistence")
-        return
-    global _commit_timer
-    with _commit_lock:
-        if _commit_timer is not None:
-            _commit_timer.cancel()
-        _commit_timer = threading.Timer(COMMIT_DEBOUNCE_SEC, _do_git_commit, args=[reason])
-        _commit_timer.daemon = True
-        _commit_timer.start()
+# ── Auto-commit: poll-based background worker (simpler + more predictable than timers) ──
+
+_dirty = False
+_dirty_at = None          # when the first pending edit happened
+_last_reason = ""
+_dirty_lock = threading.Lock()
+_last_commit = {"ok": None, "ts": None, "reason": None, "error": None}
+
+
+def mark_dirty(reason: str):
+    """Called by admin endpoints after a successful save. Worker will commit soon."""
+    global _dirty, _dirty_at, _last_reason
+    with _dirty_lock:
+        if not _dirty:
+            _dirty_at = time.time()
+        _dirty = True
+        _last_reason = reason
+
+
+def _commit_worker():
+    """Background thread: every COMMIT_POLL_SEC, if dirty, commit + push."""
+    while True:
+        try:
+            time.sleep(COMMIT_POLL_SEC)
+            with _dirty_lock:
+                if not _dirty:
+                    continue
+                # Only commit once the dust has settled (no writes in last poll interval)
+                # OR once the oldest pending edit is at least COMMIT_MAX_AGE_SEC old.
+                age = time.time() - (_dirty_at or 0)
+                if age < COMMIT_MAX_AGE_SEC - COMMIT_POLL_SEC:
+                    # Not max-age yet. Only commit if batch appears settled (we could check
+                    # timestamp of last edit too, but max-age cap already guarantees progress).
+                    # For simplicity we always commit on each tick — batching of >1 edit per
+                    # 3 seconds still merges cleanly into one commit because the file is
+                    # atomically updated.
+                    pass
+                reason = _last_reason
+                _dirty = False
+                _dirty_at_snapshot = _dirty_at
+            _do_git_commit(reason)
+        except Exception as e:
+            print(f"[commit-worker] unexpected error: {e}")
 
 
 def _do_git_commit(reason: str):
-    """Stage tickets.json, commit, push. Runs on a background thread."""
+    """Stage tickets.json, commit, push. Records result in _last_commit."""
+    global _last_commit
     if not GITHUB_TOKEN:
+        _last_commit = {"ok": False, "ts": time.time(), "reason": reason,
+                        "error": "GITHUB_TOKEN not set"}
         return
 
     cwd = str(REPO_DIR)
@@ -70,48 +106,77 @@ def _do_git_commit(reason: str):
     def run(cmd, **kw):
         return subprocess.run(cmd, cwd=cwd, env=env, capture_output=True, timeout=30, **kw)
 
+    def fail(msg):
+        global _last_commit
+        print(f"[git-commit] FAIL ({reason}): {msg}")
+        _last_commit = {"ok": False, "ts": time.time(), "reason": reason, "error": msg}
+
     try:
         # Configure origin fresh (Render strips it during deploy)
         run(["git", "remote", "remove", "origin"])  # best-effort
         r = run(["git", "remote", "add", "origin", remote_url])
         if r.returncode != 0:
-            print(f"[git-commit] remote add failed: {r.stderr.decode()}")
-            return
+            return fail(f"remote add failed: {r.stderr.decode()[:200]}")
 
-        # Stage the data file
+        # Stage
         r = run(["git", "add", "data/tickets.json"])
         if r.returncode != 0:
-            print(f"[git-commit] add failed: {r.stderr.decode()}")
-            return
+            return fail(f"add failed: {r.stderr.decode()[:200]}")
 
-        # No-op if nothing changed
+        # No-op if nothing changed (file was rewritten identically)
         if run(["git", "diff", "--staged", "--quiet"]).returncode == 0:
+            _last_commit = {"ok": True, "ts": time.time(), "reason": reason,
+                            "error": None, "note": "no changes"}
             return
 
         # Commit
         r = run(["git", "commit", "-m", f"Admin edit: {reason}"])
         if r.returncode != 0:
-            print(f"[git-commit] commit failed: {r.stderr.decode()}")
-            return
+            return fail(f"commit failed: {r.stderr.decode()[:200]}")
 
-        # Push. If remote has diverged, fetch + rebase once, then retry push.
+        # Push. If remote diverged (I pushed from my laptop), rebase + retry.
         r = run(["git", "push", "origin", "HEAD:main"])
         if r.returncode != 0:
-            print(f"[git-commit] push failed, trying rebase: {r.stderr.decode()}")
+            print(f"[git-commit] push conflict, rebasing: {r.stderr.decode()[:200]}")
             run(["git", "fetch", "origin", "main"])
             r = run(["git", "rebase", "origin/main"])
             if r.returncode != 0:
-                print(f"[git-commit] rebase failed: {r.stderr.decode()}")
                 run(["git", "rebase", "--abort"])
-                return
+                return fail(f"rebase failed: {r.stderr.decode()[:200]}")
             r = run(["git", "push", "origin", "HEAD:main"])
             if r.returncode != 0:
-                print(f"[git-commit] retry push failed: {r.stderr.decode()}")
-                return
+                return fail(f"retry push failed: {r.stderr.decode()[:200]}")
 
+        _last_commit = {"ok": True, "ts": time.time(), "reason": reason, "error": None}
         print(f"[git-commit] ✓ pushed ({reason})")
     except Exception as e:
-        print(f"[git-commit] EXCEPTION ({reason}): {e}")
+        return fail(f"exception: {e}")
+
+
+def _startup_recovery():
+    """On process start: if tickets.json differs from git HEAD, commit + push.
+    This catches the 'edits written to disk but never committed before crash' case.
+    Only relevant when the filesystem survives restart; on Render deploys the
+    filesystem is reset anyway so this is a no-op in that case — but a cheap no-op.
+    """
+    if not GITHUB_TOKEN or not DATA_FILE.exists():
+        return
+    try:
+        r = subprocess.run(
+            ["git", "diff", "--quiet", "HEAD", "--", "data/tickets.json"],
+            cwd=str(REPO_DIR), capture_output=True, timeout=10,
+        )
+        if r.returncode != 0:
+            print("[startup] tickets.json differs from HEAD, recovering...")
+            mark_dirty("startup recovery: uncommitted edits on disk")
+    except Exception as e:
+        print(f"[startup] recovery check failed: {e}")
+
+
+# Start the worker as soon as the module loads
+_worker_thread = threading.Thread(target=_commit_worker, daemon=True, name="git-commit-worker")
+_worker_thread.start()
+_startup_recovery()
 
 
 def require_admin(f):
@@ -131,7 +196,24 @@ def load_tickets():
 
 
 def save_tickets(tickets):
-    DATA_FILE.write_text(json.dumps(tickets, indent=2))
+    """Atomic write: temp file + rename. Prevents corruption if process dies mid-write."""
+    # NamedTemporaryFile in same dir so os.rename is atomic (same filesystem)
+    tmp = tempfile.NamedTemporaryFile(
+        mode="w", encoding="utf-8", dir=str(DATA_FILE.parent),
+        prefix=".tickets-", suffix=".json.tmp", delete=False,
+    )
+    try:
+        json.dump(tickets, tmp, indent=2)
+        tmp.flush()
+        os.fsync(tmp.fileno())
+        tmp.close()
+        os.replace(tmp.name, str(DATA_FILE))  # atomic
+    except Exception:
+        try:
+            os.unlink(tmp.name)
+        except Exception:
+            pass
+        raise
 
 
 # ── Static frontend ───────────────────────────────────────────────────────────
@@ -172,13 +254,14 @@ def list_tickets():
 @app.route("/api/tickets/<ticket_id>", methods=["DELETE"])
 @require_admin
 def delete_ticket(ticket_id):
-    tickets = load_tickets()
-    before = len(tickets)
-    tickets = [t for t in tickets if t["id"] != ticket_id]
-    if len(tickets) == before:
-        abort(404, f"Ticket {ticket_id} not found")
-    save_tickets(tickets)
-    schedule_git_commit(f"delete {ticket_id}")
+    with _data_lock:
+        tickets = load_tickets()
+        before = len(tickets)
+        tickets = [t for t in tickets if t["id"] != ticket_id]
+        if len(tickets) == before:
+            abort(404, f"Ticket {ticket_id} not found")
+        save_tickets(tickets)
+    mark_dirty(f"delete {ticket_id}")
     return jsonify({"deleted": ticket_id, "remaining": len(tickets)})
 
 
@@ -189,26 +272,28 @@ def bulk_delete():
     ids_to_delete = set(body.get("ids", []))
     if not ids_to_delete:
         abort(400, "Provide a list of ids to delete")
-    tickets = load_tickets()
-    before = len(tickets)
-    tickets = [t for t in tickets if t["id"] not in ids_to_delete]
-    deleted = before - len(tickets)
-    save_tickets(tickets)
-    schedule_git_commit(f"bulk-delete {deleted} tickets")
+    with _data_lock:
+        tickets = load_tickets()
+        before = len(tickets)
+        tickets = [t for t in tickets if t["id"] not in ids_to_delete]
+        deleted = before - len(tickets)
+        save_tickets(tickets)
+    mark_dirty(f"bulk-delete {deleted} tickets")
     return jsonify({"deleted": deleted, "remaining": len(tickets)})
 
 
 @app.route("/api/tickets/skip-all-unanalyzed", methods=["POST"])
 @require_admin
 def skip_unanalyzed():
-    tickets = load_tickets()
-    count = 0
-    for t in tickets:
-        if not t.get("analyzed"):
-            t["skip"] = True
-            count += 1
-    save_tickets(tickets)
-    schedule_git_commit(f"skip-unanalyzed ({count})")
+    with _data_lock:
+        tickets = load_tickets()
+        count = 0
+        for t in tickets:
+            if not t.get("analyzed"):
+                t["skip"] = True
+                count += 1
+        save_tickets(tickets)
+    mark_dirty(f"skip-unanalyzed ({count})")
     return jsonify({"marked_skip": count})
 
 
@@ -252,14 +337,15 @@ def bulk_skip_by_theme():
     prefix = body.get("theme_prefix")
     if not prefix:
         abort(400, "Provide theme_prefix")
-    tickets = load_tickets()
-    count = 0
-    for t in tickets:
-        if (t.get("theme") or "").startswith(prefix) and not t.get("skip"):
-            t["skip"] = True
-            count += 1
-    save_tickets(tickets)
-    schedule_git_commit(f"bulk-skip {prefix} ({count})")
+    with _data_lock:
+        tickets = load_tickets()
+        count = 0
+        for t in tickets:
+            if (t.get("theme") or "").startswith(prefix) and not t.get("skip"):
+                t["skip"] = True
+                count += 1
+        save_tickets(tickets)
+    mark_dirty(f"bulk-skip {prefix} ({count})")
     return jsonify({"skipped": count, "theme_prefix": prefix})
 
 
@@ -270,17 +356,18 @@ def categorize_ticket(ticket_id):
     theme = body.get("theme")
     if not theme:
         abort(400, "Provide a theme")
-    tickets = load_tickets()
-    for t in tickets:
-        if t["id"] == ticket_id:
-            t["theme"] = theme
-            t["skip"] = theme == "🚫 Skip"
-            t["confidence"] = 1.0
-            t["reviewed_by_human"] = True
-            save_tickets(tickets)
-            schedule_git_commit(f"categorize {ticket_id} → {theme}")
-            return jsonify({"id": ticket_id, "theme": theme})
-    abort(404)
+    with _data_lock:
+        tickets = load_tickets()
+        target = next((t for t in tickets if t["id"] == ticket_id), None)
+        if not target:
+            abort(404)
+        target["theme"] = theme
+        target["skip"] = theme == "🚫 Skip"
+        target["confidence"] = 1.0
+        target["reviewed_by_human"] = True
+        save_tickets(tickets)
+    mark_dirty(f"categorize {ticket_id} → {theme}")
+    return jsonify({"id": ticket_id, "theme": theme})
 
 
 @app.route("/api/debug-commit", methods=["POST"])
@@ -334,6 +421,23 @@ def debug_commit():
         steps.append({"info": "No changes to commit (save_tickets wrote identical JSON)"})
 
     return jsonify({"steps": steps})
+
+
+@app.route("/api/admin-status", methods=["GET"])
+@require_admin
+def admin_status():
+    """Pending state + last commit result. Hit any time to check persistence health."""
+    with _dirty_lock:
+        pending = _dirty
+        pending_age = (time.time() - _dirty_at) if (_dirty and _dirty_at) else 0
+        pending_reason = _last_reason if _dirty else None
+    return jsonify({
+        "pending_commit": pending,
+        "pending_age_sec": round(pending_age, 1),
+        "pending_reason": pending_reason,
+        "last_commit": _last_commit,
+        "token_configured": bool(GITHUB_TOKEN),
+    })
 
 
 @app.route("/api/admin-probe", methods=["GET"])

@@ -490,6 +490,17 @@ main { flex: 1; overflow: hidden; display: flex; }
 #admin-bar button:disabled { opacity: 0.4; cursor: default; }
 #admin-delete-btn { background: var(--accent) !important; color: #fff !important; border-color: var(--accent) !important; }
 #admin-selected { margin-left: auto; color: #aaa; }
+#admin-persist {
+  font-size: 0.75rem;
+  padding: 3px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+}
+#admin-persist.persist-ok { background: #1e5128; color: #9be39b; }
+#admin-persist.persist-pending { background: #5d4f1a; color: #ffd866; }
+#admin-persist.persist-error { background: #5d1a1a; color: #ff8e8e; }
+#admin-persist.persist-idle { background: #2a2a2a; color: #aaa; }
 .card.selected { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent); }
 .admin-controls {
   display: flex;

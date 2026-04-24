@@ -106,8 +106,49 @@ function setupAdminBar() {
     <button id="admin-delete-btn" onclick="bulkDelete()" disabled>Delete</button>
     <button onclick="selectAll()">Select all</button>
     <button onclick="clearSelection()">Clear</button>
+    <span id="admin-persist" class="persist-idle" title="Click to refresh status">● Synced</span>
   `;
   document.querySelector("header").after(bar);
+  document.getElementById("admin-persist").onclick = () => refreshPersistStatus(true);
+  // Poll persist status every 5 sec so you can see pending → synced
+  setInterval(refreshPersistStatus, 5000);
+  refreshPersistStatus();
+}
+
+async function refreshPersistStatus(showAlertOnError = false) {
+  const el = document.getElementById("admin-persist");
+  if (!el) return;
+  try {
+    const res = await fetch(`/api/admin-status?pw=${ADMIN_PW}`);
+    const s = await res.json();
+    if (!s.token_configured) {
+      el.textContent = "⚠ No token";
+      el.className = "persist-error";
+      el.title = "GITHUB_TOKEN not set — edits will NOT survive redeploys";
+      return;
+    }
+    if (s.pending_commit) {
+      el.textContent = `● Saving (${Math.round(s.pending_age_sec)}s)`;
+      el.className = "persist-pending";
+      el.title = `Pending: ${s.pending_reason}`;
+      return;
+    }
+    if (s.last_commit && s.last_commit.ok === false) {
+      el.textContent = "⚠ Commit failed";
+      el.className = "persist-error";
+      el.title = s.last_commit.error || "Unknown error";
+      if (showAlertOnError) alert("Last commit failed: " + (s.last_commit.error || "unknown"));
+      return;
+    }
+    el.textContent = "✓ Synced";
+    el.className = "persist-ok";
+    const lastTs = s.last_commit?.ts ? new Date(s.last_commit.ts * 1000).toLocaleTimeString() : "never";
+    el.title = `Last commit: ${lastTs}`;
+  } catch (e) {
+    el.textContent = "? Unknown";
+    el.className = "persist-error";
+    el.title = "Can't reach /api/admin-status: " + e.message;
+  }
 }
 
 async function openReview() {
