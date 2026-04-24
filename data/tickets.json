@@ -21667,23 +21667,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101002821071",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002821071",
-    "address": "734 Balboa St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1768697425/san-francisco/production/ihuj3o0lijrfsrpbx0zr.jpg",
-    "status": "CLOSED",
-    "date": "26w ago",
-    "date_iso": "2025-10-19T23:27:53Z",
-    "lat": 37.77721927,
-    "lng": -122.46703596,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partially visible poster with some text at top (illegible), appears to show an image of a vehicle or trolley",
-    "commentary": "A mystery wrapped in yellow reflective tape on a wooden pole\u2014too blurry and angled to decode the message, but the effort to post it vertically suggests someone cared enough to make it a vertical journey.",
-    "confidence": 0.25
-  },
-  {
     "id": "101002821029",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002821029",
     "address": "Intersection 16 Th St, Market St",
