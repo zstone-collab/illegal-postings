@@ -20052,23 +20052,6 @@
     "confidence": 0.95
   },
   {
-    "id": "101002858152",
-    "url": "https://san-francisco2-production.spotmobile.net/tickets/101002858152",
-    "address": "175 Sanchez St",
-    "image_url": "https://spot-sf-res.cloudinary.com/image/upload/v1761418048/san-francisco/production/pn0ket5afkrersvuaaa8.jpg",
-    "status": "CLOSED",
-    "date": "25w ago",
-    "date_iso": "2025-10-30T19:15:19Z",
-    "lat": 37.76619536,
-    "lng": -122.43095246,
-    "analyzed": true,
-    "skip": false,
-    "theme": "\u2753 Unclear",
-    "extracted_text": "Partial pink/orange colored material visible on utility pole, text illegible",
-    "commentary": "There's definitely something affixed to that pole (looks like pink/orange paper or sticker), but the tree foliage is doing what nature does best\u2014censoring the message for us.",
-    "confidence": 0.2
-  },
-  {
     "id": "101002858143",
     "url": "https://san-francisco2-production.spotmobile.net/tickets/101002858143",
     "address": "260 Sanchez St",
