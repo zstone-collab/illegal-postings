@@ -16993,10 +16993,11 @@
     "lng": -122.419225103697,
     "analyzed": true,
     "skip": false,
-    "theme": "\u2753 Unclear",
+    "theme": "\ud83c\udfb5 Events",
     "extracted_text": "Partial text visible on flyer but too blurry/small to read clearly; appears to be multiple layers of postings on utility pole",
     "commentary": "Classic SF lamp post palimpsest\u2014someone's carefully layered their message under the watchful eye of those neon utility straps, which honestly make it look like the pole is being actively monitored for illegal expression.",
-    "confidence": 0.2
+    "confidence": 1.0,
+    "reviewed_by_human": true
   },
   {
     "id": "101002913523",
